@@ -410,12 +410,12 @@ const backbaseurl = () => {
                         <div className="mt-16">
                             <h2 className="text-2xl font-serif font-bold text-white mb-6">Product Details</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                                {/* <div>
+                                <div>
                                     <h3 className="text-lg font-medium text-white mb-4">Specifications</h3>
                                     <div className="space-y-3">
                                         <div className="flex justify-between py-2 border-b border-zinc-800">
                                             <span className="text-gray-400">Case Size</span>
-                                            <span className="text-white">41mm</span>
+                                            <span className="text-white">36mm - 41mm</span>
                                         </div>
                                         <div className="flex justify-between py-2 border-b border-zinc-800">
                                             <span className="text-gray-400">Movement</span>
@@ -423,18 +423,14 @@ const backbaseurl = () => {
                                         </div>
                                         <div className="flex justify-between py-2 border-b border-zinc-800">
                                             <span className="text-gray-400">Case Material</span>
-                                            <span className="text-white">904L Steel & 18k Rose Gold</span>
+                                            <span className="text-white">Stainless Steel, Titanium, Ceramic, Gold</span>
                                         </div>
                                         <div className="flex justify-between py-2 border-b border-zinc-800">
                                             <span className="text-gray-400">Water Resistance</span>
-                                            <span className="text-white">100m</span>
-                                        </div>
-                                        <div className="flex justify-between py-2 border-b border-zinc-800">
-                                            <span className="text-gray-400">Bracelet</span>
-                                            <span className="text-white">Two-Tone Jubilee</span>
+                                            <span className="text-white">50m - 100m</span>
                                         </div>
                                     </div>
-                                </div> */}
+                                </div>
                                 <div>
                                     <h3 className="text-lg font-medium text-white mb-4">Description</h3>
                                     <p className="text-gray-400 leading-relaxed">
