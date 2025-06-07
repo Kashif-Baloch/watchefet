@@ -60,45 +60,45 @@ const CartPage: React.FC = () => {
       setUnavailableItems([]);
 
       const unavailable: string[] = [];
-      const validCartItems = items
-        .map(item => {
-          try {
-            // Extract the quality grade from the item name
-            const qualityMatch = item.name.match(/(AAA Grade|AAAAA Grade|Super Clone|Premium)$/);
-            const quality = qualityMatch ? qualityMatch[0] : 'Premium';
+      // const validCartItems = items
+      //   .map(item => {
+      //     try {
+      //       // Extract the quality grade from the item name
+      //       const qualityMatch = item.name.match(/(AAA Grade|AAAAA Grade|Super Clone|Premium)$/);
+      //       const quality = qualityMatch ? qualityMatch[0] : 'Premium';
             
-            // Get the base name without the quality
-            const baseName = item.name.replace(/ - (AAA Grade|AAAAA Grade|Super Clone|Premium)$/, '');
+      //       // Get the base name without the quality
+      //       const baseName = item.name.replace(/ - (AAA Grade|AAAAA Grade|Super Clone|Premium)$/, '');
             
-            // Get the product ID based on the base name and quality
-            const productId = getProductId(baseName, quality);
+      //       // Get the product ID based on the base name and quality
+      //       const productId = getProductId(baseName, quality);
             
-            if (!productId) {
-              unavailable.push(item.name);
-              return null;
-            }
+      //       if (!productId) {
+      //         unavailable.push(item.name);
+      //         return null;
+      //       }
 
-            return {
-              productId,
-              quantity: item.quantity
-            };
-          } catch (error) {
-            console.error('Error processing item:', item.name, error);
-            unavailable.push(item.name);
-            return null;
-          }
-        })
-        .filter((item): item is { productId: string; quantity: number } => item !== null);
+      //       return {
+      //         productId,
+      //         quantity: item.quantity
+      //       };
+      //     } catch (error) {
+      //       console.error('Error processing item:', item.name, error);
+      //       unavailable.push(item.name);
+      //       return null;
+      //     }
+      //   })
+      //   .filter((item): item is { productId: string; quantity: number } => item !== null);
 
-      if (unavailable.length > 0) {
-        setUnavailableItems(unavailable);
-        if (validCartItems.length === 0) {
-          throw new Error('No valid items in cart');
-        }
-      }
+      // if (unavailable.length > 0) {
+      //   setUnavailableItems(unavailable);
+      //   if (validCartItems.length === 0) {
+      //     throw new Error('No valid items in cart');
+      //   }
+      // }
 
-      if (validCartItems.length > 0) {
-        await createCheckoutSession(validCartItems);
+      if (items.length > 0) {
+        await createCheckoutSession(items);
       }
     } catch (error) {
       console.error('Checkout error:', error);

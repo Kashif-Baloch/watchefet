@@ -111,7 +111,7 @@ const ProductDet: React.FC = () => {
     const handleAddToCart = () => {
         addItem({
             id: Date.now(),
-            name: `Rolex Datejust Brown Dial Diamond Two-Tone Silver Rose Jubilee Fluted - ${selectedQuality.name}`,
+            name: `${product.name} - ${selectedQuality.name}`,
             price: selectedQuality.price,
             image: product?.image,
             quality: selectedQuality.name,
@@ -120,8 +120,8 @@ const ProductDet: React.FC = () => {
         if (includePremiumBox) {
             addItem({
                 id: Date.now() + 1,
-                name: 'Premium Rolex Box with Certificate',
-                price: 39,
+                name: `Premium ${product.name}`,
+                price: selectedQuality.price + 39,
                 image: pricing()?.img,
                 quality: 'Premium',
             });
@@ -134,6 +134,7 @@ useEffect(() => {
 
 }, []);
     
+const productImages = [product?.image,...product?.imagesList];
 
 
     return (
@@ -164,7 +165,7 @@ useEffect(() => {
                                     />
                                 </div>
                                 <div className="grid grid-cols-4 gap-4 max-w-lg mx-auto">
-                                    {product?.imagesList.map((image: any, index: any) => (
+                                    {productImages.map((image: any, index: any) => (
                                         <button
                                             key={index}
                                             onClick={() => setMainImage(image)}
@@ -331,7 +332,7 @@ useEffect(() => {
                         <div className="mt-16">
                             <h2 className="text-2xl font-serif font-bold text-white mb-6">Product Details</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                                <div>
+                                {/* <div>
                                     <h3 className="text-lg font-medium text-white mb-4">Specifications</h3>
                                     <div className="space-y-3">
                                         <div className="flex justify-between py-2 border-b border-zinc-800">
@@ -355,7 +356,7 @@ useEffect(() => {
                                             <span className="text-white">Two-Tone Jubilee</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div>
                                     <h3 className="text-lg font-medium text-white mb-4">Description</h3>
                                     <p className="text-gray-400 leading-relaxed">

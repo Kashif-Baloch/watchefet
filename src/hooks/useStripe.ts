@@ -8,10 +8,15 @@ interface CartItem {
 export const useStripe = () => {
   const navigate = useNavigate();
 
+  
+  
+  
   const createCheckoutSession = async (items: CartItem[]) => {
+    console.log(items);
+    // return
     try {
       const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
-      
+
       if (!supabaseKey) {
         throw new Error('Missing Supabase authentication key');
       }
@@ -24,7 +29,7 @@ export const useStripe = () => {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${supabaseKey}`,
           },
-          body: JSON.stringify({ items }),
+          body: JSON.stringify({items}),
         }
       );
 
@@ -40,8 +45,10 @@ export const useStripe = () => {
         throw new Error('No checkout URL received');
       }
     } catch (error) {
-      console.error('Checkout error:', error);
-      throw error;
+      if (error instanceof Error) {
+        console.error('Checkout error:', error.message);
+        throw error;
+      }
     }
   };
 

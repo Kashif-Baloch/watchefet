@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../../context/CartContext';
+import { Star } from 'lucide-react';
 
 interface Product {
   id: number;
@@ -210,6 +211,15 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
         <div className="p-4">
           <span className="text-gold-500 text-sm uppercase tracking-wider">{category}</span>
+          <div className="flex items-center gap-2 mb-6">
+            <div className="flex my-2">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="h-5 w-5 text-gold-500 fill-gold-500" />
+              ))}
+            </div>
+            {/* Adding Radom reviews betwwen 20 to 30 */}
+            <span className="text-gray-400">({Math.floor(Math.random() * 10) + 20} Reviews)</span>
+          </div>
           <h3 className="text-white font-serif text-lg mt-1 mb-2 line-clamp-2 min-h-[3.5rem]">{name}</h3>
           <div className="flex items-center justify-between">
             <p className="text-gray-300 font-medium">from £{price.toFixed(2)}</p>

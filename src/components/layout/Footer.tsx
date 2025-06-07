@@ -20,10 +20,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-white font-serif text-lg mb-6 uppercase tracking-wider">Contact Us</h3>
             <ul className="space-y-4">
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <Phone className="h-5 w-5 text-gold-500 mr-3" />
                 <span className="text-gray-400 text-sm">+66 97-990-1084</span>
-              </li>
+              </li> */}
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-gold-500 mr-3" />
                 <span className="text-gray-400 text-sm">info@timelesschrono.com</span>
