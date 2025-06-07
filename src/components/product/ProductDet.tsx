@@ -29,7 +29,7 @@ const ProductDet: React.FC = () => {
     const [includeBox, setIncludeBox] = useState(true);
     const [includePremiumBox, setIncludePremiumBox] = useState(false);
     const { addItem } = useCart();
-// console.log(selectedQuality);
+    // console.log(selectedQuality);
 
 
     const pricing = () => {
@@ -127,15 +127,93 @@ const ProductDet: React.FC = () => {
             });
         }
     };
-useEffect(() => {
-    
-    console.log(JSON.parse(localStorage.getItem('productList') as any));
-    console.log(localStorage.getItem('category') as any);
+    useEffect(() => {
 
-}, []);
-    
-const productImages = [product?.image,...product?.imagesList];
+        console.log(JSON.parse(localStorage.getItem('productList') as any));
+        console.log(localStorage.getItem('category') as any);
 
+    }, []);
+
+    const productImages = [product?.image, ...product?.imagesList];
+
+    console.log(product.category, products.category);
+
+
+    const backurl = () => {
+
+        if (product?.category == 'Audemars Piguet' && products?.category == 'w-ap') {
+            return '/audemars-piguet/womens'
+        }
+        else if (product?.category == 'Rolex' && products?.category == 'w-rolex') {
+            return '/rolex/womens'
+        }
+        else if (product?.category == 'Patek Philippe' && products?.category == 'w-patek') {
+            return '/patek-philippe/womens'
+        }
+        else if (product?.category == 'Hublot' && products?.category == 'w-hublot') {
+            return '/hublot/womens'
+        }
+        if (product?.category === 'Rolex') {
+            return '/rolex'
+        }
+        else if (product?.category === 'Patek Philippe') {
+            return '/patek-philippe'
+        }
+        else if (product?.category === 'Hublot') {
+            return '/hublot'
+        }
+        else if (product?.category === 'Audemars Piguet') {
+            return '/audemars-piguet'
+        }
+        else {
+            return '/collections'
+        }
+    }
+
+const backbaseurl = () => {
+    if(products?.category == 'datejust' || products?.category == 'submariner' || products?.category == 'daytona'){
+        return `/rolex/${products?.category}`
+    }
+    else if(products?.category== 'daydate'){
+        return '/rolex/day-date'
+    }
+    else if(products?.category == 'gmtmaster'){
+        return '/rolex/gmt-master-ii'
+    }
+    else if(products?.category == 'explorer'){
+        return '/rolex/explorer-ii'
+    }
+    else if(products?.category == 'deepsea'){
+        return '/rolex/deepsea'
+    }
+    else if(products?.category == 'yachtmaster'){
+        return '/rolex/yacht-master'
+    }
+    else if(products?.category == 'skydweller'){
+        return '/rolex/sky-dweller'
+    }
+    else if(products?.category == 'apy'){
+        return '/audemars-piguet'
+    }
+    else if(products?.category == 'nautilus'){
+        return '/patek-philippe/nautilus'
+    }
+    else if(products?.category == 'aquanaut'){
+        return '/patek-philippe/aquanaut'
+    }
+    else if(products?.category == 'bigbang'){
+        return '/hublot/big-bang'
+    }
+    else if(products?.category == 'classicfusion'){
+        return '/hublot/classic-fusion'
+    }
+    else if(products?.category == 'spiritofbigbang'){
+        return '/hublot/spirit-of-big-bang'
+    }
+    else{
+        return '/womens-collection'
+    }
+}
 
     return (
         <div className="bg-black text-white min-h-screen">
@@ -148,9 +226,9 @@ const productImages = [product?.image,...product?.imagesList];
                             <ChevronRight className="h-4 w-4" />
                             <Link to="/collections" className="hover:text-gold-500">Collections</Link>
                             <ChevronRight className="h-4 w-4" />
-                            <a className="hover:text-gold-500">{product.category}</a>
+                            <Link to={backurl()} className="hover:text-gold-500">{product.category}</Link>
                             <ChevronRight className="h-4 w-4" />
-                            <a className="hover:text-gold-500 capitalize">{products?.category}</a>
+                            <Link to={backbaseurl()} className="hover:text-gold-500 capitalize">{products?.category}</Link>
                             <ChevronRight className="h-4 w-4" />
                             <span className="text-gold-500">{product?.name}</span>
                         </div>
