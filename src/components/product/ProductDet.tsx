@@ -33,6 +33,8 @@ const ProductDet: React.FC = () => {
 
 
     const pricing = () => {
+        if (!product?.cate) {
+            
         if (products.category === 'daydate' || products.category === 'datejust' || products.category === 'submariner' || products.category === 'gmtmaster' || products.category === 'daytona' || products.category === 'explorer' || products.category === 'deepsea' || products.category === 'yachtmaster' || products.category === 'skydweller' || products.category === 'rolex') {
             return { "AAA": 179, "AAAAA": 299, "Super Clone": 559, img: "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Box.jpg" };
         }
@@ -89,6 +91,9 @@ const ProductDet: React.FC = () => {
                 "AAA": 0, "AAAAA": 0, "Super Clone": 0, img: ``
             };
         }
+        } else {
+            return product?.pricing
+        }
     }
 
 
@@ -113,7 +118,7 @@ const ProductDet: React.FC = () => {
             id: Date.now(),
             name: `${product.name} - ${selectedQuality.name}`,
             price: selectedQuality.price,
-            image: product?.image,
+            image: mainImage,
             quality: selectedQuality.name,
         });
 

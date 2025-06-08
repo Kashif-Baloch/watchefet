@@ -14,8 +14,12 @@ const nautilusWatches = [
     price: 275,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-bluedial-silver/patek-nautilus-bluedial-silver.png',
     category: 'Patek Philippe',
-    imagesList : [],
-    description:"",
+    imagesList : [
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-bluedial-silver/side.jpg",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-bluedial-silver/clasp.jpg",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-bluedial-silver/back.jpg"
+    ],
+    description:"The Patek Philippe Nautilus Blue Dial Silver is the epitome of refined elegance and sporty sophistication. Housed in a 40mm stainless steel case, the iconic blue dial with its horizontal embossed pattern exudes timeless charm, complemented by a rounded octagonal bezel. The stainless steel bracelet ensures exceptional comfort and durability, making this timepiece a versatile masterpiece for discerning individuals.",
     isNew: true,
   },
   {
@@ -24,8 +28,12 @@ const nautilusWatches = [
     price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-browndial-rosegold/patek-nautilus-browndial-rosegold.png',
     category: 'Patek Philippe', 
-    imagesList : [],
-    description:"",
+    imagesList : [
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-browndial-rosegold/angle.webp",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-browndial-rosegold/angle2.webp",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-browndial-rosegold/clasp.webp"
+    ],
+    description:"The Patek Philippe Nautilus Brown Dial Rose Gold radiates warmth and unparalleled luxury. Encased in a 40mm 18k rose gold case, the rich brown dial with its signature embossed texture harmonizes beautifully with the rose gold bezel, creating a sophisticated aesthetic. The rose gold bracelet offers supreme comfort, making this watch a prestigious choice for those who value elegance and heritage.",
     isNew: false,
   },
   {
@@ -34,8 +42,12 @@ const nautilusWatches = [
     price: 275,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-greendial-silver/patek-nautilus-greendial-silver.png',
     category: 'Patek Philippe',
-    imagesList : [],
-    description:"",
+    imagesList : [
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-greendial-silver/side.jpg",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-greendial-silver/clasp.jpg",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-greendial-silver/back.jpg"
+    ],
+    description:"The Patek Philippe Nautilus Green Dial Silver combines bold modernity with timeless refinement. Housed in a 40mm stainless steel case, the vibrant green dial with its horizontal embossed pattern is paired with a sleek stainless steel bezel, offering a fresh and dynamic look. The stainless steel bracelet ensures lasting comfort, making this timepiece ideal for those who embrace individuality and style.",
     isNew: true,
   },
   {
@@ -44,8 +56,11 @@ const nautilusWatches = [
     price: 275,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-tiffanydial-silver/patek-nautilus-tiffanydial-silver.png',
     category: 'Patek Philippe',
-    imagesList : [],
-    description:"",
+    imagesList : [
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-tiffanydial-silver/clasp.jpg",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-tiffanydial-silver/back.jpg"
+    ],
+    description:"The Patek Philippe Nautilus Tiffany Blue Dial Silver is a rare and captivating icon of exclusivity. Encased in a 40mm stainless steel case, the stunning Tiffany blue dial with its embossed texture radiates serene sophistication, complemented by a polished stainless steel bezel. The stainless steel bracelet provides exceptional comfort, making this watch a coveted masterpiece for collectors.",
     isNew: false,
   },
   {
@@ -54,8 +69,11 @@ const nautilusWatches = [
     price: 275,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-whitedial-silver/patek-nautilus-whitedial-silver.png',
     category: 'Patek Philippe',
-    imagesList : [],
-    description:"",
+    imagesList : [
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-whitedial-silver/clasp.jpg",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-whitedial-silver/back.jpg"
+    ],
+    description:"The Patek Philippe Nautilus White Dial Silver exudes crisp elegance and understated luxury. Housed in a 40mm stainless steel case, the pristine white dial with its horizontal embossed pattern is paired with a sleek stainless steel bezel, creating a clean and timeless aesthetic. The stainless steel bracelet ensures durability and comfort, making this timepiece a refined choice for any occasion.",
     isNew: true,
   }
 ];
