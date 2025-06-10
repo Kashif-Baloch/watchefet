@@ -190,9 +190,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   //   // Default fallback
   //   return '#';
   // };
+// between 10 to 30
+  let reviews = Math.floor(Math.random() * 20) + 10;
 
   return (
-    <Link to={`/product/${id}`} className="block h-full">
+    <Link to={`/product/${id}/${reviews}`} className="block h-full">
       {/* <Link to={getProductUrl()} className="block h-full"> */}
       <div className="group relative h-full rounded-lg overflow-hidden bg-zinc-900 hover:bg-zinc-800 transition-all duration-300 border border-zinc-800 hover:border-gold-500/30">
         {isNew && (
@@ -218,7 +220,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
               ))}
             </div>
             {/* Adding Radom reviews betwwen 20 to 30 */}
-            <span className="text-gray-400">({Math.floor(Math.random() * 10) + 20} Reviews)</span>
+            <span className="text-gray-400">({reviews} Reviews)</span>
           </div>
           <h3 className="text-white font-serif text-lg mt-1 mb-2 line-clamp-2 min-h-[3.5rem]">{name}</h3>
           <div className="flex items-center justify-between">

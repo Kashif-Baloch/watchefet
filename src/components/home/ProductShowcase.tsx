@@ -7,7 +7,7 @@ const watches = [
   {
     id: 1,
     name: 'Day-Date 40 Rose Gold Brown Roman Dial',
-    price: 149,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-roman-rosegold-fluted-40/daydate-browndial-roman-rosegold-fluted-40.png',
     category: 'Rolex',
     imagesList: [
@@ -27,7 +27,7 @@ const watches = [
   {
     id: 2,
     name: 'Datejust 41mm Diamond Dial with Fluted Bezel',
-    price: 129,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-greydial-diamond-silverjubilee-41/datejust-greydial-diamond-silverjubilee-41.jpg',
     category: 'Rolex',
     imagesList: [
@@ -47,7 +47,7 @@ const watches = [
   {
     id: 3,
     name: 'Nautilus Tiffany Blue Dial Silver',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-tiffanydial-silver/patek-nautilus-tiffanydial-silver.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -67,7 +67,7 @@ const watches = [
   {
     id: 4,
     name: 'Royal Oak Perpetual Calendar - Black Ceramic',
-    price: 299,
+    price: 549,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-perpetual-black/ap-perpetual-black.png',
     category: 'Audemars Piguet',
     imagesList: [

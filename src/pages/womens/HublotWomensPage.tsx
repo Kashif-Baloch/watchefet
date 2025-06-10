@@ -38,7 +38,7 @@ const womensHublotWatches = [
   {
     id: 3,
     name: 'Classic Fusion Iced Out Gold',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-icedoutgold-blackleather/hublot-classicfusion-icedoutgold-blackleather.png',
     category: 'Hublot',
     imagesList :[
@@ -51,7 +51,7 @@ const womensHublotWatches = [
   {
     id: 4,
     name: 'Classic Fusion Iced Out Silver',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-icedoutsilver-blackleather/hublot-classicfusion-icedoutsilver-blackleather.png',
     category: 'Hublot',
     imagesList :[

@@ -11,7 +11,7 @@ const nautilusWatches = [
   {
     id: 1,
     name: 'Nautilus Blue Dial Silver',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-bluedial-silver/patek-nautilus-bluedial-silver.png',
     category: 'Patek Philippe',
     imagesList : [
@@ -25,7 +25,7 @@ const nautilusWatches = [
   {
     id: 2,
     name: 'Nautilus Brown Dial Rose Gold',
-    price: 299,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-browndial-rosegold/patek-nautilus-browndial-rosegold.png',
     category: 'Patek Philippe', 
     imagesList : [
@@ -39,7 +39,7 @@ const nautilusWatches = [
   {
     id: 3,
     name: 'Nautilus Green Dial Silver',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-greendial-silver/patek-nautilus-greendial-silver.png',
     category: 'Patek Philippe',
     imagesList : [
@@ -53,7 +53,7 @@ const nautilusWatches = [
   {
     id: 4,
     name: 'Nautilus Tiffany Blue Dial Silver',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-tiffanydial-silver/patek-nautilus-tiffanydial-silver.png',
     category: 'Patek Philippe',
     imagesList : [
@@ -66,7 +66,7 @@ const nautilusWatches = [
   {
     id: 5,
     name: 'Nautilus White Dial Silver',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-whitedial-silver/patek-nautilus-whitedial-silver.png',
     category: 'Patek Philippe',
     imagesList : [

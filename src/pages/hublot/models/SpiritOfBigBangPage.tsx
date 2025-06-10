@@ -11,7 +11,7 @@ const spiritOfBigBangWatches = [
   {
     id: 1,
     name: 'Spirit of Big Bang Black Bezel Gold',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-blackbezel-goldbody-rubber/hublot-spiritofbigbang-blackbezel-goldbody-rubber.jpg',
     category: 'Hublot',
     imagesList :[
@@ -26,7 +26,7 @@ const spiritOfBigBangWatches = [
   {
     id: 2,
     name: 'Spirit of Big Bang Gold',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-gold/hublot-spiritofbigbang-gold.png',
     category: 'Hublot',
     imagesList :[
@@ -43,7 +43,7 @@ const spiritOfBigBangWatches = [
   {
     id: 3,
     name: 'Spirit of Big Bang Titanium Blue',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-titanium-bluerubber/hublot-spiritofbigbang-titanium-bluerubber.png',
     category: 'Hublot',
     imagesList :[
@@ -56,7 +56,7 @@ const spiritOfBigBangWatches = [
   {
     id: 4,
     name: 'Spirit of Big Bang Titanium',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-titanium-rubber/hublot-spiritofbigbang-titanium-rubber.png',
     category: 'Hublot',
     imagesList :[
@@ -70,7 +70,7 @@ const spiritOfBigBangWatches = [
   {
     id: 5,
     name: 'Spirit of Big Bang Tourbillon Carbon',
-    price: 299,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-tourbillon-carbon/hublot-spiritofbigbang-tourbillon-carbon.png',
     category: 'Hublot',
     imagesList :[
@@ -84,7 +84,7 @@ const spiritOfBigBangWatches = [
   {
     id: 6,
     name: 'Spirit of Big Bang White',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-white/hublot-spiritofbigbang-white.png',
     category: 'Hublot',
     imagesList :[

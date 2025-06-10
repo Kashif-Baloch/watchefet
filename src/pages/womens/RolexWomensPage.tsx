@@ -11,7 +11,7 @@ const womensRolexWatches = [
   {
     id: 1,
     name: 'Lady-Datejust Blue Dial Two-Tone Gold',
-    price: 129,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/datejust-bluedial-2tonegoldsilver/datejust-bluedial-2tonegoldsilver.png',
     category: 'Rolex',
     imagesList :[
@@ -25,7 +25,7 @@ const womensRolexWatches = [
   {
     id: 2,
     name: 'Lady-Datejust Mother of Pearl Diamond Dial',
-    price: 139,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/datejust-mop-diamond-silverjubilee-fluted-28/datejust-mop-diamond-silverjubilee-fluted-28.webp',
     category: 'Rolex',
     imagesList :[
@@ -39,7 +39,7 @@ const womensRolexWatches = [
   {
     id: 3,
     name: 'Lady-Datejust Silver Diamond Dial Two-Tone',
-    price: 139,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/datejust-silverdiamonddial-2tonegoldsilver/datejust-silverdiamonddial-2tonegoldsilver.png',
     category: 'Rolex',
     imagesList :[
@@ -53,7 +53,7 @@ const womensRolexWatches = [
   {
     id: 4,
     name: 'Lady-Datejust White Smooth Dial Diamond Two-Tone Rose',
-    price: 139,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/datejust-whitesmoothdial-diamond-2tonerosesilver/datejust-whitesmoothdial-diamond-2tonerosesilver.png',
     category: 'Rolex',
     imagesList :[
@@ -67,7 +67,7 @@ const womensRolexWatches = [
   {
     id: 5,
     name: 'Lady-Datejust Diamond Dial Gold Presidential',
-    price: 149,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-diamonddial-goldpresidential/rolex-datejust-diamonddial-goldpresidential.png',
     category: 'Rolex',
     imagesList :[
@@ -81,7 +81,7 @@ const womensRolexWatches = [
   {
     id: 6,
     name: 'Lady-Datejust Gold Diamond Dial Two-Tone',
-    price: 139,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-golddiamonddial-2tonegoldsilver/rolex-datejust-golddiamonddial-2tonegoldsilver.jpg',
     category: 'Rolex',
     imagesList :[
@@ -95,7 +95,7 @@ const womensRolexWatches = [
   {
     id: 7,
     name: 'Lady-Datejust Grey Champagne Dial Silver',
-    price: 129,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-greychampagnedial-silver/rolex-datejust-greychampagnedial-silver.png',
     category: 'Rolex',
     imagesList :[
@@ -109,7 +109,7 @@ const womensRolexWatches = [
   {
     id: 8,
     name: 'Lady-Datejust Grey Roman Dial Diamond Bezel Two-Tone',
-    price: 149,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-greyromandial-diamondbezel-2tonegoldsilveroyster/rolex-datejust-greyromandial-diamondbezel-2tonegoldsilveroyster.jpg',
     category: 'Rolex',
     imagesList :[
@@ -124,7 +124,7 @@ const womensRolexWatches = [
   {
     id: 9,
     name: 'Lady-Datejust Grey Roman Dial Fluted Two-Tone',
-    price: 139,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-greyromandial-fluted-2tonegoldsilverjubilee/rolex-datejust-greyromandial-fluted-2tonegoldsilverjubilee.jpg',
     category: 'Rolex',
     imagesList :[
@@ -139,7 +139,7 @@ const womensRolexWatches = [
   {
     id: 10,
     name: 'Lady-Datejust Pink Roman Dial Fluted Silver',
-    price: 129,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-pinkromandial-fluted-silverjubilee/rolex-datejust-pinkromandial-fluted-silverjubilee.png',
     category: 'Rolex',
     imagesList :[
@@ -154,7 +154,7 @@ const womensRolexWatches = [
   {
     id: 11,
     name: 'Lady-Datejust Pink Star Two-Tone Rose',
-    price: 139,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-pinkstar-2tonerosesilverjubilee/rolex-datejust-pinkstar-2tonerosesilverjubilee.png',
     category: 'Rolex',
     imagesList :[
@@ -167,7 +167,7 @@ const womensRolexWatches = [
   {
     id: 12,
     name: 'Lady-Datejust Silver Dial Diamond Bezel Rose Presidential',
-    price: 149,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-silverdial-diamondbezel-rosepresidential/rolex-datejust-silverdial-diamondbezel-rosepresidential.png',
     category: 'Rolex',
     imagesList :[
@@ -180,7 +180,7 @@ const womensRolexWatches = [
   {
     id: 13,
     name: 'Lady-Datejust Silver Dial Smooth Bezel Silver',
-    price: 129,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-silverdial-smoothbezel-silverjubilee/rolex-datejust-silverdial-smoothbezel-silverjubilee.png',
     category: 'Rolex',
     imagesList :[
@@ -193,7 +193,7 @@ const womensRolexWatches = [
   {
     id: 14,
     name: 'Lady-Datejust White Roman Dial Two-Tone',
-    price: 139,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-whiteromandial-2tonegoldsilver/rolex-datejust-whiteromandial-2tonegoldsilver',
     category: 'Rolex',
     imagesList :[
@@ -207,7 +207,7 @@ const womensRolexWatches = [
   {
     id: 15,
     name: 'Lady-Datejust Wimbledon Fluted Two-Tone Rose',
-    price: 139,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-wimbledon-fluted-2tonerosesilverjubilee/rolex-datejust-wimbledon-fluted-2tonerosesilverjubilee.png',
     category: 'Rolex',
     imagesList :[
@@ -222,7 +222,7 @@ const womensRolexWatches = [
   {
     id: 16,
     name: 'Oyster Perpetual Pink Dial Silver',
-    price: 119,
+    price: 299,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-oysterperpetual-pinkdial-silver/rolex-oysterperpetual-pinkdial-silver.png',
     category: 'Rolex',
     imagesList :[

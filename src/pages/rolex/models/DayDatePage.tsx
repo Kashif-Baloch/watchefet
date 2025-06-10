@@ -11,7 +11,7 @@ const dayDateWatches = [
   {
     id: 1,
     name: 'Day-Date 40 Rose Gold Brown Roman Dial',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-roman-rosegold-fluted-40/daydate-browndial-roman-rosegold-fluted-40.png',
     category: 'Rolex',
     imagesList: [
@@ -24,7 +24,7 @@ const dayDateWatches = [
   {
     id: 2,
     name: 'Day-Date 40 Gold Diamond-Set President',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-golddial-champagne-goldpresident-diamondset-40/daydate-golddial-champagne-goldpresident-diamondset-40',
     category: 'Rolex',
     imagesList: [
@@ -38,7 +38,7 @@ const dayDateWatches = [
   {
     id: 3,
     name: 'Day-Date 40 Black Dial Gold',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-blackdial-champagne-gold-fluted-40/daydate-blackdial-champagne-gold-fluted-40.png',
     category: 'Rolex',
     imagesList: [
@@ -51,7 +51,7 @@ const dayDateWatches = [
   {
     id: 4,
     name: 'Day-Date 40 Mother of Pearl Diamond Dial',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-mop-diamond-silverjubilee-40/daydate-mop-diamond-silverjubilee-40.webp',
     category: 'Rolex',
     imagesList: [
@@ -64,7 +64,7 @@ const dayDateWatches = [
   {
     id: 5,
     name: 'Day-Date 40 White Dial Gold',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-champagne-gold-fluted/daydate-whitedial-champagne-gold-fluted',
     category: 'Rolex',
     imagesList: [
@@ -77,7 +77,7 @@ const dayDateWatches = [
   {
     id: 6,
     name: 'Day-Date 40 Green Dial Gold',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-greendial-roman-gold-fluted-40/daydate-greendial-roman-gold-fluted-40.png',
     category: 'Rolex',
     imagesList: [
@@ -90,7 +90,7 @@ const dayDateWatches = [
   {
     id: 7,
     name: 'Day-Date 40 Brown Dial Rose Gold',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-champagne-rosegold-fluted/daydate-browndial-champagne-rosegold-fluted',
     category: 'Rolex',
     imagesList: [
@@ -103,7 +103,7 @@ const dayDateWatches = [
   {
     id: 8,
     name: 'Day-Date 40 Ice Blue Dial',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-icebluedial-champagne-silver-smooth/daydate-icebluedial-champagne-silver-smooth',
     category: 'Rolex',
     imagesList: [
@@ -116,7 +116,7 @@ const dayDateWatches = [
   {
     id: 9,
     name: 'Day-Date 40 White Roman Dial Gold',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-roman-gold-fluted-40/daydate-whitedial-roman-gold-fluted-40.png',
     category: 'Rolex',
     imagesList: [

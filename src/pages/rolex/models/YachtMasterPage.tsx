@@ -11,7 +11,7 @@ const yachtMasterWatches = [
   {
     id: 1,
     name: 'Yacht-Master 42 Black Gold',
-    price: 142,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-blackbezel-goldbody-rubber-42/yachtmaster-blackdial-blackbezel-goldbody-rubber-42.jpg',
     category: 'Rolex',
     imagesList :[
@@ -24,7 +24,7 @@ const yachtMasterWatches = [
   {
     id: 2,
     name: 'Yacht-Master 40 Black Rose Gold',
-    price: 142,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-blackbezel-rosebody-rubber-40/yachtmaster-blackdial-blackbezel-rosebody-rubber-40.jpg',
     category: 'Rolex',
     imagesList :[
@@ -37,7 +37,7 @@ const yachtMasterWatches = [
   {
     id: 3,
     name: 'Yacht-Master 42 Black Silver',
-    price: 142,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-blackbezel-silverbody-rubber/yachtmaster-blackdial-blackbezel-silverbody-rubber',
     category: 'Rolex',
     imagesList :[
@@ -50,7 +50,7 @@ const yachtMasterWatches = [
   {
     id: 4,
     name: 'Yacht-Master 42 Black Silver Oyster',
-    price: 142,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-blackbezel-silveroyster42/yachtmaster-blackdial-blackbezel-silveroyster42.png',
     category: 'Rolex',
     imagesList :[
@@ -63,7 +63,7 @@ const yachtMasterWatches = [
   {
     id: 5,
     name: 'Yacht-Master 40 Black Two-Tone Rose',
-    price: 142,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-rosebezel-2tonesilverrose-oyster-40/yachtmaster-blackdial-rosebezel-2tonesilverrose-oyster-40.png',
     category: 'Rolex',
     imagesList :[
@@ -76,7 +76,7 @@ const yachtMasterWatches = [
   {
     id: 6,
     name: 'Yacht-Master 40 Blue Silver',
-    price: 142,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-bluedial-silverbezel-silveroyster-40/yachtmaster-bluedial-silverbezel-silveroyster-40.png',
     category: 'Rolex',
     imagesList :[
@@ -89,7 +89,7 @@ const yachtMasterWatches = [
   {
     id: 7,
     name: 'Yacht-Master 40 Chocolate Two-Tone Rose',
-    price: 142,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-chocdial-rosebezel-2tonesilverrose-oyster-40/yachtmaster-chocdial-rosebezel-2tonesilverrose-oyster-40.png',
     category: 'Rolex',
     imagesList :[
@@ -102,7 +102,7 @@ const yachtMasterWatches = [
   {
     id: 8,
     name: 'Yacht-Master 40 Pavé Diamond',
-    price: 142,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-pave-40/yachtmaster-pave-40.png',
     category: 'Rolex',
     imagesList :[
@@ -115,7 +115,7 @@ const yachtMasterWatches = [
   {
     id: 9,
     name: 'Yacht-Master 40 Silver',
-    price: 142,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-silverdial-silverbezel-silveroyster40/yachtmaster-silverdial-silverbezel-silveroyster40.jpg',
     category: 'Rolex',
     imagesList :[

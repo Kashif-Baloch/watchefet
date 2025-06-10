@@ -11,7 +11,7 @@ const womensAPWatches = [
   {
     id: 1,
     name: 'Royal Oak 33mm Blue Dial Diamond Bezel Rose Gold',
-    price: 250,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/AP/ap-royaloak-bluedial-diamondbezel-rose-33/ap-royaloak-bluedial-diamondbezel-rose-33.jpg',
     category: 'Audemars Piguet',
     imagesList :[
@@ -26,7 +26,7 @@ const womensAPWatches = [
   {
     id: 2,
     name: 'Royal Oak 33mm Gold Dial Two-Tone Rose Gold',
-    price: 250,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/AP/ap-royaloak-golddial-2tonesilverrose-33/ap-royaloak-golddial-2tonesilverrose-33.png',
     category: 'Audemars Piguet',
     imagesList :[
@@ -40,7 +40,7 @@ const womensAPWatches = [
   {
     id: 3,
     name: 'Royal Oak 33mm White Dial Two-Tone Gold',
-    price: 250,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/AP/ap-royaloak-whitedial-2tonesilvergold-33/ap-royaloak-whitedial-2tonesilvergold-33.png',
     category: 'Audemars Piguet',
     imagesList :[
@@ -53,7 +53,7 @@ const womensAPWatches = [
   {
     id: 4,
     name: 'Royal Oak 33mm White Dial Diamond Bezel Two-Tone Rose',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/AP/ap-royaloak-whitedial-diamondbezel-2tonerosesilver-33/ap-royaloak-whitedial-diamondbezel-2tonerosesilver-33.jpg',
     category: 'Audemars Piguet',
     imagesList :[
@@ -67,7 +67,7 @@ const womensAPWatches = [
   {
     id: 5,
     name: 'Royal Oak 33mm Dark Brown Dial Rose Gold',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/AP/royaloak-darkbrowndial-rose-33/royaloak-darkbrowndial-rose-33.png',
     category: 'Audemars Piguet',
     imagesList :[

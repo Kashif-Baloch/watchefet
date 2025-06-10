@@ -11,7 +11,7 @@ const bigBangWatches = [
   {
     id: 1,
     name: 'Big Bang Black Silver',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbang-blacksilver/hublot-bigbang-blacksilver.png',
     category: 'Hublot',
     imagesList :[
@@ -23,7 +23,7 @@ const bigBangWatches = [
   {
     id: 2,
     name: 'Big Bang Carbon Dial Titanium',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbang-carbondial-titantiumbody/hublot-bigbang-carbondial-titantiumbody.png',
     category: 'Hublot',
     imagesList :[
@@ -35,7 +35,7 @@ const bigBangWatches = [
   {
     id: 3,
     name: 'Big Bang Carbon',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbang-carbon/hublot-bigbang-carbon.png',
     category: 'Hublot',
     imagesList :[
@@ -48,7 +48,7 @@ const bigBangWatches = [
   {
     id: 4,
     name: 'Big Bang Ferrari Red Silver',
-    price: 245,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbangferrari-redsilver/hublot-bigbangferrari-redsilver.png',
     category: 'Hublot',
     imagesList :[
@@ -61,7 +61,7 @@ const bigBangWatches = [
   {
     id: 5,
     name: 'Big Bang Ferrari Unico Red',
-    price: 245,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbangferrari-unicored/hublot-bigbangferrari-unicored.png',
     category: 'Hublot',
     imagesList :[
@@ -75,7 +75,7 @@ const bigBangWatches = [
   {
     id: 6,
     name: 'Big Bang Gold',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbang-gold/hublot-bigbang-gold.jpg',
     category: 'Hublot',
     imagesList :[
@@ -88,7 +88,7 @@ const bigBangWatches = [
   {
     id: 7,
     name: 'Big Bang Silver Black Rubber',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbang-silver-blackrubber/hublot-bigbang-silver-blackrubber.png',
     category: 'Hublot',
     imagesList :[
@@ -101,7 +101,7 @@ const bigBangWatches = [
   {
     id: 8,
     name: 'Big Bang Titanium Red Rubber',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbang-titanium-redrubber/hublot-bigbang-titanium-redrubber.jpg',
     category: 'Hublot',
     imagesList :[
@@ -114,7 +114,7 @@ const bigBangWatches = [
   {
     id: 9,
     name: 'Big Bang Unico King Gold Blue Ceramic',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbang-unicoking-goldblue-ceramic/hublot-bigbang-unicoking-goldblue-ceramic.png',
     category: 'Hublot',
     imagesList :[

@@ -22,7 +22,7 @@ const allRolexWatches = [
   {
     id: 1,
     name: 'Datejust 41mm Blue Diamond Dial Fluted Jubilee',
-    price: 129,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-bluedial-diamond-silverjubilee-fluted-41/datejust-bluedial-diamond-silverjubilee-fluted-41.png',
     category: 'datejust',
     imagesList: [
@@ -36,7 +36,7 @@ const allRolexWatches = [
   {
     id: 2,
     name: 'Datejust 41mm Fluted Bezel Champagne Dial',
-    price: 129,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-blackchampagnedial-silverjubilee-fluted/datejust-blackchampagnedial-silverjubilee-fluted.png',
     category: 'datejust',
     imagesList: [
@@ -50,7 +50,7 @@ const allRolexWatches = [
   {
     id: 3,
     name: 'Datejust 41mm Diamond Dial with Fluted Bezel',
-    price: 129,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-greydial-diamond-silverjubilee-41/datejust-greydial-diamond-silverjubilee-41.jpg',
     category: 'datejust',
     imagesList: [
@@ -63,7 +63,7 @@ const allRolexWatches = [
   {
     id: 4,
     name: 'Datejust 41mm Wimbledon Dial with Fluted Bezel',
-    price: 129,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-wimbledon-41/datejust-wimbledon-41.jpg',
     category: 'datejust',
     imagesList: [
@@ -76,7 +76,7 @@ const allRolexWatches = [
   {
     id: 5,
     name: 'Datejust 41mm White Roman Dial Fluted Jubilee',
-    price: 129,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-whitedial-roman-silverjubilee-fluted-41/datejust-whitedial-roman-silverjubilee-fluted-41.jpg',
     category: 'datejust',
     imagesList: [
@@ -89,7 +89,7 @@ const allRolexWatches = [
   {
     id: 6,
     name: 'Datejust 41mm Fluted Bezel Roman Numerals',
-    price: 129,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-bluedial-roman-fluted-jubilee-41/datejust-bluedial-roman-fluted-jubilee-41.webp',
     category: 'datejust',
     imagesList: [
@@ -102,7 +102,7 @@ const allRolexWatches = [
   {
     id: 7,
     name: 'Datejust 41mm Gold Diamond Dial Two-Tone',
-    price: 129,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-golddial-diamond-2tonesilvergoldjubilee-fluted-41/datejust-golddial-diamond-2tonesilvergoldjubilee-fluted-41.jpg',
     category: 'datejust',
     imagesList: [
@@ -115,7 +115,7 @@ const allRolexWatches = [
   {
     id: 8,
     name: 'Datejust 41mm Gold Champagne Dial Two-Tone',
-    price: 129,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-golddial-champagne-2tonesilvergoldjubilee-fluted-41/datejust-golddial-champagne-2tonesilvergoldjubilee-fluted-41.jpg',
     category: 'datejust',
     imagesList: [
@@ -129,7 +129,7 @@ const allRolexWatches = [
   {
     id: 9,
     name: 'Datejust 41mm Wimbledon Dial Two-Tone',
-    price: 129,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-wimbledon-2tonesilvergold-jubilee-fluted-41/datejust-wimbledon-2tonesilvergold-jubilee-fluted-41.jpg',
     category: 'datejust',
     imagesList: [

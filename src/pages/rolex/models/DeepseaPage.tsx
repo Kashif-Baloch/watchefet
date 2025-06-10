@@ -11,7 +11,7 @@ const deepseaWatches = [
   {
     id: 1,
     name: 'Deepsea Blue Dial Gold',
-    price: 155,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/SeaDweller%20Deepsea/deepsea-bluedial-bluebezel-goldoyster/deepsea-bluedial-bluebezel-goldoyster.png',
     category: 'Rolex',
     imagesList :[
@@ -24,7 +24,7 @@ const deepseaWatches = [
   {
     id: 2,
     name: 'Deepsea Lime Black Dial',
-    price: 155,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/SeaDweller%20Deepsea/deepsea-limeblackdial-silveroyster/deepsea-limeblackdial-silveroyster.webp',
     category: 'Rolex',
     imagesList :[
@@ -37,7 +37,7 @@ const deepseaWatches = [
   {
     id: 3,
     name: 'Sea-Dweller Black Dial Two-Tone',
-    price: 155,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/SeaDweller%20Deepsea/seadweller-blackdial-2tonesilvergold-oyster/seadweller-blackdial-2tonesilvergold-oyster.png',
     category: 'Rolex',
     imagesList :[
@@ -50,7 +50,7 @@ const deepseaWatches = [
   {
     id: 4,
     name: 'Sea-Dweller Black Dial',
-    price: 155,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/SeaDweller%20Deepsea/seadweller-blackdial-silveroyster/seadweller-blackdial-silveroyster.jpg',
     category: 'Rolex',
     imagesList :[

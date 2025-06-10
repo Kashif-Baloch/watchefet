@@ -67,6 +67,7 @@ import { CartProvider } from './context/CartContext';
 import ScrollToTop from './components/common/ScrollToTop';
 import Notifications from './components/common/Notifications';
 import ProductDet from './components/product/ProductDet';
+import CarDet from './components/product/CarDet';
 
 function App() {
   return (
@@ -76,7 +77,8 @@ function App() {
         <Notifications />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/product/:id" element={<ProductDet />} />
+          <Route path="/product/:id/:reviews" element={<ProductDet />} />
+          <Route path="/cartproduct/:id" element={<CarDet />} />
           <Route path="/rolex" element={<RolexModelsPage />} />
           <Route path="/rolex/all-models" element={<AllRolexModelsPage />} />
           <Route path="/rolex/datejust" element={<DatejustPage />} />

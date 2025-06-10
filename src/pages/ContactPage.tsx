@@ -174,13 +174,13 @@ const ContactPage: React.FC = () => {
                 <div className="bg-zinc-900/50 p-8 rounded-lg border border-zinc-800">
                   <h3 className="text-xl font-serif mb-6">Contact Information</h3>
                   <div className="space-y-6">
-                    <div className="flex items-start">
+                    {/* <div className="flex items-start">
                       <Phone className="h-5 w-5 text-gold-500 mt-1 mr-4" />
                       <div>
                         <p className="font-medium text-white">Phone</p>
                         <p className="text-gray-400">+66 97-990-1084</p>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="flex items-start">
                       <Mail className="h-5 w-5 text-gold-500 mt-1 mr-4" />
                       <div>

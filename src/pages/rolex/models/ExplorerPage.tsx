@@ -11,7 +11,7 @@ const explorerWatches = [
   {
     id: 1,
     name: 'Explorer II Black Dial',
-    price: 135,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Explorer%20II/explorer-blackdial-silveroyster/explorer-blackdial-silveroyster.jpg',
     category: 'Rolex',
     imagesList: [
@@ -24,7 +24,7 @@ const explorerWatches = [
   {
     id: 2,
     name: 'Explorer II White Dial',
-    price: 135,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Explorer%20II/explorer-whitedial-oyster/explorer-whitedial-oyster.png',
     category: 'Rolex',
     imagesList: [

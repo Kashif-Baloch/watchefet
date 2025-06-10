@@ -11,7 +11,7 @@ const aquanautWatches = [
   {
     id: 1,
     name: 'Aquanaut Black Dial Silver Black Rubber',
-    price: 265,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Aquanaut/patek-aquanaut-blackdial-silver-blackrubber/patek-aquanaut-blackdial-silver-blackrubber.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -24,7 +24,7 @@ const aquanautWatches = [
   {
     id: 2,
     name: 'Aquanaut Blue Dial Silver Blue Rubber',
-    price: 265,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Aquanaut/patek-aquanaut-bluedial-silver-bluerubber/patek-aquanaut-bluedial-silver-bluerubber.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -37,7 +37,7 @@ const aquanautWatches = [
   {
     id: 3,
     name: 'Aquanaut Brown Dial Rose Gold Brown Rubber',
-    price: 285,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Aquanaut/patek-aquanaut-browndial-rose-brownrubber/patek-aquanaut-browndial-rose-brownrubber.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -51,7 +51,7 @@ const aquanautWatches = [
   {
     id: 4,
     name: 'Aquanaut Green Dial Silver Green Rubber',
-    price: 265,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Aquanaut/patek-aquanaut-greendial-silver-greenrubber/patek-aquanaut-greendial-silver-greenrubber.png',
     category: 'Patek Philippe',
     imagesList :[

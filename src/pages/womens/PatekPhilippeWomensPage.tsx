@@ -12,7 +12,7 @@ const womensPatekWatches = [
   {
     id: 1,
     name: 'Aquanaut Black Dial Diamond Bezel',
-    price: 265,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-blackdial-silverdiamondbezel-blackrubber/patek-aquanaut-blackdial-silverdiamondbezel-blackrubber.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -25,7 +25,7 @@ const womensPatekWatches = [
   {
     id: 2,
     name: 'Aquanaut Blue Dial Diamond Bezel',
-    price: 265,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-bluedial-silverdiamondbezel-bluerubber/patek-aquanaut-bluedial-silverdiamondbezel-bluerubber.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -38,7 +38,7 @@ const womensPatekWatches = [
   {
     id: 3,
     name: 'Aquanaut Brown Dial Rose Gold Diamond Bezel',
-    price: 285,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-browndial-rosediamondbezel-brownrubber/patek-aquanaut-browndial-rosediamondbezel-brownrubber.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -51,7 +51,7 @@ const womensPatekWatches = [
   {
     id: 4,
     name: 'Aquanaut Green Dial Diamond Bezel',
-    price: 265,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-greendial-silverdiamondbezel-greenrubber/patek-aquanaut-greendial-silverdiamondbezel-greenrubber.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -64,7 +64,7 @@ const womensPatekWatches = [
   {
     id: 5,
     name: 'Aquanaut Mother of Pearl Rose Gold Diamond Bezel',
-    price: 285,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-mop-rosediamondbezel-pinkbeigerubber/patek-aquanaut-mop-rosediamondbezel-pinkbeigerubber.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -77,7 +77,7 @@ const womensPatekWatches = [
   {
     id: 6,
     name: 'Aquanaut White Dial Gold Diamond Bezel',
-    price: 285,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-whitedial-golddiamondbezel-whiterubber/patek-aquanaut-whitedial-golddiamondbezel-whiterubber.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -90,7 +90,7 @@ const womensPatekWatches = [
   {
     id: 7,
     name: 'Aquanaut White Dial Diamond Bezel',
-    price: 265,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-whitedial-silverdiamondbezel-whiterubber/patek-aquanaut-whitedial-silverdiamondbezel-whiterubber.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -106,7 +106,7 @@ const womensPatekWatches = [
   {
     id: 8,
     name: 'Nautilus Black Dial',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-blackdial-silver/patek-nautilus-blackdial-silver.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -119,7 +119,7 @@ const womensPatekWatches = [
   {
     id: 9,
     name: 'Nautilus Blue Dial',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-bluedial-silver/patek-nautilus-bluedial-silver.png',
     category: 'Patek Philippe',
     imagesList :[ 
@@ -129,36 +129,36 @@ const womensPatekWatches = [
     description :`The Patek Philippe Nautilus Blue Dial radiates vibrant sophistication and timeless charm. Encased in a 40mm stainless steel case, the iconic blue dial with its horizontal embossed pattern is complemented by a sleek bezel, creating a dynamic aesthetic. The stainless steel bracelet offers seamless comfort, making this watch a perfect companion for refined style.`,
     isNew: true,
   },
-  {
-    id: 10,
-    name: 'Nautilus Brown Dial Gold',
-    price: 299,
-    image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-browndial-gold/patek-nautilus-browndial-gold.png',
-    category: 'Patek Philippe',
-    imagesList :[
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-browndial-gold/side.webp",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-browndial-gold/clasp.webp",
-    ],
-    description :`The Patek Philippe Nautilus Brown Dial Gold exudes warmth and luxurious elegance. Housed in a 40mm 18k yellow gold case, the rich brown dial with its embossed texture harmonizes with the iconic octagonal bezel, creating a sophisticated aesthetic. The gold bracelet ensures supreme comfort, making this timepiece a prestigious choice for those who value opulence.`,
-    isNew: false,
-  },
-  {
-    id: 11,
-    name: 'Nautilus Champagne Dial Gold',
-    price: 299,
-    image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-champagnedial-gold/patek-nautilus-champagnedial-gold.png',
-    category: 'Patek Philippe',
-    imagesList :[
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-champagnedial-gold/side.webp",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-champagnedial-gold/clasp.webp",
-    ],
-    description :`The Patek Philippe Nautilus Champagne Dial Gold exudes warmth and luxurious elegance. Housed in a 40mm 18k yellow gold case, the rich champagne dial with its embossed texture harmonizes with the iconic octagonal bezel, creating a sophisticated aesthetic. The gold bracelet ensures supreme comfort, making this timepiece a prestigious choice for those who value opulence.`,
-    isNew: true,
-  },
+  // {
+  //   id: 10,
+  //   name: 'Nautilus Brown Dial Gold',
+  //   price: 199,
+  //   image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-browndial-gold/patek-nautilus-browndial-gold.png',
+  //   category: 'Patek Philippe',
+  //   imagesList :[
+  //     "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-browndial-gold/side.webp",
+  //     "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-browndial-gold/clasp.webp",
+  //   ],
+  //   description :`The Patek Philippe Nautilus Brown Dial Gold exudes warmth and luxurious elegance. Housed in a 40mm 18k yellow gold case, the rich brown dial with its embossed texture harmonizes with the iconic octagonal bezel, creating a sophisticated aesthetic. The gold bracelet ensures supreme comfort, making this timepiece a prestigious choice for those who value opulence.`,
+  //   isNew: false,
+  // },
+  // {
+  //   id: 11,
+  //   name: 'Nautilus Champagne Dial Gold',
+  //   price: 199,
+  //   image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-champagnedial-gold/patek-nautilus-champagnedial-gold.png',
+  //   category: 'Patek Philippe',
+  //   imagesList :[
+  //     "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-champagnedial-gold/side.webp",
+  //     "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-champagnedial-gold/clasp.webp",
+  //   ],
+  //   description :`The Patek Philippe Nautilus Champagne Dial Gold exudes warmth and luxurious elegance. Housed in a 40mm 18k yellow gold case, the rich champagne dial with its embossed texture harmonizes with the iconic octagonal bezel, creating a sophisticated aesthetic. The gold bracelet ensures supreme comfort, making this timepiece a prestigious choice for those who value opulence.`,
+  //   isNew: true,
+  // },
   {
     id: 12,
     name: 'Nautilus Brown Dial Rose Gold',
-    price: 299,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-browndial-rose/patek-nautilus-browndial-rose.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -171,7 +171,7 @@ const womensPatekWatches = [
   {
     id: 13,
     name: 'Nautilus Grey Dial',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-greydial-silver/patek-nautilus-greydial-silver.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -184,7 +184,7 @@ const womensPatekWatches = [
   {
     id: 14,
     name: 'Nautilus White Dial Gold',
-    price: 299,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-whitedial-gold/patek-nautilus-whitedial-gold.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -197,7 +197,7 @@ const womensPatekWatches = [
   {
     id: 15,
     name: 'Nautilus White Dial Rose Gold',
-    price: 299,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-whitedial-rose/patek-nautilus-whitedial-rose.png',
     category: 'Patek Philippe',
     imagesList :[
@@ -211,7 +211,7 @@ const womensPatekWatches = [
   {
     id: 16,
     name: 'Nautilus White Dial',
-    price: 275,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-whitedial-silver/patek-nautilus-whitedial-silver.png',
     category: 'Patek Philippe',
     imagesList :[

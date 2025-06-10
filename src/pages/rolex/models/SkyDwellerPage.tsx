@@ -11,7 +11,7 @@ const skyDwellerWatches = [
   {
     id: 1,
     name: 'Sky-Dweller Black Dial Two-Tone Gold',
-    price: 165,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-blackdial-goldfluted-2tonesilvergoldjubilee/skydweller-blackdial-goldfluted-2tonesilvergoldjubilee.png',
     category: 'Rolex',
     imagesList:[
@@ -24,7 +24,7 @@ const skyDwellerWatches = [
   {
     id: 2,
     name: 'Sky-Dweller Blue Dial Rose Gold Jubilee',
-    price: 165,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-bluedial-rosefluted-rosejubilee/skydweller-bluedial-rosefluted-rosejubilee.png',
     category: 'Rolex',
     imagesList:[
@@ -38,7 +38,7 @@ const skyDwellerWatches = [
   {
     id: 3,
     name: 'Sky-Dweller Blue Dial Rose Gold Oyster',
-    price: 165,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-bluedial-rosefluted-roseoyster/skydweller-bluedial-rosefluted-roseoyster.png',
     category: 'Rolex',
     imagesList:[
@@ -51,7 +51,7 @@ const skyDwellerWatches = [
   {
     id: 4,
     name: 'Sky-Dweller Blue Dial Silver Oyster',
-    price: 165,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-bluedial-silverfluted-silveroyster/skydweller-bluedial-silverfluted-silveroyster.png',
     category: 'Rolex',
     imagesList:[
@@ -64,7 +64,7 @@ const skyDwellerWatches = [
   {
     id: 5,
     name: 'Sky-Dweller Chocolate Dial Rose Gold',
-    price: 165,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-chocdial-rosefluted-rosebody-rubber/skydweller-chocdial-rosefluted-rosebody-rubber.png',
     category: 'Rolex',
     imagesList:[
@@ -77,7 +77,7 @@ const skyDwellerWatches = [
   {
     id: 6,
     name: 'Sky-Dweller Gold Dial Two-Tone Gold',
-    price: 165,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-golddial-goldfluted-2tonesilvergoldjubilee/skydweller-golddial-goldfluted-2tonesilvergoldjubilee.png',
     category: 'Rolex',
     imagesList:[
@@ -90,7 +90,7 @@ const skyDwellerWatches = [
   {
     id: 7,
     name: 'Sky-Dweller Gold Dial Gold Rubber',
-    price: 165,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-golddial-goldfluted-goldbody-rubber/skydweller-golddial-goldfluted-goldbody-rubber',
     category: 'Rolex',
     imagesList:[
@@ -103,7 +103,7 @@ const skyDwellerWatches = [
   {
     id: 8,
     name: 'Sky-Dweller Grey Dial Silver Rubber',
-    price: 165,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-greydial-silverfluted-silverbody-rubber/skydweller-greydial-silverfluted-silverbody-rubber.png',
     category: 'Rolex',
     imagesList:[
@@ -117,7 +117,7 @@ const skyDwellerWatches = [
   {
     id: 9,
     name: 'Sky-Dweller White Dial Gold Rubber',
-    price: 165,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-whitedial-goldfluted-goldbody-rubber/skydweller-whitedial-goldfluted-goldbody-rubber',
     category: 'Rolex',
     imagesList:[

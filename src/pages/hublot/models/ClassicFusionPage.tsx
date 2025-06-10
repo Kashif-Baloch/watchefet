@@ -12,11 +12,13 @@ const classicFusionWatches = [
     id: 1,
     name: 'Classic Fusion Chronograph Blue Dial',
     price: 199,
-    image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Classic%20Fusion/hublot-bigbangchrono-bluedial-leather/hublot-bigbangchrono-bluedial-leather.png',
+    image: "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Classic%20Fusion/hublot-classicfusionchrono-bluedial-leather/hublot-classicfusionchrono-bluedial-leather.png",
     category: 'Hublot',
     imagesList :[
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Classic%20Fusion/hublot-classicfusion-bluedial-titanium-bluerubber/clasp.jpg",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Classic%20Fusion/hublot-classicfusion-bluedial-titanium-bluerubber/back%20clasp%20open.jpg",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Classic%20Fusion/hublot-classicfusionchrono-bluedial-leather/angle.jpg",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Classic%20Fusion/hublot-classicfusionchrono-bluedial-leather/angle2",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Classic%20Fusion/hublot-classicfusionchrono-bluedial-leather/back.jpg",
+
     ],
     description :`The Hublot Classic Fusion Blue Dial Titanium exudes understated luxury and modern design. Encased in a 42mm titanium case, the striking blue sunray dial is paired with a polished titanium bezel, creating a clean and elegant aesthetic. The blue rubber strap ensures lightweight comfort, making this watch a versatile companion for the discerning individual.
 `,
@@ -40,7 +42,7 @@ const classicFusionWatches = [
   {
     id: 3,
     name: 'Classic Fusion Chronograph Black Magic',
-    price: 225,
+    price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Classic%20Fusion/hublot-classicfusionchrono-blackmagic/hublot-classicfusionchrono-blackmagic.png',
     category: 'Hublot',
     imagesList :[

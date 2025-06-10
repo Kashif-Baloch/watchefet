@@ -11,7 +11,7 @@ const submarinerWatches = [
   {
     id: 1,
     name: 'Submariner Black Dial Two-Tone',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-2tonesilvergold/submariner-blackdial-2tonesilvergold',
     category: 'Rolex',
     imagesList : [
@@ -24,7 +24,7 @@ const submarinerWatches = [
   {
     id: 2,
     name: 'Submariner Black Dial Blue Bezel',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-bluebezel-silver/submariner-blackdial-bluebezel-silver',
     category: 'Rolex',
     imagesList : [
@@ -37,7 +37,7 @@ const submarinerWatches = [
   {
     id: 3,
     name: 'Submariner Black Dial Green Bezel',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-greenbezel-silver/submariner-blackdial-greenbezel-silver',
     category: 'Rolex',
     imagesList : [
@@ -51,7 +51,7 @@ const submarinerWatches = [
   {
     id: 4,
     name: 'Submariner Blue Dial Two-Tone',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-bluedial-bluebezel-2tonesilvergold/submariner-bluedial-bluebezel-2tonesilvergold.png',
     category: 'Rolex',
     imagesList : [
@@ -65,7 +65,7 @@ const submarinerWatches = [
   {
     id: 5,
     name: 'Submariner Black Dial',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-blackbezel-silver/submariner-blackdial-blackbezel-silver.jpg',
     category: 'Rolex',
     imagesList : [
@@ -78,7 +78,7 @@ const submarinerWatches = [
   {
     id: 6,
     name: 'Submariner Blue Dial Blue Bezel Gold',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-bluedial-bluebezel-gold/submariner-bluedial-bluebezel-gold.png',
     category: 'Rolex',
     imagesList : [
@@ -91,7 +91,7 @@ const submarinerWatches = [
   {
     id: 7,
     name: 'Submariner Black Dial Black Bezel Gold',
-    price: 139,
+    price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-blackbezel-gold/submariner-blackdial-blackbezel-gold',
     category: 'Rolex',
     imagesList : [
