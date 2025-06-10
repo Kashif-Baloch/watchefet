@@ -17,7 +17,7 @@ const CartPage: React.FC = () => {
 
   const getProductUrl = (name: string): string => {
     const cleanName = name.split(' - ')[0].trim();
-    
+
     // Map product names to their respective URLs
     const urlMap: Record<string, string> = {
       'Datejust 41mm Blue Dial': '/rolex/datejust/blue-dial',
@@ -66,13 +66,13 @@ const CartPage: React.FC = () => {
       //       // Extract the quality grade from the item name
       //       const qualityMatch = item.name.match(/(AAA Grade|AAAAA Grade|Super Clone|Premium)$/);
       //       const quality = qualityMatch ? qualityMatch[0] : 'Premium';
-            
+
       //       // Get the base name without the quality
       //       const baseName = item.name.replace(/ - (AAA Grade|AAAAA Grade|Super Clone|Premium)$/, '');
-            
+
       //       // Get the product ID based on the base name and quality
       //       const productId = getProductId(baseName, quality);
-            
+
       //       if (!productId) {
       //         unavailable.push(item.name);
       //         return null;
@@ -142,8 +142,8 @@ const CartPage: React.FC = () => {
                         key={`${item.id}-${item.quality}`}
                         className="bg-zinc-900/50 p-6 rounded-lg border border-zinc-800 flex items-center gap-6"
                       >
-                        <Link 
-                          to={`/cartproduct/${item.id}`}
+                        <Link
+                          to={item.quality == "Premium" ? "/cart" : `/cartproduct/${item.id}`}
                           className="w-24 h-24 flex-shrink-0"
                         >
                           <img
@@ -152,9 +152,9 @@ const CartPage: React.FC = () => {
                             className="w-full h-full object-cover rounded-lg"
                           />
                         </Link>
-                        
+
                         <div className="flex-grow">
-                          <Link to={`/cartproduct/${item.id}`} 
+                          <Link to={item.quality == "Premium" ? "/cart" : `/cartproduct/${item.id}`}
                             className="hover:text-gold-500 transition-colors"
                           >
                             <h3 className="text-lg font-medium text-white mb-1">
@@ -181,7 +181,7 @@ const CartPage: React.FC = () => {
                               <Plus className="h-4 w-4" />
                             </button>
                           </div>
-                          
+
                           <button
                             onClick={() => removeItem(item.id)}
                             className="p-2 text-gray-400 hover:text-red-500 transition-colors"

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Star, Package, RefreshCw } from 'lucide-react';
 import Header from '../../components/layout/Header';
 import Footer from '../../components/layout/Footer';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const CarDet: React.FC = () => {
     const { id } = useParams();
@@ -43,8 +43,11 @@ const CarDet: React.FC = () => {
                                     ))}
                                 </div>
                             </div>
-
+                            
                             <div>
+                            <div className='mb-3'>
+                                <Link to="/cart" className="text-gold-500">Go Back</Link>
+                            </div>
                                 <h1 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
                                     {product?.name}
                                 </h1>
