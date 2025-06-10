@@ -9,7 +9,7 @@ const CarDet: React.FC = () => {
     const productList = JSON.parse(localStorage.getItem('cartProductList') as any);
     const product = productList[id as any];
     const [mainImage, setMainImage] = useState(product?.image);
-    const productImages = product?.imagesList;
+    const productImages = [product?.image, ...product?.imagesList];
 
     return (
         <div className="bg-black text-white min-h-screen">
