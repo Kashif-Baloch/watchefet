@@ -10,6 +10,7 @@ import { useCart } from '../../../context/CartContext';
 const dayDateWatches = [
   {
     id: 1,
+    reviews: 24,
     name: 'Day-Date 40 Rose Gold Brown Roman Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-roman-rosegold-fluted-40/daydate-browndial-roman-rosegold-fluted-40.png',
@@ -23,12 +24,12 @@ const dayDateWatches = [
   },
   {
     id: 2,
+    reviews: 29,
     name: 'Day-Date 40 Gold Diamond-Set President',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-golddial-champagne-goldpresident-diamondset-40/daydate-golddial-champagne-goldpresident-diamondset-40',
     category: 'Rolex',
     imagesList: [
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-golddial-champagne-goldpresident-diamondset-40/close%20up.png",
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-golddial-champagne-goldpresident-diamondset-40/clasp.webp",
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-golddial-champagne-goldpresident-diamondset-40/back.webp",
     ],
@@ -37,6 +38,7 @@ const dayDateWatches = [
   },
   {
     id: 3,
+    reviews: 29,
     name: 'Day-Date 40 Black Dial Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-blackdial-champagne-gold-fluted-40/daydate-blackdial-champagne-gold-fluted-40.png',
@@ -50,6 +52,7 @@ const dayDateWatches = [
   },
   {
     id: 4,
+    reviews: 22,
     name: 'Day-Date 40 Mother of Pearl Diamond Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-mop-diamond-silverjubilee-40/daydate-mop-diamond-silverjubilee-40.webp',
@@ -63,6 +66,7 @@ const dayDateWatches = [
   },
   {
     id: 5,
+    reviews: 19,
     name: 'Day-Date 40 White Dial Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-champagne-gold-fluted/daydate-whitedial-champagne-gold-fluted',
@@ -76,6 +80,7 @@ const dayDateWatches = [
   },
   {
     id: 6,
+    reviews: 14,
     name: 'Day-Date 40 Green Dial Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-greendial-roman-gold-fluted-40/daydate-greendial-roman-gold-fluted-40.png',
@@ -89,19 +94,21 @@ const dayDateWatches = [
   },
   {
     id: 7,
+    reviews: 18,
     name: 'Day-Date 40 Brown Dial Rose Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-champagne-rosegold-fluted/daydate-browndial-champagne-rosegold-fluted',
     category: 'Rolex',
     imagesList: [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-champagne-rosegold-fluted/side",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-champagne-rosegold-fluted/clasp.webp"      
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-champagne-rosegold-fluted/clasp.webp"
     ],
     description: "The Rolex Day-Date 40 in 18k rose gold with a rich brown dial is the epitome of warmth and sophistication. The 40mm case, paired with a fluted bezel, enhances its distinguished silhouette, while the President bracelet ensures unmatched comfort and elegance. The deep brown dial harmonizes beautifully with the rose gold tones, creating a luxurious and cohesive aesthetic that embodies timeless prestige.",
     isNew: true,
   },
   {
     id: 8,
+    reviews: 12,
     name: 'Day-Date 40 Ice Blue Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-icebluedial-champagne-silver-smooth/daydate-icebluedial-champagne-silver-smooth',
@@ -115,6 +122,7 @@ const dayDateWatches = [
   },
   {
     id: 9,
+    reviews: 12,
     name: 'Day-Date 40 White Roman Dial Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-roman-gold-fluted-40/daydate-whitedial-roman-gold-fluted-40.png',
@@ -133,7 +141,7 @@ const DayDatePage: React.FC = () => {
   useEffect(() => {
     localStorage.setItem('productList', JSON.stringify(dayDateWatches))
     localStorage.setItem('category', 'daydate')
-    setProducts({productList: dayDateWatches, category: 'daydate'})
+    setProducts({ productList: dayDateWatches, category: 'daydate' })
     // setProducts(dayDateWatches)
   }, []);
   return (

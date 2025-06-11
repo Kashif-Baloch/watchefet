@@ -117,12 +117,21 @@ const ProductDet: React.FC = () => {
 
     const handleAddToCart = () => {
         const idwDate = Date.now()
-        const carListItems = JSON.parse(localStorage.getItem('cartProductList') as any)
+        const carListItems = JSON.parse(localStorage.getItem(product?.category as any) as any)
+        // checking if the same id product already exist in the localstorage then nevert add
+        const isProductExist = carListItems?.find((item: any) => item.id === product.id)
+        if (!isProductExist) {
+            carListItems ? localStorage.setItem(product?.category as any, JSON.stringify([...carListItems, product])) : localStorage.setItem(product?.category as any, JSON.stringify([product]))
+        }
+
+
+
         // also adding the reviews with other detail in the product as it doesnt exist in the product object
-        const cartproducts = carListItems ? { ...carListItems, [idwDate]: { ...product, reviews } } : { [idwDate]: { ...product, reviews } }
-        localStorage.setItem('cartProductList', JSON.stringify(cartproducts))
+        // const cartproducts = carListItems ? { ...carListItems, [idwDate]: { ...product, reviews } } : { [idwDate]: { ...product, reviews } }
+        // localStorage.setItem(product?.category as any, JSON.stringify([...carListItems, product]))
 
         addItem({
+            _id: product.id,
             id: idwDate,
             name: `${product.name} - ${selectedQuality.name}`,
             price: selectedQuality.price,
@@ -132,6 +141,7 @@ const ProductDet: React.FC = () => {
 
         if (includePremiumBox) {
             addItem({
+                _id: product.id,
                 id: idwDate + 1,
                 name: `Premium ${product.category} Box with Certificate`,
                 price: 39,
@@ -148,8 +158,8 @@ const ProductDet: React.FC = () => {
     }, []);
 
     const productImages = [product?.image, ...product?.imagesList];
-
-    console.log(product.category, products.category);
+// console.log(productImages);
+    // console.log(product.category, products.category);
 
 
     const backurl = () => {
@@ -241,7 +251,7 @@ const ProductDet: React.FC = () => {
         }
     }
 
-console.log(showurl);
+// console.log(showurl);
 
 
     return (
@@ -300,7 +310,7 @@ console.log(showurl);
                                             <Star key={i} className="h-5 w-5 text-gold-500 fill-gold-500" />
                                         ))}
                                     </div>
-                                    <span className="text-gray-400">({reviews} Reviews)</span>
+                                    <span className="text-gray-400">({product?.reviews} Reviews)</span>
                                 </div>
 
                                 <div className="mb-8">

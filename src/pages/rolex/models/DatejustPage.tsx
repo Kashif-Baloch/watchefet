@@ -10,6 +10,7 @@ import { useCart } from '../../../context/CartContext';
 const datejustWatches = [
   {
     id: 1,
+    reviews: 12,
     name: 'Datejust 41mm Blue Diamond Dial Fluted Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-bluedial-diamond-silverjubilee-fluted-41/datejust-bluedial-diamond-silverjubilee-fluted-41.png',
@@ -24,6 +25,7 @@ const datejustWatches = [
   },
   {
     id: 2,
+    reviews: 12,
     name: 'Datejust 41mm Fluted Bezel Champagne Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-blackchampagnedial-silverjubilee-fluted/datejust-blackchampagnedial-silverjubilee-fluted.png',
@@ -31,13 +33,13 @@ const datejustWatches = [
     imagesList: [
       'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-blackchampagnedial-silverjubilee-fluted/clasp.jpg',
       'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-blackchampagnedial-silverjubilee-fluted/back',
-      'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-blackchampagnedial-silverjubilee-fluted/main',
     ],
     description: "The Rolex Datejust 41 is the epitome of classic style and functionality. This model features a stunning black dial housed in a 41mm case, perfectly balanced for both elegance and presence on the wrist. The signature Jubilee bracelet provides exceptional comfort and sophistication, while the fluted bezel adds a distinctive touch of luxury.",
     isNew: false,
   },
   {
     id: 3,
+    reviews: 16,
     name: 'Datejust 41mm Diamond Dial with Fluted Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-greydial-diamond-silverjubilee-41/datejust-greydial-diamond-silverjubilee-41.jpg',
@@ -51,6 +53,7 @@ const datejustWatches = [
   },
   {
     id: 4,
+    reviews: 19,
     name: 'Datejust 41mm Wimbledon Dial with Fluted Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-wimbledon-41/datejust-wimbledon-41.jpg',
@@ -64,6 +67,7 @@ const datejustWatches = [
   },
   {
     id: 5,
+    reviews: 13,
     name: 'Datejust 41mm White Roman Dial Fluted Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-whitedial-roman-silverjubilee-fluted-41/datejust-whitedial-roman-silverjubilee-fluted-41.jpg',
@@ -77,6 +81,7 @@ const datejustWatches = [
   },
   {
     id: 6,
+    reviews: 14,
     name: 'Datejust 41mm Fluted Bezel Roman Numerals',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-bluedial-roman-fluted-jubilee-41/datejust-bluedial-roman-fluted-jubilee-41.webp',
@@ -90,6 +95,7 @@ const datejustWatches = [
   },
   {
     id: 7,
+    reviews: 19,
     name: 'Datejust 41mm Gold Diamond Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-golddial-diamond-2tonesilvergoldjubilee-fluted-41/datejust-golddial-diamond-2tonesilvergoldjubilee-fluted-41.jpg',
@@ -103,6 +109,7 @@ const datejustWatches = [
   },
   {
     id: 8,
+    reviews: 12,
     name: 'Datejust 41mm Gold Champagne Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-golddial-champagne-2tonesilvergoldjubilee-fluted-41/datejust-golddial-champagne-2tonesilvergoldjubilee-fluted-41.jpg',
@@ -117,6 +124,7 @@ const datejustWatches = [
   },
   {
     id: 9,
+    reviews: 16,
     name: 'Datejust 41mm Wimbledon Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-wimbledon-2tonesilvergold-jubilee-fluted-41/datejust-wimbledon-2tonesilvergold-jubilee-fluted-41.jpg',
@@ -130,13 +138,14 @@ const datejustWatches = [
   },
   {
     id: 10,
+    reviews: 15,
     name: 'Datejust 41mm Brown Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-browndial-champagne-2tonesilverrose-jubilee-fluted/datejust-browndial-champagne-2tonesilverrose-jubilee-fluted',
     category: 'Rolex',
     imagesList: [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-browndial-champagne-2tonesilverrose-jubilee-fluted/back.webp",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-browndial-champagne-2tonesilverrose-jubilee-fluted/clasp.webp",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-browndial-champagne-2tonesilverrose-jubilee-fluted/side2.webp",
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-browndial-champagne-2tonesilverrose-jubilee-fluted/side.webp"
     ],
     description: "The Rolex Datejust 41 Two-Tone with Brown Champagne dial exemplifies refined elegance. This model features a stunning brown champagne dial that creates a warm, sophisticated appearance, perfectly complemented by the two-tone combination of stainless steel and 18k rose gold. The signature Jubilee bracelet provides exceptional comfort, while the fluted bezel adds a classic touch of luxury. The harmonious blend of colors and materials makes this timepiece a versatile choice for both formal and casual occasions.",
@@ -144,6 +153,7 @@ const datejustWatches = [
   },
   {
     id: 11,
+    reviews: 15,
     name: 'Datejust 41mm Brown Diamond Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-browndial-diamond-2tonesilverrose-jubilee-fluted/datejust-browndial-diamond-2tonesilverrose-jubilee-fluted',
@@ -158,6 +168,8 @@ const datejustWatches = [
   },
   {
     id: 12,
+
+    reviews: 15,
     name: 'Datejust 41mm White Dial Champagne Silver Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-whitedial-champagne-silverjubilee-fluted/datejust-whitedial-champagne-silverjubilee-fluted-41',
@@ -172,6 +184,7 @@ const datejustWatches = [
   },
   {
     id: 13,
+    reviews: 15,
     name: 'Datejust 41mm Mother of Pearl Diamond Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-mop-diamond-silverjubilee-fluted-41/datejust-mop-diamond-silverjubilee-fluted-41.jpg',
@@ -185,6 +198,7 @@ const datejustWatches = [
   },
   {
     id: 14,
+    reviews: 15,
     name: 'Datejust 41mm Blue Dial Smooth Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Smooth%20Bezel/datejust-bluedial-champagne-smooth-silverjubilee/datejust-bluedial-champagne-smooth-silverjubilee',
@@ -199,6 +213,7 @@ const datejustWatches = [
   },
   {
     id: 15,
+    reviews: 15,
     name: 'Datejust 41mm Green Dial Smooth Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Smooth%20Bezel/datejust-greendial-champagne-smooth-silverjubilee/datejust-greendial-champagne-smooth-silverjubilee',
@@ -213,6 +228,7 @@ const datejustWatches = [
   },
   {
     id: 16,
+    reviews: 15,
     name: 'Datejust 41mm Gold Diamond Dial Two-Tone Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-golddial-diamond-2tonesilvergoldoyster-fluted/datejust-golddial-diamond-2tonesilvergoldoyster-fluted',
@@ -226,6 +242,7 @@ const datejustWatches = [
   },
   {
     id: 17,
+    reviews: 16,
     name: 'Datejust 41mm Grey Diamond Dial Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-greydial-diamond-silveroyster-fluted/datejust-greydial-diamond-silveroyster-fluted',
@@ -239,6 +256,7 @@ const datejustWatches = [
   },
   {
     id: 18,
+    reviews: 19,
     name: 'Datejust 41mm Mother of Pearl Diamond Dial Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-mop-diamond-silveroyster-fluted/datejust-mop-diamond-silveroyster-fluted',
@@ -252,6 +270,7 @@ const datejustWatches = [
   },
   {
     id: 19,
+    reviews: 19,
     name: 'Datejust 41mm Wimbledon Dial Two-Tone Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-wimbledon-2tonesilvergold-oyster-fluted-41/datejust-wimbledon-2tonesilvergold-oyster-fluted-41.jpg',
@@ -266,6 +285,7 @@ const datejustWatches = [
   },
   {
     id: 20,
+    reviews: 13,
     name: 'Datejust 41mm Champagne Dial Two-Tone Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-golddial-champagne-2tonesilvergold-oyster-fluted-40/datejust-golddial-champagne-2tonesilvergold-oyster-fluted-40.jpg',
@@ -280,6 +300,7 @@ const datejustWatches = [
   },
   {
     id: 21,
+    reviews: 19,
     name: 'Datejust 41mm Blue Dial Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-bluedial-champagne-silveroyster-fluted-40/datejust-bluedial-champagne-silveroyster-fluted-40.png',
@@ -294,6 +315,7 @@ const datejustWatches = [
   },
   {
     id: 22,
+    reviews: 28,
     name: 'Datejust 41mm Green Dial Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-greendial-champagne-silveroyster-domed-40/datejust-greendial-champagne-silveroyster-domed-40.jpg',
@@ -315,7 +337,7 @@ const DatejustPage: React.FC = () => {
     // 
     localStorage.setItem('productList', JSON.stringify(datejustWatches))
     localStorage.setItem('category', 'datejust')
-    setProducts({productList: datejustWatches, category: 'datejust'})
+    setProducts({ productList: datejustWatches, category: 'datejust' })
   }, []);
   console.log(products);
   return (

@@ -10,6 +10,7 @@ interface Product {
   image: string;
   category: string;
   isNew?: boolean;
+  reviews?: number;
 }
 
 interface ProductCardProps {
@@ -17,7 +18,7 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
-  const { id, name, price, image, category, isNew } = product;
+  const { id, name, price, image, category, isNew, reviews } = product;
   // const { addItem } = useCart();
 
   // const getProductUrl = () => {
@@ -191,7 +192,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   //   return '#';
   // };
 // between 10 to 30
-  let reviews = Math.floor(Math.random() * 20) + 10;
+  // let reviews = Math.floor(Math.random() * 20) + 10;
 
   return (
     <Link to={`/product/${id}/${reviews}`} className="block h-full">

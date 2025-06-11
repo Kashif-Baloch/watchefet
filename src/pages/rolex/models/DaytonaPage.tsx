@@ -10,6 +10,7 @@ import { useCart } from '../../../context/CartContext';
 const daytonaWatches = [
   {
     id: 1,
+    reviews: 12,
     name: 'Daytona Black Dial Black Gold Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-blackdial-blackgoldbezel-rubber/daytona-blackdial-blackgoldbezel-rubber.png',
@@ -23,6 +24,7 @@ const daytonaWatches = [
   },
   {
     id: 2,
+    reviews: 22,
     name: 'Daytona Black Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-blackdial-goldbezel-2tonegoldsilver-oyster/daytona-blackdial-goldbezel-2tonegoldsilver-oyster.png',
@@ -36,6 +38,7 @@ const daytonaWatches = [
   },
   {
     id: 3,
+    reviews: 25,
     name: 'Daytona Blue Dial Silver Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-bluedial-silverbezel-silveroyster/daytona-bluedial-silverbezel-silveroyster.png',
@@ -49,6 +52,7 @@ const daytonaWatches = [
   },
   {
     id: 4,
+    reviews: 28,
     name: 'Daytona Full Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-fullygold-oyster/daytona-fullygold-oyster.jpg',
@@ -62,6 +66,7 @@ const daytonaWatches = [
   },
   {
     id: 5,
+    reviews: 22,
     name: 'Daytona Black Dial Gold Black Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-goldblackdial-blackbezel-rubber/daytona-goldblackdial-blackbezel-rubber.jpg',
@@ -75,6 +80,7 @@ const daytonaWatches = [
   },
   {
     id: 6,
+    reviews: 17,
     name: 'Daytona Gold Dial Black Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-golddial-blackbezel-rubber/daytona-golddial-blackbezel-rubber.png',
@@ -88,6 +94,7 @@ const daytonaWatches = [
   },
   {
     id: 7,
+    reviews: 18,
     name: 'Daytona Gold Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-golddial-goldbezel-2tonesilvergold-oyster/daytona-golddial-goldbezel-2tonesilvergold-oyster.png',
@@ -101,6 +108,7 @@ const daytonaWatches = [
   },
   {
     id: 8,
+    reviews: 17,
     name: 'Daytona Rose Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-rosedial-rosebezel-roseoyster/daytona-rosedial-rosebezel-roseoyster.png',
@@ -114,6 +122,7 @@ const daytonaWatches = [
   },
   {
     id: 9,
+    reviews: 14,
     name: 'Daytona White Dial Black Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-whitedial-blackbezel-oyster/daytona-whitedial-blackbezel-oyster.png',
@@ -127,6 +136,7 @@ const daytonaWatches = [
   },
   {
     id: 10,
+    reviews: 18,
     name: 'Daytona White Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-whitedial-goldbezel-2tonegoldsilver-oyster/daytona-whitedial-goldbezel-2tonegoldsilver-oyster.png',
@@ -140,6 +150,7 @@ const daytonaWatches = [
   },
   {
     id: 11,
+    reviews: 18,
     name: 'Daytona White Dial Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-whitedial-goldbezel-goldoyster/daytona-whitedial-goldbezel-goldoyster.png',
@@ -153,6 +164,7 @@ const daytonaWatches = [
   },
   {
     id: 12,
+    reviews: 13,
     name: 'Daytona White Dial Silver Rubber',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-whitedial-silverbezel-rubber/daytona-whitedial-silverbezel-rubber.png',
@@ -166,6 +178,7 @@ const daytonaWatches = [
   },
   {
     id: 13,
+    reviews: 13,
     name: 'Daytona White Dial Silver',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-whitedial-silveroyster/daytona-whitedial-silveroyster.png',

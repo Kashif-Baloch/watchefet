@@ -15,7 +15,7 @@ const hublotCollections = [
   {
     name: 'Classic Fusion',
     href: '/hublot/classic-fusion',
-    image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Classic%20Fusion/hublot-bigbangchrono-bluedial-leather/hublot-bigbangchrono-bluedial-leather.png',
+    image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Classic%20Fusion/hublot-classicfusionchrono-bluedial-leather/hublot-classicfusionchrono-bluedial-leather.png',
     description: 'Elegant timepieces that blend classic design with contemporary style'
   },
   {
@@ -40,13 +40,13 @@ const HublotCollectionsPage: React.FC = () => {
               <ChevronRight className="h-4 w-4" />
               <span className="text-gold-500">Hublot</span>
             </div>
-            
+
             <SectionTitle
               title="Hublot Collections"
               subtitle="Explore our selection of innovative and bold timepieces"
               centered
             />
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
               {hublotCollections.map((collection) => (
                 <Link

@@ -21,6 +21,7 @@ const allRolexWatches = [
   // Datejust Collection
   {
     id: 1,
+    reviews: 12,
     name: 'Datejust 41mm Blue Diamond Dial Fluted Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-bluedial-diamond-silverjubilee-fluted-41/datejust-bluedial-diamond-silverjubilee-fluted-41.png',
@@ -35,6 +36,7 @@ const allRolexWatches = [
   },
   {
     id: 2,
+    reviews: 12,
     name: 'Datejust 41mm Fluted Bezel Champagne Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-blackchampagnedial-silverjubilee-fluted/datejust-blackchampagnedial-silverjubilee-fluted.png',
@@ -49,6 +51,7 @@ const allRolexWatches = [
   },
   {
     id: 3,
+    reviews: 16,
     name: 'Datejust 41mm Diamond Dial with Fluted Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-greydial-diamond-silverjubilee-41/datejust-greydial-diamond-silverjubilee-41.jpg',
@@ -62,6 +65,7 @@ const allRolexWatches = [
   },
   {
     id: 4,
+    reviews: 19,
     name: 'Datejust 41mm Wimbledon Dial with Fluted Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-wimbledon-41/datejust-wimbledon-41.jpg',
@@ -75,6 +79,7 @@ const allRolexWatches = [
   },
   {
     id: 5,
+    reviews: 13,
     name: 'Datejust 41mm White Roman Dial Fluted Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-whitedial-roman-silverjubilee-fluted-41/datejust-whitedial-roman-silverjubilee-fluted-41.jpg',
@@ -88,6 +93,7 @@ const allRolexWatches = [
   },
   {
     id: 6,
+    reviews: 14,
     name: 'Datejust 41mm Fluted Bezel Roman Numerals',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-bluedial-roman-fluted-jubilee-41/datejust-bluedial-roman-fluted-jubilee-41.webp',
@@ -101,6 +107,7 @@ const allRolexWatches = [
   },
   {
     id: 7,
+    reviews: 19,
     name: 'Datejust 41mm Gold Diamond Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-golddial-diamond-2tonesilvergoldjubilee-fluted-41/datejust-golddial-diamond-2tonesilvergoldjubilee-fluted-41.jpg',
@@ -114,6 +121,7 @@ const allRolexWatches = [
   },
   {
     id: 8,
+    reviews: 12,
     name: 'Datejust 41mm Gold Champagne Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-golddial-champagne-2tonesilvergoldjubilee-fluted-41/datejust-golddial-champagne-2tonesilvergoldjubilee-fluted-41.jpg',
@@ -128,6 +136,7 @@ const allRolexWatches = [
   },
   {
     id: 9,
+    reviews: 16,
     name: 'Datejust 41mm Wimbledon Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-wimbledon-2tonesilvergold-jubilee-fluted-41/datejust-wimbledon-2tonesilvergold-jubilee-fluted-41.jpg',
@@ -142,6 +151,7 @@ const allRolexWatches = [
   // Day-Date Collection
   {
     id: 10,
+    reviews: 24,
     name: 'Day-Date 40 Rose Gold Brown Roman Dial',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-roman-rosegold-fluted-40/daydate-browndial-roman-rosegold-fluted-40.png',
@@ -155,6 +165,7 @@ const allRolexWatches = [
   },
   {
     id: 11,
+    reviews: 29,
     name: 'Day-Date 40 Gold Diamond-Set President',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-golddial-champagne-goldpresident-diamondset-40/daydate-golddial-champagne-goldpresident-diamondset-40',
@@ -169,6 +180,7 @@ const allRolexWatches = [
   },
   {
     id: 12,
+    reviews: 22,
     name: 'Day-Date 40 Black Dial Gold',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-blackdial-champagne-gold-fluted-40/daydate-blackdial-champagne-gold-fluted-40.png',
@@ -180,8 +192,10 @@ const allRolexWatches = [
     description: "The Rolex Day-Date 40 in 18k yellow gold with a black dial is a statement of luxury and prestige. This iconic timepiece features a fluted bezel that enhances its distinctive Rolex profile, while the President bracelet provides exceptional comfort and elegance. The contrast between the rich black dial and the warm yellow gold case creates a bold and sophisticated aesthetic. The Day-Date was the first wristwatch to display the date and day of the week spelled out in full in a window on the dial, and continues to be the watch par excellence of influential people.",
     isNew: true,
   },
+  // ll
   {
     id: 13,
+    reviews: 19,
     name: 'Day-Date 40 Mother of Pearl Diamond Dial',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-mop-diamond-silverjubilee-40/daydate-mop-diamond-silverjubilee-40.webp',
@@ -195,6 +209,8 @@ const allRolexWatches = [
   },
   {
     id: 14,
+    
+    reviews: 14,
     name: 'Day-Date 40 White Dial Gold',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-champagne-gold-fluted/daydate-whitedial-champagne-gold-fluted',
@@ -208,6 +224,8 @@ const allRolexWatches = [
   },
   {
     id: 15,
+    
+    reviews: 18,
     name: 'Day-Date 40 Green Dial Gold',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-greendial-roman-gold-fluted-40/daydate-greendial-roman-gold-fluted-40.png',
@@ -221,6 +239,8 @@ const allRolexWatches = [
   },
   {
     id: 16,
+    
+    reviews: 12,
     name: 'Day-Date 40 Brown Dial Rose Gold',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-champagne-rosegold-fluted/daydate-browndial-champagne-rosegold-fluted',
@@ -234,6 +254,8 @@ const allRolexWatches = [
   },
   {
     id: 17,
+    
+    reviews: 12,
     name: 'Day-Date 40 Ice Blue Dial',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-icebluedial-champagne-silver-smooth/daydate-icebluedial-champagne-silver-smooth',
@@ -248,6 +270,8 @@ const allRolexWatches = [
   // Submariner Collection
   {
     id: 18,
+    
+    reviews: 14,
     name: 'Submariner Black Dial Two-Tone',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-2tonesilvergold/submariner-blackdial-2tonesilvergold',
@@ -261,6 +285,8 @@ const allRolexWatches = [
   },
   {
     id: 19,
+    
+    reviews: 12,
     name: 'Submariner Black Dial Blue Bezel',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-bluebezel-silver/submariner-blackdial-bluebezel-silver',
@@ -274,6 +300,8 @@ const allRolexWatches = [
   },
   {
     id: 20,
+    
+    reviews: 17,
     name: 'Submariner Black Dial Green Bezel',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-greenbezel-silver/submariner-blackdial-greenbezel-silver',
@@ -288,6 +316,8 @@ const allRolexWatches = [
   },
   {
     id: 21,
+    
+    reviews: 12,
     name: 'Submariner Blue Dial Two-Tone',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-bluedial-bluebezel-2tonesilvergold/submariner-bluedial-bluebezel-2tonesilvergold.png',
@@ -302,6 +332,8 @@ const allRolexWatches = [
   },
   {
     id: 22,
+    
+    reviews: 18,
     name: 'Submariner Black Dial',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-blackbezel-silver/submariner-blackdial-blackbezel-silver.jpg',
@@ -315,6 +347,8 @@ const allRolexWatches = [
   },
   {
     id: 23,
+    
+    reviews: 19,
     name: 'Submariner Blue Dial Blue Bezel Gold',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-bluedial-bluebezel-gold/submariner-bluedial-bluebezel-gold.png',
@@ -328,6 +362,8 @@ const allRolexWatches = [
   },
   {
     id: 24,
+    
+    reviews: 29,
     name: 'Submariner Black Dial Black Bezel Gold',
     price: 139,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-blackbezel-gold/submariner-blackdial-blackbezel-gold',
@@ -343,6 +379,8 @@ const allRolexWatches = [
   // GMT-Master II Collection
   {
     id: 25,
+    
+    reviews: 18,
     name: 'GMT-Master II Black Two-Tone Oyster',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-black-2tonesilvergold-oyster/gmtmaster-black-2tonesilvergold-oyster.png',
@@ -356,6 +394,8 @@ const allRolexWatches = [
   },
   {
     id: 26,
+    
+    reviews: 12,
     name: 'GMT-Master II Batman Jubilee',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-blackbluebezel-jubilee/gmtmaster-blackbluebezel-jubilee.png',
@@ -369,6 +409,8 @@ const allRolexWatches = [
   },
   {
     id: 27,
+    
+    reviews: 12,
     name: 'GMT-Master II Batman Oyster',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-blackbluebezel-oyster/gmtmaster-blackbluebezel-oyster',
@@ -382,6 +424,8 @@ const allRolexWatches = [
   },
   {
     id: 28,
+    
+    reviews: 14,
     name: 'GMT-Master II Black Grey Oyster',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-blackgrey-silveroyster/gmtmaster-blackgrey-silveroyster.jpg',
@@ -396,6 +440,8 @@ const allRolexWatches = [
   },
   {
     id: 29,
+    
+    reviews: 19,
     name: 'GMT-Master II Pepsi Oyster',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-blueredbezel-oyster/gmtmaster-blueredbezel-oyster.png',
@@ -410,6 +456,8 @@ const allRolexWatches = [
   },
   {
     id: 30,
+    
+    reviews: 15,
     name: 'GMT-Master II Green Black Jubilee',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-greenblackdial-jubilee/gmtmaster-greenblackdial-jubilee.webp',
@@ -425,6 +473,8 @@ const allRolexWatches = [
   },
   {
     id: 31,
+    
+    reviews: 19,
     name: 'GMT-Master II Green Black Oyster',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-greenblackdial-oyster/gmtmaster-greenblackdial-oyster.webp',
@@ -440,6 +490,8 @@ const allRolexWatches = [
   },
   {
     id: 32,
+    
+    reviews: 16,
     name: 'GMT-Master II Grey Black Jubilee',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-greyblackbezel-silverjubilee/gmtmaster-greyblackbezel-silverjubilee.png',
@@ -455,6 +507,8 @@ const allRolexWatches = [
   },
   {
     id: 33,
+    
+    reviews: 17,
     name: 'GMT-Master II Pepsi Jubilee',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-pepsi-jubilee/gmtmaster-pepsi-jubilee.png',
@@ -470,6 +524,8 @@ const allRolexWatches = [
   },
   {
     id: 34,
+    
+    reviews: 18,
     name: 'GMT-Master II Root Beer Two-Tone Oyster',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-rootbeer-2tonerosesilver-oyster/gmtmaster-rootbeer-2tonerosesilver-oyster.png',
@@ -484,6 +540,8 @@ const allRolexWatches = [
   },
   {
     id: 35,
+    
+    reviews: 18,
     name: 'GMT-Master II Root Beer Rose Gold',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-rootbeer-roseoyster/gmtmaster-rootbeer-roseoyster.jpg',
@@ -499,6 +557,8 @@ const allRolexWatches = [
   },
   {
     id: 36,
+    
+    reviews: 29,
     name: 'GMT-Master II Zombie Two-Tone Jubilee',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-2tonesilvergold-jubilee/gmtmaster-zombie-2tonesilvergold-jubilee.png',
@@ -514,6 +574,8 @@ const allRolexWatches = [
   },
   {
     id: 37,
+    
+    reviews: 28,
     name: 'GMT-Master II Zombie Gold Jubilee',
     price: 145,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-goldjubilee/gmtmaster-zombie-goldjubilee.webp',
@@ -530,6 +592,8 @@ const allRolexWatches = [
   // Daytona Collection
   {
     id: 38,
+    
+    reviews: 12,
     name: 'Daytona Panda Dial',
     price: 159,
     image: 'https://www.watchfinder.co.uk/images/high-res/Rolex/Cosmograph%20Daytona/116500LN/169785/2.jpg',
@@ -539,7 +603,8 @@ const allRolexWatches = [
     isNew: true,
   },
   {
-    id: 39,
+    id: 39, 
+    reviews: 22,
     name: 'Daytona Black Dial',
     price: 159,
     image: 'https://www.watchfinder.co.uk/images/high-res/Rolex/Cosmograph%20Daytona/116500LN/169792/2.jpg',
@@ -550,6 +615,8 @@ const allRolexWatches = [
   },
   {
     id: 40,
+    
+    reviews: 25,
     name: 'Daytona Gold',
     price: 159,
     image: 'https://www.watchfinder.co.uk/images/high-res/Rolex/Cosmograph%20Daytona/116508/169799/2.jpg',
@@ -560,6 +627,8 @@ const allRolexWatches = [
   },
   {
     id: 41,
+    
+    reviews: 28,
     name: 'Daytona Meteorite Dial',
     price: 159,
     image: 'https://www.watchfinder.co.uk/images/high-res/Rolex/Cosmograph%20Daytona/116519LN/169806/2.jpg',
@@ -571,6 +640,8 @@ const allRolexWatches = [
   // Explorer Collection
   {
     id: 42,
+    
+    reviews: 25,
     name: 'Explorer II Black Dial',
     price: 135,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Explorer%20II/explorer-blackdial-silveroyster/explorer-blackdial-silveroyster.jpg',
@@ -584,6 +655,8 @@ const allRolexWatches = [
   },
   {
     id: 43,
+    
+    reviews: 29,
     name: 'Explorer II White Dial',
     price: 135,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Explorer%20II/explorer-whitedial-oyster/explorer-whitedial-oyster.png',
@@ -597,6 +670,8 @@ const allRolexWatches = [
   },
   {
     id: 44,
+    
+    reviews: 16,
     name: 'Explorer 36mm',
     price: 135,
     image: 'https://www.watchfinder.co.uk/images/high-res/Rolex/Explorer/124270/169806/2.jpg',
@@ -607,6 +682,8 @@ const allRolexWatches = [
   },
   {
     id: 45,
+    
+    reviews: 16,
     name: 'Explorer II Polar',
     price: 135,
     image: 'https://www.watchfinder.co.uk/images/high-res/Rolex/Explorer%20II/16570/169813/2.jpg',
@@ -618,6 +695,8 @@ const allRolexWatches = [
   // Yacht-Master Collection
   {
     id: 46,
+    
+    reviews: 12,
     name: 'Yacht-Master 40 Rhodium',
     price: 142,
     image: 'https://www.watchfinder.co.uk/images/high-res/Rolex/Yacht-Master%2040/126622/169806/2.jpg',
@@ -628,6 +707,8 @@ const allRolexWatches = [
   },
   {
     id: 47,
+    
+    reviews: 17,
     name: 'Yacht-Master 42 Black',
     price: 142,
     image: 'https://www.watchfinder.co.uk/images/high-res/Rolex/Yacht-Master%2042/226659/169813/2.jpg',
@@ -638,6 +719,8 @@ const allRolexWatches = [
   },
   {
     id: 48,
+    
+    reviews: 28,
     name: 'Yacht-Master 37 Everose',
     price: 142,
     image: 'https://www.watchfinder.co.uk/images/high-res/Rolex/Yacht-Master%2037/268655/169820/2.jpg',
@@ -648,6 +731,8 @@ const allRolexWatches = [
   },
   {
     id: 49,
+    
+    reviews: 29,
     name: 'Yacht-Master 40 Two-Tone',
     price: 142,
     image: 'https://www.watchfinder.co.uk/images/high-res/Rolex/Yacht-Master%2040/126621/169827/2.jpg',

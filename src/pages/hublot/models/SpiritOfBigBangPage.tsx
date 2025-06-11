@@ -10,6 +10,7 @@ import { useCart } from '../../../context/CartContext';
 const spiritOfBigBangWatches = [
   {
     id: 1,
+    reviews: 22,
     name: 'Spirit of Big Bang Black Bezel Gold',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-blackbezel-goldbody-rubber/hublot-spiritofbigbang-blackbezel-goldbody-rubber.jpg',
@@ -25,6 +26,7 @@ const spiritOfBigBangWatches = [
   },
   {
     id: 2,
+    reviews: 17,
     name: 'Spirit of Big Bang Gold',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-gold/hublot-spiritofbigbang-gold.png',
@@ -42,6 +44,7 @@ const spiritOfBigBangWatches = [
   },
   {
     id: 3,
+    reviews: 19,
     name: 'Spirit of Big Bang Titanium Blue',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-titanium-bluerubber/hublot-spiritofbigbang-titanium-bluerubber.png',
@@ -55,6 +58,7 @@ const spiritOfBigBangWatches = [
   },
   {
     id: 4,
+    reviews: 22,
     name: 'Spirit of Big Bang Titanium',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-titanium-rubber/hublot-spiritofbigbang-titanium-rubber.png',
@@ -69,6 +73,7 @@ const spiritOfBigBangWatches = [
   },
   {
     id: 5,
+    reviews: 27,
     name: 'Spirit of Big Bang Tourbillon Carbon',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-tourbillon-carbon/hublot-spiritofbigbang-tourbillon-carbon.png',
@@ -83,6 +88,7 @@ const spiritOfBigBangWatches = [
   },
   {
     id: 6,
+    reviews: 22,
     name: 'Spirit of Big Bang White',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Spirit%20of%20Big%20Bang/hublot-spiritofbigbang-white/hublot-spiritofbigbang-white.png',

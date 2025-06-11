@@ -10,6 +10,7 @@ import { useCart } from '../../../context/CartContext';
 const skyDwellerWatches = [
   {
     id: 1,
+    reviews: 18,
     name: 'Sky-Dweller Black Dial Two-Tone Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-blackdial-goldfluted-2tonesilvergoldjubilee/skydweller-blackdial-goldfluted-2tonesilvergoldjubilee.png',
@@ -23,6 +24,7 @@ const skyDwellerWatches = [
   },
   {
     id: 2,
+    reviews: 16,
     name: 'Sky-Dweller Blue Dial Rose Gold Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-bluedial-rosefluted-rosejubilee/skydweller-bluedial-rosefluted-rosejubilee.png',
@@ -37,6 +39,7 @@ const skyDwellerWatches = [
   },
   {
     id: 3,
+    reviews: 12,
     name: 'Sky-Dweller Blue Dial Rose Gold Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-bluedial-rosefluted-roseoyster/skydweller-bluedial-rosefluted-roseoyster.png',
@@ -50,6 +53,7 @@ const skyDwellerWatches = [
   },
   {
     id: 4,
+    reviews: 12,
     name: 'Sky-Dweller Blue Dial Silver Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-bluedial-silverfluted-silveroyster/skydweller-bluedial-silverfluted-silveroyster.png',
@@ -63,6 +67,7 @@ const skyDwellerWatches = [
   },
   {
     id: 5,
+    reviews: 17,
     name: 'Sky-Dweller Chocolate Dial Rose Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-chocdial-rosefluted-rosebody-rubber/skydweller-chocdial-rosefluted-rosebody-rubber.png',
@@ -76,6 +81,7 @@ const skyDwellerWatches = [
   },
   {
     id: 6,
+    reviews: 18,
     name: 'Sky-Dweller Gold Dial Two-Tone Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-golddial-goldfluted-2tonesilvergoldjubilee/skydweller-golddial-goldfluted-2tonesilvergoldjubilee.png',
@@ -89,6 +95,7 @@ const skyDwellerWatches = [
   },
   {
     id: 7,
+    reviews: 18,
     name: 'Sky-Dweller Gold Dial Gold Rubber',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-golddial-goldfluted-goldbody-rubber/skydweller-golddial-goldfluted-goldbody-rubber',
@@ -102,6 +109,7 @@ const skyDwellerWatches = [
   },
   {
     id: 8,
+    reviews: 19,
     name: 'Sky-Dweller Grey Dial Silver Rubber',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-greydial-silverfluted-silverbody-rubber/skydweller-greydial-silverfluted-silverbody-rubber.png',
@@ -116,6 +124,7 @@ const skyDwellerWatches = [
   },
   {
     id: 9,
+    reviews: 14,
     name: 'Sky-Dweller White Dial Gold Rubber',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-whitedial-goldfluted-goldbody-rubber/skydweller-whitedial-goldfluted-goldbody-rubber',

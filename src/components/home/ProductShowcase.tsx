@@ -6,6 +6,7 @@ import { useCart } from '../../context/CartContext';
 const watches = [
   {
     id: 1,
+    reviews: 24,
     name: 'Day-Date 40 Rose Gold Brown Roman Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-roman-rosegold-fluted-40/daydate-browndial-roman-rosegold-fluted-40.png',
@@ -26,6 +27,7 @@ const watches = [
   },
   {
     id: 2,
+    reviews: 16,
     name: 'Datejust 41mm Diamond Dial with Fluted Bezel',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-greydial-diamond-silverjubilee-41/datejust-greydial-diamond-silverjubilee-41.jpg',
@@ -46,6 +48,7 @@ const watches = [
   },
   {
     id: 3,
+    reviews: 15,
     name: 'Nautilus Tiffany Blue Dial Silver',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-tiffanydial-silver/patek-nautilus-tiffanydial-silver.png',
@@ -66,6 +69,7 @@ const watches = [
   },
   {
     id: 4,
+    reviews: 11,
     name: 'Royal Oak Perpetual Calendar - Black Ceramic',
     price: 549,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-perpetual-black/ap-perpetual-black.png',

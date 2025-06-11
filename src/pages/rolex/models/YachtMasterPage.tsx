@@ -10,6 +10,7 @@ import { useCart } from '../../../context/CartContext';
 const yachtMasterWatches = [
   {
     id: 1,
+    reviews: 12,
     name: 'Yacht-Master 42 Black Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-blackbezel-goldbody-rubber-42/yachtmaster-blackdial-blackbezel-goldbody-rubber-42.jpg',
@@ -23,6 +24,7 @@ const yachtMasterWatches = [
   },
   {
     id: 2,
+    reviews: 17,
     name: 'Yacht-Master 40 Black Rose Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-blackbezel-rosebody-rubber-40/yachtmaster-blackdial-blackbezel-rosebody-rubber-40.jpg',
@@ -36,6 +38,7 @@ const yachtMasterWatches = [
   },
   {
     id: 3,
+    reviews: 28,
     name: 'Yacht-Master 42 Black Silver',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-blackbezel-silverbody-rubber/yachtmaster-blackdial-blackbezel-silverbody-rubber',
@@ -49,6 +52,7 @@ const yachtMasterWatches = [
   },
   {
     id: 4,
+    reviews: 29,
     name: 'Yacht-Master 42 Black Silver Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-blackbezel-silveroyster42/yachtmaster-blackdial-blackbezel-silveroyster42.png',
@@ -62,6 +66,7 @@ const yachtMasterWatches = [
   },
   {
     id: 5,
+    reviews: 12,
     name: 'Yacht-Master 40 Black Two-Tone Rose',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-rosebezel-2tonesilverrose-oyster-40/yachtmaster-blackdial-rosebezel-2tonesilverrose-oyster-40.png',
@@ -75,6 +80,7 @@ const yachtMasterWatches = [
   },
   {
     id: 6,
+    reviews: 16,
     name: 'Yacht-Master 40 Blue Silver',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-bluedial-silverbezel-silveroyster-40/yachtmaster-bluedial-silverbezel-silveroyster-40.png',
@@ -88,6 +94,7 @@ const yachtMasterWatches = [
   },
   {
     id: 7,
+    reviews: 24,
     name: 'Yacht-Master 40 Chocolate Two-Tone Rose',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-chocdial-rosebezel-2tonesilverrose-oyster-40/yachtmaster-chocdial-rosebezel-2tonesilverrose-oyster-40.png',
@@ -101,6 +108,7 @@ const yachtMasterWatches = [
   },
   {
     id: 8,
+    reviews: 19,
     name: 'Yacht-Master 40 Pavé Diamond',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-pave-40/yachtmaster-pave-40.png',
@@ -114,6 +122,7 @@ const yachtMasterWatches = [
   },
   {
     id: 9,
+    reviews: 25,
     name: 'Yacht-Master 40 Silver',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-silverdial-silverbezel-silveroyster40/yachtmaster-silverdial-silverbezel-silveroyster40.jpg',

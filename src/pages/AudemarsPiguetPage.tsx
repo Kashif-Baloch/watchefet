@@ -10,6 +10,7 @@ import { useCart } from '../context/CartContext';
 const apWatches = [
   {
     id: 1,
+    reviews: 12,
     name: 'Royal Oak Black Dial Silver',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-blackchronodial-plainsilver/ap-blackchronodial-plainsilver.png',
@@ -29,13 +30,14 @@ const apWatches = [
   },
   {
     id: 2,
+    reviews: 16,
     name: 'Royal Oak Blue Dial Black',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-bluedial-plainblack/ap-bluedial-plainblack.png',
     category: 'Audemars Piguet',
     imagesList: [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-bluedial-plainblack/side.jpg",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-bluedial-plainblack/clasp.jpg"
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-bluedial-plainblack/clasp"
     ],
     description: `The Audemars Piguet Royal Oak Blue Dial Black radiates vibrant sophistication with a bold edge. Encased in a 41mm stainless steel case, the stunning blue "Grande Tapisserie" dial contrasts with a black bezel, creating a dynamic and luxurious aesthetic. The stainless steel bracelet offers seamless comfort and durability, making this timepiece a perfect companion for those who value style and precision.`,
     isNew: false,
@@ -48,6 +50,7 @@ const apWatches = [
   },
   {
     id: 3,
+    reviews: 20,
     name: 'Royal Oak Flying Tourbillon Grey Dial Rose Gold',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-flyingtourbillon-greydial-rose/ap-flyingtourbillon-greydial-rose.png',
@@ -66,6 +69,7 @@ const apWatches = [
   },
   {
     id: 4,
+    reviews: 29,
     name: 'Royal Oak Gold Dial Chronograph',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-golddial-goldchrono/ap-golddial-goldchrono',
@@ -85,6 +89,7 @@ const apWatches = [
   },
   {
     id: 5,
+    reviews: 15,
     name: 'Royal Oak Green Dial Silver',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-greendial-plainsilver/ap-greendial-plainsilver.png',
@@ -104,6 +109,7 @@ const apWatches = [
   },
   {
     id: 6,
+    reviews: 12,
     name: 'Royal Oak Ice Blue Dial Silver',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-icebluedial-plainsilver/ap-icebluedial-plainsilver.png',
@@ -123,6 +129,7 @@ const apWatches = [
   },
   {
     id: 7,
+    reviews: 18,
     name: 'Royal Oak Offshore Grey Dial Black Bezel Rose Gold',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-offshore-greydial-blackbezel-rosebody-rubber/ap-offshore-greydial-blackbezel-rosebody-rubber.png',
@@ -143,6 +150,7 @@ const apWatches = [
   },
   {
     id: 8,
+    reviews: 14,
     name: 'Royal Oak Black Dial Silver',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-plainsilver-blackdial/ap-plainsilver-blackdial.png',
@@ -162,6 +170,7 @@ const apWatches = [
   },
   {
     id: 9,
+    reviews: 28,
     name: 'Royal Oak White Dial Silver',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-plainsilver-whitedial/ap-plainsilver-whitedial.png',
@@ -181,6 +190,7 @@ const apWatches = [
   },
   {
     id: 10,
+    reviews: 22,
     name: 'Royal Oak Skeleton Rose Gold',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-skeleton-rose/ap-skeleton-rose.png',
@@ -201,6 +211,7 @@ const apWatches = [
   },
   {
     id: 11,
+    reviews: 26,
     name: 'Royal Oak Skeleton Silver',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-skeleton-silver/ap-skeleton-silver.png',
@@ -220,6 +231,7 @@ const apWatches = [
   },
   {
     id: 12,
+    reviews: 28,
     name: 'Royal Oak White Chronograph Silver',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-whitechrono-plainsilver/ap-whitechrono-plainsilver.png',
@@ -239,6 +251,7 @@ const apWatches = [
   },
   {
     id: 13,
+    reviews: 27,
     name: 'Royal Oak Offshore Diver White Dial',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/audemars-piguet-offshore-diver-whitedial-42/audemars-piguet-offshore-diver-whitedial-42.webp',
@@ -258,6 +271,7 @@ const apWatches = [
   },
   {
     id: 14,
+    reviews: 11,
     name: 'Royal Oak Perpetual Calendar Black Ceramic',
     price: 549,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-perpetual-black/ap-perpetual-black.png',

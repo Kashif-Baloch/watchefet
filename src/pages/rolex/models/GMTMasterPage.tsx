@@ -10,6 +10,7 @@ import { useCart } from '../../../context/CartContext';
 const gmtMasterWatches = [
   {
     id: 1,
+    reviews: 18,
     name: 'GMT-Master II Black Two-Tone Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-black-2tonesilvergold-oyster/gmtmaster-black-2tonesilvergold-oyster.png',
@@ -23,6 +24,7 @@ const gmtMasterWatches = [
   },
   {
     id: 2,
+    reviews: 12,
     name: 'GMT-Master II Batman Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-blackbluebezel-jubilee/gmtmaster-blackbluebezel-jubilee.png',
@@ -36,6 +38,7 @@ const gmtMasterWatches = [
   },
   {
     id: 3,
+    reviews: 12,
     name: 'GMT-Master II Batman Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-blackbluebezel-oyster/gmtmaster-blackbluebezel-oyster',
@@ -49,6 +52,7 @@ const gmtMasterWatches = [
   },
   {
     id: 4,
+    reviews: 14,
     name: 'GMT-Master II Black Grey Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-blackgrey-silveroyster/gmtmaster-blackgrey-silveroyster.jpg',
@@ -63,6 +67,7 @@ const gmtMasterWatches = [
   },
   {
     id: 5,
+    reviews: 19,
     name: 'GMT-Master II Pepsi Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-blueredbezel-oyster/gmtmaster-blueredbezel-oyster.png',
@@ -77,6 +82,7 @@ const gmtMasterWatches = [
   },
   {
     id: 6,
+    reviews: 15,
     name: 'GMT-Master II Green Black Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-greenblackdial-jubilee/gmtmaster-greenblackdial-jubilee.webp',
@@ -92,6 +98,7 @@ const gmtMasterWatches = [
   },
   {
     id: 7,
+    reviews: 19,
     name: 'GMT-Master II Green Black Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-greenblackdial-oyster/gmtmaster-greenblackdial-oyster.webp',
@@ -107,6 +114,7 @@ const gmtMasterWatches = [
   },
   {
     id: 8,
+    reviews: 16,
     name: 'GMT-Master II Grey Black Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-greyblackbezel-silverjubilee/gmtmaster-greyblackbezel-silverjubilee.png',
@@ -122,6 +130,7 @@ const gmtMasterWatches = [
   },
   {
     id: 9,
+    reviews: 17,
     name: 'GMT-Master II Pepsi Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-pepsi-jubilee/gmtmaster-pepsi-jubilee.png',
@@ -137,6 +146,7 @@ const gmtMasterWatches = [
   },
   {
     id: 10,
+    reviews: 18,
     name: 'GMT-Master II Root Beer Two-Tone Oyster',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-rootbeer-2tonerosesilver-oyster/gmtmaster-rootbeer-2tonerosesilver-oyster.png',
@@ -151,6 +161,7 @@ const gmtMasterWatches = [
   },
   {
     id: 11,
+    reviews: 18,
     name: 'GMT-Master II Root Beer Rose Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-rootbeer-roseoyster/gmtmaster-rootbeer-roseoyster.jpg',
@@ -166,6 +177,7 @@ const gmtMasterWatches = [
   },
   {
     id: 12,
+    reviews: 29,
     name: 'GMT-Master II Zombie Two-Tone Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-2tonesilvergold-jubilee/gmtmaster-zombie-2tonesilvergold-jubilee.png',
@@ -181,6 +193,7 @@ const gmtMasterWatches = [
   },
   {
     id: 13,
+    reviews: 28,
     name: 'GMT-Master II Zombie Gold Jubilee',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-goldjubilee/gmtmaster-zombie-goldjubilee.webp',

@@ -10,6 +10,7 @@ import { useCart } from '../../../context/CartContext';
 const explorerWatches = [
   {
     id: 1,
+    reviews: 25,
     name: 'Explorer II Black Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Explorer%20II/explorer-blackdial-silveroyster/explorer-blackdial-silveroyster.jpg',
@@ -23,6 +24,7 @@ const explorerWatches = [
   },
   {
     id: 2,
+    reviews: 29,
     name: 'Explorer II White Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Explorer%20II/explorer-whitedial-oyster/explorer-whitedial-oyster.png',

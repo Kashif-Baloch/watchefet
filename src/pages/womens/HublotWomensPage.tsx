@@ -10,6 +10,7 @@ import { useCart } from '../../context/CartContext';
 const womensHublotWatches = [
   {
     id: 1,
+    reviews: 29,
     name: 'Classic Fusion Black Dial Diamond Bezel',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-blackdial-diamondbezel-blackleather/hublot-classicfusion-blackdial-diamondbezel-blackleather.png',
@@ -23,6 +24,7 @@ const womensHublotWatches = [
   },
   {
     id: 2,
+    reviews: 28,
     name: 'Classic Fusion Green Dial Diamond Bezel',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-greendial-diamondbezel-greenleather/hublot-classicfusion-greendial-diamondbezel-greenleather.png',
@@ -37,6 +39,7 @@ const womensHublotWatches = [
   },
   {
     id: 3,
+    reviews: 23,
     name: 'Classic Fusion Iced Out Gold',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-icedoutgold-blackleather/hublot-classicfusion-icedoutgold-blackleather.png',
@@ -50,6 +53,7 @@ const womensHublotWatches = [
   },
   {
     id: 4,
+    reviews: 22,
     name: 'Classic Fusion Iced Out Silver',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-icedoutsilver-blackleather/hublot-classicfusion-icedoutsilver-blackleather.png',
@@ -63,6 +67,7 @@ const womensHublotWatches = [
   },
   {
     id: 5,
+    reviews: 19,
     name: 'Classic Fusion Pink Dial Diamond Bezel',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-pinkdial-diamondbezel-pinkleather/hublot-classicfusion-pinkdial-diamondbezel-pinkleather.jpg',
@@ -76,6 +81,7 @@ const womensHublotWatches = [
   },
   {
     id: 6,
+    reviews: 12,
     name: 'Classic Fusion White Dial Diamond Bezel Black Leather',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-whitedial-diamondbezel-blackleather/hublot-classicfusion-whitedial-diamondbezel-blackleather.png',
@@ -89,6 +95,7 @@ const womensHublotWatches = [
   },
   {
     id: 7,
+    reviews: 12,
     name: 'Classic Fusion White Dial Diamond Bezel White Leather',
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-whitedial-diamondbezel-whiteleather/hublot-classicfusion-whitedial-diamondbezel-whiteleather.png',

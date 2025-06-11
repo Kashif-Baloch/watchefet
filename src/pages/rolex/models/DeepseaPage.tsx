@@ -10,6 +10,7 @@ import { useCart } from '../../../context/CartContext';
 const deepseaWatches = [
   {
     id: 1,
+    reviews: 19,
     name: 'Deepsea Blue Dial Gold',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/SeaDweller%20Deepsea/deepsea-bluedial-bluebezel-goldoyster/deepsea-bluedial-bluebezel-goldoyster.png',
@@ -23,6 +24,7 @@ const deepseaWatches = [
   },
   {
     id: 2,
+    reviews: 16,
     name: 'Deepsea Lime Black Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/SeaDweller%20Deepsea/deepsea-limeblackdial-silveroyster/deepsea-limeblackdial-silveroyster.webp',
@@ -36,6 +38,7 @@ const deepseaWatches = [
   },
   {
     id: 3,
+    reviews: 22,
     name: 'Sea-Dweller Black Dial Two-Tone',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/SeaDweller%20Deepsea/seadweller-blackdial-2tonesilvergold-oyster/seadweller-blackdial-2tonesilvergold-oyster.png',
@@ -49,6 +52,7 @@ const deepseaWatches = [
   },
   {
     id: 4,
+    reviews: 28,
     name: 'Sea-Dweller Black Dial',
     price: 179,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/SeaDweller%20Deepsea/seadweller-blackdial-silveroyster/seadweller-blackdial-silveroyster.jpg',

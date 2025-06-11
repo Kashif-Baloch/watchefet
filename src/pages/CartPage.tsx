@@ -139,11 +139,11 @@ const CartPage: React.FC = () => {
                   <div className="space-y-6 mb-8">
                     {items.map((item: any) => (
                       <div
-                        key={`${item.id}-${item.quality}`}
+                        key={`${item._id}-${item.quality}`}
                         className="bg-zinc-900/50 p-6 rounded-lg border border-zinc-800 flex items-center gap-6"
                       >
                         <Link
-                          to={item.quality == "Premium" ? "/cart" : `/cartproduct/${item.id}`}
+                          to={item.quality == "Premium" ? "/cart" : `/cartproduct/${item.id}/1`}
                           className="w-24 h-24 flex-shrink-0"
                         >
                           <img
@@ -154,7 +154,7 @@ const CartPage: React.FC = () => {
                         </Link>
 
                         <div className="flex-grow">
-                          <Link to={item.quality == "Premium" ? "/cart" : `/cartproduct/${item.id}`}
+                          <Link to={item.quality == "Premium" ? "/cart" : `/product/${item._id}/1`}
                             className="hover:text-gold-500 transition-colors"
                           >
                             <h3 className="text-lg font-medium text-white mb-1">
