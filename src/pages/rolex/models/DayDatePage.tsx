@@ -72,7 +72,7 @@ const dayDateWatches = [
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-champagne-gold-fluted/daydate-whitedial-champagne-gold-fluted',
     category: 'Rolex',
     imagesList: [
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-champagne-gold-fluted/close%20up.png",
+      // "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-champagne-gold-fluted/close%20up.png",
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-champagne-gold-fluted/clasp.webp"
     ],
     description: "The Rolex Day-Date 40 in 18k yellow gold with a crisp white dial epitomizes understated luxury and precision. The 40mm case is complemented by a fluted bezel, adding a touch of classic Rolex distinction. Paired with the iconic President bracelet, this watch offers exceptional comfort and elegance, with the radiant white dial providing a clean, sophisticated backdrop for the day and date display, a hallmark of influential style.",

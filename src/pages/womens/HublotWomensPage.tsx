@@ -87,8 +87,8 @@ const womensHublotWatches = [
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-whitedial-diamondbezel-blackleather/hublot-classicfusion-whitedial-diamondbezel-blackleather.png',
     category: 'Hublot',
     imagesList :[
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-pinkdial-diamondbezel-pinkleather/close%20up.jpg",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-pinkdial-diamondbezel-pinkleather/clasp.jpg",
+      // "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-pinkdial-diamondbezel-pinkleather/close%20up.jpg",
+      // "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-pinkdial-diamondbezel-pinkleather/clasp.jpg",
     ],
     description :"The Hublot Classic Fusion Pink Dial Diamond Bezel exudes playful elegance and luxurious charm. Housed in a 42mm titanium case, the soft pink sunray dial is complemented by a sparkling diamond-set bezel, creating a vibrant yet sophisticated aesthetic. The black rubber strap offers modern comfort, making this timepiece ideal for those who value bold femininity and style.",
     isNew: true,

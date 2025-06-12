@@ -60,7 +60,7 @@ const skyDwellerWatches = [
     category: 'Rolex',
     imagesList:[
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-bluedial-silverfluted-silveroyster/side.webp",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-bluedial-silverfluted-silveroyster/clasp.webp",
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-bluedial-silverfluted-silveroyster/clasp.jpg",
     ],
     description :"The Rolex Sky-Dweller Blue Dial Silver Oyster blends modern elegance with technical innovation. Encased in a 42mm Oystersteel case, the vibrant blue dial displays an annual calendar and dual time zone, complemented by a fluted bezel. The Oyster bracelet offers robust comfort, making this timepiece a versatile choice for global explorers.",
     isNew: false,

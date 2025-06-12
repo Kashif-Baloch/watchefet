@@ -231,7 +231,7 @@ const womensPatekWatches = [
     imagesList: [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-whitedial-silver/angle.png",
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-whitedial-silver/open%20clasp.jpg",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-whitedial-silver/clasp",
+      // "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-whitedial-silver/clasp",
     ],
     description: `The Patek Philippe Nautilus White Dial is a timeless icon of sporty elegance and versatility. Housed in a 40mm stainless steel case, the clean white dial with its horizontal embossed pattern is complemented by a sleek octagonal bezel, creating a refined aesthetic. The stainless steel bracelet offers seamless comfort, making this watch a perfect choice for modern sophistication.`,
     isNew: false,

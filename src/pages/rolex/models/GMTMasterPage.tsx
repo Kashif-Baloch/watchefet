@@ -199,9 +199,9 @@ const gmtMasterWatches = [
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-goldjubilee/gmtmaster-zombie-goldjubilee.webp',
     category: 'Rolex',
     imagesList : [
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-goldjubilee/side.webp",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-goldjubilee/clasp.webp",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-goldjubilee/back.webp"
+      // "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-goldjubilee/side.webp",
+      // "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-goldjubilee/clasp.webp",
+      // "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-zombie-goldjubilee/back.webp"
 
     ],
     description: 'The Rolex GMT-Master II Zombie Gold Jubilee exudes prestige and bold design. Encased in a 40mm 18k yellow gold case, the black dial is complemented by a striking green and black Cerachrom bezel, known as the "Zombie" configuration. The Jubilee bracelet in gold ensures luxurious comfort, making this watch a perfect choice for those who command attention across time zones.',

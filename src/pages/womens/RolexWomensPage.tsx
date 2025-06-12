@@ -62,7 +62,7 @@ const womensRolexWatches = [
     category: 'Rolex',
     imagesList :[
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/datejust-whitesmoothdial-diamond-2tonerosesilver/side.webp",
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/datejust-whitesmoothdial-diamond-2tonerosesilver/clasp.webp"         
+      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/datejust-whitesmoothdial-diamond-2tonerosesilver/clasp"         
     ],
     description :`The Rolex Lady-Datejust White Smooth Dial Diamond Two-Tone Rose is a harmonious blend of purity and opulence. Encased in a 28mm case of Oystersteel and 18k rose gold, the crisp white dial, adorned with diamond hour markers, is paired with a smooth bezel for a sleek aesthetic. The Jubilee bracelet offers refined comfort, making this watch a sophisticated choice for feminine elegance.
 `,
@@ -134,10 +134,9 @@ const womensRolexWatches = [
     reviews: 19,
     name: 'Lady-Datejust Grey Roman Dial Fluted Two-Tone',
     price: 299,
-    image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-greyromandial-fluted-2tonegoldsilverjubilee/rolex-datejust-greyromandial-fluted-2tonegoldsilverjubilee.jpg',
+    image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-greyromandial-fluted-2tonegoldsilverjubilee/angle',
     category: 'Rolex',
     imagesList :[
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-greyromandial-fluted-2tonegoldsilverjubilee/angle",
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-greyromandial-fluted-2tonegoldsilverjubilee/clasp",
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-greyromandial-fluted-2tonegoldsilverjubilee/back"
     ],

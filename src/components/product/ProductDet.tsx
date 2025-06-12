@@ -14,10 +14,8 @@ interface QualityOption {
 
 
 const ProductDet: React.FC = () => {
-    const { id, reviews } = useParams()
+    const { id } = useParams()
     const { products } = useCart()
-
-    // console.log(reviews);
 
     const [productList, _setProductList] = useState(JSON.parse(localStorage.getItem('productList') as any));
 
@@ -32,9 +30,7 @@ const ProductDet: React.FC = () => {
     const [includeBox, setIncludeBox] = useState(true);
     const [includePremiumBox, setIncludePremiumBox] = useState(false);
     const { addItem } = useCart();
-    // console.log(selectedQuality);
-
-
+    
     const pricing = () => {
         if (!product?.cate) {
             if (products.category === 'w-rolex') {
@@ -150,6 +146,7 @@ const ProductDet: React.FC = () => {
             });
         }
     };
+
     useEffect(() => {
 
         console.log(JSON.parse(localStorage.getItem('productList') as any));
@@ -158,9 +155,6 @@ const ProductDet: React.FC = () => {
     }, []);
 
     const productImages = [product?.image, ...product?.imagesList];
-// console.log(productImages);
-    // console.log(product.category, products.category);
-
 
     const backurl = () => {
         if (product?.category == 'Audemars Piguet' && products?.category == 'w-ap') {
@@ -251,7 +245,57 @@ const ProductDet: React.FC = () => {
         }
     }
 
-// console.log(showurl);
+    const getname = () =>{
+        if (products?.category == 'datejust') {
+            return 'Datejust'
+        }
+        else if (products?.category == 'submariner') {
+            return 'Submariner'
+        }
+        else if (products?.category == 'daytona') {
+            return 'Daytona'
+        }
+        else if (products?.category == 'daydate') {
+            return 'Day-Date'
+        }
+        else if (products?.category == 'gmtmaster') {
+            return 'GMT-Master II'
+        }
+        else if (products?.category == 'explorer') {
+            return 'Explorer II'
+        }
+        else if (products?.category == 'deepsea') {
+            return 'Sea-Dweller & Deepsea'
+        }
+        else if (products?.category == 'yachtmaster') {
+            return 'Yacht-Master'
+        }
+        else if (products?.category == 'skydweller') {
+            return 'Sky-Dweller'
+        }
+        else if (products?.category == 'apy') {
+            return 'Audemars Piguet'
+        }
+        else if (products?.category == 'nautilus') {
+            return 'Nautilus'
+        }
+        else if (products?.category == 'aquanaut') {
+            return 'Aquanaut'
+        }
+        else if (products?.category == 'bigbang') {
+            return 'Big Bang'
+        }
+        else if (products?.category == 'classicfusion') {
+            return 'Classic Fusion'
+        }
+        else if (products?.category == 'spiritofbigbang') {
+            return 'Spirit Of Big Bang'
+        }
+        else {
+            return products?.category
+        }
+    }
+    // console.log(showurl);
 
 
     return (
@@ -263,11 +307,11 @@ const ProductDet: React.FC = () => {
                         <div className="flex items-center gap-2 text-sm text-gray-400 mb-8">
                             <Link to="/" className="hover:text-gold-500">Home</Link>
                             <ChevronRight className="h-4 w-4" />
-                            <Link to="/collections" className="hover:text-gold-500">{!showurl ? "Women's Collections" : "Collections"}</Link>
+                            <Link to={!showurl ? "/womens-collection" : "/collections"} className="hover:text-gold-500">{!showurl ? "Women's Collections" : "Collections"}</Link>
                             <ChevronRight className="h-4 w-4" />
                             <Link to={backurl()} className="hover:text-gold-500">{product.category}</Link>
                             <ChevronRight className="h-4 w-4" />
-                            {showurl && products?.category !== "apy" && <Link to={backbaseurl()} className="hover:text-gold-500 capitalize">{products?.category}</Link>}
+                            {showurl && products?.category !== "apy" && <Link to={backbaseurl()} className="hover:text-gold-500 capitalize">{getname()}</Link>}
                             {showurl && products?.category !== "apy" && <ChevronRight className="h-4 w-4" />}
                             <span className="text-gold-500">{product?.name}</span>
                         </div>
