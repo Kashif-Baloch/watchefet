@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
               </li> */}
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-gold-500 mr-3" />
-                <span className="text-gray-400 text-sm">info@timelesschrono.com</span>
+                <span className="text-gray-400 text-sm">contact@timelesschrono.co.uk</span>
               </li>
             </ul>
           </div>

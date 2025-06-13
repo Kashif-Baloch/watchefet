@@ -16,7 +16,7 @@ const omegaWatches = [
     category: 'Omega',
     imagesList : [],
     description: "",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const omegaWatches = [
     category: 'Omega',
     imagesList : [],
     description: "",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ const omegaWatches = [
     category: 'Omega',
     imagesList : [],
     description: "",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -76,7 +76,7 @@ const omegaWatches = [
     category: 'Omega',
     imagesList : [],
     description: "",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,

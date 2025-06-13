@@ -19,7 +19,7 @@ const bigBangWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbang-blacksilver/angle.webp",
     ],
     description: `The Hublot Big Bang Black Silver is a bold embodiment of modern luxury and dynamic design. Housed in a 44mm stainless steel case, the striking black dial exudes sophistication, complemented by a polished silver bezel with Hublot’s signature screws. The black rubber strap ensures exceptional comfort and a sporty edge, making this timepiece a standout for those who embrace innovation and style.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ const bigBangWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Big%20Bang/hublot-bigbang-carbon/back.webp"
     ],
     description: `The Hublot Big Bang Carbon is a masterpiece of innovative craftsmanship and rugged elegance. Housed in a 44mm carbon fibre case, the sleek carbon dial harmonizes with a matching bezel, creating a cohesive and modern aesthetic. The black rubber strap ensures comfort and resilience, making this timepiece ideal for those who value cutting-edge style and performance.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -73,7 +73,7 @@ const bigBangWatches = [
     ],
     description: `The Hublot Big Bang Gold radiates opulence and bold sophistication. Encased in a 44mm 18k yellow gold case, the luxurious gold dial is paired with a matching gold bezel, creating a cohesive and extravagant aesthetic. The black rubber strap adds a modern contrast and supreme comfort, making this watch a prestigious choice for those who demand the finest.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -103,7 +103,7 @@ const bigBangWatches = [
     ],
     description: `The Hublot Big Bang Titanium Red Rubber is a vibrant fusion of innovation and bold style. Encased in a 44mm titanium case, the sleek dial is paired with a titanium bezel, offering a lightweight yet striking aesthetic. The red rubber strap adds a pop of colour and modern comfort, making this watch ideal for those who embrace individuality.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,
@@ -130,7 +130,7 @@ const bigBangWatches = [
     ],
     description: `The Hublot Big Bang Unico King Gold Blue Ceramic is a pinnacle of luxury and technical prowess. Housed in a 45mm King Gold case, the vibrant blue dial showcases the Unico chronograph movement, paired with a blue ceramic bezel for a bold contrast. The blue rubber strap ensures stylish comfort, making this timepiece a standout for the modern connoisseur.
 `,
-    isNew: true,
+    isNew: false,
   }
 ];
 

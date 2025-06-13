@@ -22,7 +22,7 @@ const spiritOfBigBangWatches = [
     ],
     description :`The Hublot Spirit of Big Bang Black Bezel Gold is a bold fusion of innovation and luxury. Housed in a 42mm 18k yellow gold tonneau-shaped case, the dynamic dial is paired with a striking black bezel, exuding modern sophistication. The black rubber strap ensures robust comfort, making this timepiece a standout for those who live boldly.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const spiritOfBigBangWatches = [
     ],
     description :`The Hublot Spirit of Big Bang Titanium Blue combines vibrant style with cutting-edge craftsmanship. Housed in a 42mm titanium tonneau-shaped case, the striking blue dial is paired with a titanium bezel, offering a lightweight yet bold aesthetic. The blue rubber strap ensures modern comfort, making this timepiece ideal for those who embrace dynamic design.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -84,7 +84,7 @@ const spiritOfBigBangWatches = [
     ],
     description :`The Hublot Spirit of Big Bang Tourbillon Carbon is a masterpiece of innovation and horological artistry. Housed in a 42mm carbon fibre tonneau-shaped case, the intricate tourbillon movement is showcased on the dial, paired with a matching carbon bezel. The black rubber strap ensures futuristic comfort, making this timepiece a bold statement for collectors.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,

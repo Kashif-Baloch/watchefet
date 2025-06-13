@@ -20,7 +20,7 @@ const womensHublotWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-blackdial-diamondbezel-blackleather/back.jpeg",
     ],  
     description :"The Hublot Classic Fusion Black Dial Diamond Bezel is a striking embodiment of modern luxury and refined elegance. Housed in a 42mm titanium case, the sleek black sunray dial exudes timeless sophistication, complemented by a dazzling diamond-set bezel that adds a touch of opulence. The black leather strap ensures contemporary comfort, making this timepiece a versatile masterpiece for those who value bold style.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const womensHublotWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-icedoutgold-blackleather/back.webp",
     ],
     description :"The Hublot Classic Fusion Iced Out Gold is the pinnacle of opulence and avant-garde craftsmanship. Housed in a 42mm 18k yellow gold case, the fully diamond-encrusted dial and bezel sparkle with unmatched brilliance, exuding extravagant luxury. The black leather strap provides a striking contrast and supreme comfort, making this timepiece a bold statement for those who demand the finest.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -63,7 +63,7 @@ const womensHublotWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-icedoutsilver-blackleather/angle2.jpg",
     ],
     description :"The Hublot Classic Fusion Iced Out Silver is a dazzling fusion of modern elegance and sparkling luxury. Encased in a 42mm titanium case, the diamond-encrusted dial and bezel radiate brilliance, creating a sleek and opulent aesthetic. The black rubber strap ensures contemporary comfort, making this watch a captivating choice for those who embrace refined glamour.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 5,
@@ -91,7 +91,7 @@ const womensHublotWatches = [
       // "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Hublot/hublot-classicfusion-pinkdial-diamondbezel-pinkleather/clasp.jpg",
     ],
     description :"The Hublot Classic Fusion Pink Dial Diamond Bezel exudes playful elegance and luxurious charm. Housed in a 42mm titanium case, the soft pink sunray dial is complemented by a sparkling diamond-set bezel, creating a vibrant yet sophisticated aesthetic. The black rubber strap offers modern comfort, making this timepiece ideal for those who value bold femininity and style.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 7,

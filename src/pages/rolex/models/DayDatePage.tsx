@@ -20,7 +20,7 @@ const dayDateWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-roman-rosegold-fluted-40/clasp.webp",
     ],
     description: "The Rolex Day-Date 40 in 18k rose gold with a brown Roman numeral dial is the epitome of luxury and sophistication. This iconic timepiece features a fluted bezel that enhances its distinctive Rolex profile, while the President bracelet provides exceptional comfort and elegance. The warm tones of the rose gold case and bracelet perfectly complement the rich brown dial, creating a harmonious and luxurious aesthetic. The Day-Date was the first wristwatch to display the date and day of the week spelled out in full in a window on the dial, and continues to be the watch par excellence of influential people.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ const dayDateWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-blackdial-champagne-gold-fluted-40/clasp.webp",
     ],
     description: "The Rolex Day-Date 40 in 18k yellow gold with a black dial is a statement of luxury and prestige. This iconic timepiece features a fluted bezel that enhances its distinctive Rolex profile, while the President bracelet provides exceptional comfort and elegance. The contrast between the rich black dial and the warm yellow gold case creates a bold and sophisticated aesthetic. The Day-Date was the first wristwatch to display the date and day of the week spelled out in full in a window on the dial, and continues to be the watch par excellence of influential people.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -76,7 +76,7 @@ const dayDateWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-champagne-gold-fluted/clasp.webp"
     ],
     description: "The Rolex Day-Date 40 in 18k yellow gold with a crisp white dial epitomizes understated luxury and precision. The 40mm case is complemented by a fluted bezel, adding a touch of classic Rolex distinction. Paired with the iconic President bracelet, this watch offers exceptional comfort and elegance, with the radiant white dial providing a clean, sophisticated backdrop for the day and date display, a hallmark of influential style.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -90,7 +90,7 @@ const dayDateWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-greendial-roman-gold-fluted-40/clasp.webp"
     ],
     description: "The Rolex Day-Date 40 in 18k rose gold with a striking green dial is a bold yet elegant expression of luxury. Housed in a 40mm case, the vibrant green dial captures attention while maintaining refined sophistication. The fluted bezel and President bracelet elevate its iconic design, offering both comfort and prestige. This timepiece blends modern flair with Rolex’s heritage, perfect for those who command attention.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 7,
@@ -104,7 +104,7 @@ const dayDateWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-champagne-rosegold-fluted/clasp.webp"
     ],
     description: "The Rolex Day-Date 40 in 18k rose gold with a rich brown dial is the epitome of warmth and sophistication. The 40mm case, paired with a fluted bezel, enhances its distinguished silhouette, while the President bracelet ensures unmatched comfort and elegance. The deep brown dial harmonizes beautifully with the rose gold tones, creating a luxurious and cohesive aesthetic that embodies timeless prestige.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,
@@ -118,7 +118,7 @@ const dayDateWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-icebluedial-champagne-silver-smooth/back.webp"
     ],
     description: "The Rolex Day-Date 40 with an ice blue dial is a vision of cool elegance and exclusivity. Encased in a 40mm case, the serene ice blue dial offers a distinctive and sophisticated charm, complemented by the iconic fluted bezel. The President bracelet provides exceptional comfort and a refined aesthetic, making this timepiece a perfect blend of innovation and classic Rolex luxury.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 9,
@@ -131,7 +131,7 @@ const dayDateWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-whitedial-roman-gold-fluted-40/clasp.webp",
     ],
     description: "The Rolex Day-Date 40 in 18k yellow gold with a white Roman numeral dial exudes timeless elegance and authority. The 40mm case, accented by a fluted bezel, frames the pristine white dial adorned with classic Roman numerals, evoking a sense of tradition and prestige. Paired with the President bracelet, this watch offers unmatched comfort and sophistication, ideal for those who value heritage and influence.",
-    isNew: true,
+    isNew: false,
   }
 ];
 

@@ -20,7 +20,7 @@ const skyDwellerWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-blackdial-goldfluted-2tonesilvergoldjubilee/back.webp"
     ],
     description :"The Rolex Sky-Dweller Black Dial Two-Tone Gold is a pinnacle of innovation and elegance. Housed in a 42mm case of Oystersteel and 18k yellow gold, the sleek black dial features an annual calendar and dual time zone display, epitomizing sophistication. The Oyster bracelet in two-tone ensures exceptional comfort, making this timepiece ideal for global travellers with refined taste.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const skyDwellerWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-bluedial-rosefluted-roseoyster/clasp.png",
     ],
     description :"The Rolex Sky-Dweller Blue Dial Rose Gold Oyster combines opulence with cutting-edge functionality. Housed in a 42mm 18k rose gold case, the striking blue dial features an annual calendar and dual time zone, enhanced by a fluted bezel. The Oyster bracelet in rose gold ensures durability and comfort, ideal for those who navigate the world in style.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ const skyDwellerWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-chocdial-rosefluted-rosebody-rubber/back.webp",
     ],
     description :"The Rolex Sky-Dweller Chocolate Dial Rose Gold is a harmonious blend of warmth and sophistication. Housed in a 42mm 18k rose gold case, the rich chocolate dial showcases an annual calendar and dual time zone, paired with a fluted bezel. The Oyster bracelet in rose gold ensures luxurious comfort, perfect for those who value prestige and precision.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -105,7 +105,7 @@ const skyDwellerWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-golddial-goldfluted-goldbody-rubber/clasp.jpg",
     ],
     description :"The Rolex Sky-Dweller Gold Dial Gold Rubber is a modern masterpiece of luxury and innovation. Housed in a 42mm 18k yellow gold case, the warm gold dial displays an annual calendar and dual time zone, paired with a fluted bezel. The Oysterflex rubber bracelet provides innovative comfort, making this timepiece a bold choice for the contemporary elite.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,
@@ -134,7 +134,7 @@ const skyDwellerWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Sky-Dweller/skydweller-whitedial-goldfluted-goldbody-rubber/clasp.jpg",
     ],
     description :"The Rolex Sky-Dweller White Dial Gold Rubber exudes crisp elegance and technical sophistication. Housed in a 42mm 18k yellow gold case, the pristine white dial features an annual calendar and dual time zone, paired with a fluted bezel. The Oysterflex rubber bracelet offers innovative comfort, making this timepiece a luxurious choice for those who traverse the globe with style.",
-    isNew: true,
+    isNew: false,
   }
 ];
 

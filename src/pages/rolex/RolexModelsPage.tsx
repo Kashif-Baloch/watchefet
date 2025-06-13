@@ -110,13 +110,13 @@ const RolexModelsPage: React.FC = () => {
               ))}
             </div>
 
-            <div className="mt-12 text-center">
+            {/* <div className="mt-12 text-center">
               <Link to="/rolex/all-models">
                 <Button variant="primary" size="lg">
                   View All Models
                 </Button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>

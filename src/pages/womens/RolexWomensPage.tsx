@@ -21,7 +21,7 @@ const womensRolexWatches = [
     ],
     description :`The Rolex Lady-Datejust Blue Dial Two-Tone Gold is the epitome of timeless elegance and refined functionality. Housed in a 28mm case of Oystersteel and 18k yellow gold, the stunning blue dial exudes sophistication, perfectly balanced for delicate presence on the wrist. The signature Jubilee bracelet offers exceptional comfort and a luxurious aesthetic, while the fluted bezel adds a distinctive touch of opulence.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ const womensRolexWatches = [
     ],
     description :`The Rolex Lady-Datejust Silver Diamond Dial Two-Tone blends classic style with dazzling sophistication. Housed in a 28mm case of Oystersteel and 18k yellow gold, the radiant silver dial, accented with diamond hour markers, exudes understated glamour. The Jubilee bracelet provides exceptional comfort, while the fluted bezel adds a touch of luxury, perfect for those who cherish elegance.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -81,17 +81,16 @@ const womensRolexWatches = [
     ],
     description :`The Rolex Lady-Datejust Diamond Dial Gold Presidential is the pinnacle of luxury and prestige. Housed in a 28mm 18k yellow gold case, the dazzling diamond-pavé dial sparkles with unmatched brilliance, complemented by a fluted bezel. The iconic President bracelet ensures supreme comfort and elegance, making this timepiece a regal choice for those who demand the finest.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
     reviews: 12,
     name: 'Lady-Datejust Gold Diamond Dial Two-Tone',
     price: 299,
-    image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-golddiamonddial-2tonegoldsilver/rolex-datejust-golddiamonddial-2tonegoldsilver.jpg',
+    image: "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-golddiamonddial-2tonegoldsilver/angle.webp",
     category: 'Rolex',
     imagesList :[
-      "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-golddiamonddial-2tonegoldsilver/angle.webp",
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-golddiamonddial-2tonegoldsilver/clasp.webp"         
     ],
     description :`The Rolex Lady-Datejust Gold Diamond Dial Two-Tone exudes warmth and glamour. Encased in a 28mm case of Oystersteel and 18k yellow gold, the rich gold dial, adorned with diamond hour markers, creates a luxurious aesthetic. The Jubilee bracelet offers exceptional comfort, while the fluted bezel enhances its refined charm, perfect for those who embrace opulent style.
@@ -111,7 +110,7 @@ const womensRolexWatches = [
     ],
     description :`The Rolex Lady-Datejust Grey Champagne Dial Silver radiates subtle sophistication and timeless elegance. Housed in a 28mm Oystersteel case, the shimmering grey champagne dial is paired with a smooth bezel, offering a refined and understated look. The Jubilee bracelet ensures lasting comfort, making this timepiece a versatile choice for the modern connoisseur.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,
@@ -142,7 +141,7 @@ const womensRolexWatches = [
     ],
     description :`The Rolex Lady-Datejust Grey Roman Dial Fluted Two-Tone combines classic style with refined luxury. Housed in a 28mm case of Oystersteel and 18k yellow gold, the elegant grey dial with Roman numerals is enhanced by a fluted bezel, exuding timeless sophistication. The Jubilee bracelet offers seamless comfort, making this timepiece ideal for those who appreciate understated elegance.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 10,
@@ -172,7 +171,7 @@ const womensRolexWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-pinkstar-2tonerosesilverjubilee/clasp.png"
     ],
     description :`The Rolex Lady-Datejust Pink Star Two-Tone Rose radiates warmth and celestial elegance. Encased in a 28mm case of Oystersteel and 18k rose gold, the soft pink dial, adorned with star-shaped hour markers, exudes a whimsical yet luxurious charm. The Jubilee bracelet offers refined comfort, while the fluted bezel enhances its delicate sophistication.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 12,
@@ -200,7 +199,7 @@ const womensRolexWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Rolex/rolex-datejust-silverdial-smoothbezel-silverjubilee/clasp.jpg"
     ],
     description :`The Rolex Lady-Datejust Silver Dial Smooth Bezel Silver exudes sleek simplicity and timeless elegance. Encased in a 28mm Oystersteel case, the luminous silver dial is paired with a smooth bezel, offering a clean and versatile look. The Jubilee bracelet provides exceptional comfort, making this watch a refined companion for any occasion.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 14,
@@ -231,7 +230,7 @@ const womensRolexWatches = [
     ],
     description :`The Rolex Lady-Datejust Wimbledon Fluted Two-Tone Rose is a sophisticated nod to timeless sport and elegance. Encased in a 28mm case of Oystersteel and 18k rose gold, the slate-grey dial with green Roman numerals, inspired by the iconic tennis championship, is paired with a fluted bezel. The Jubilee bracelet offers refined comfort, making this watch a distinctive choice for those with discerning taste.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 16,

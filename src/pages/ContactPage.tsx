@@ -185,7 +185,7 @@ const ContactPage: React.FC = () => {
                       <Mail className="h-5 w-5 text-gold-500 mt-1 mr-4" />
                       <div>
                         <p className="font-medium text-white">Email</p>
-                        <p className="text-gray-400">info@timelesschrono.com</p>
+                        <p className="text-gray-400">contact@timelesschrono.co.uk</p>
                       </div>
                     </div>
                     <div className="flex items-start">

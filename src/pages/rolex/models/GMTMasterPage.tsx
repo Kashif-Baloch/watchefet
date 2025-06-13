@@ -20,7 +20,7 @@ const gmtMasterWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-black-2tonesilvergold-oyster/back.webp",
     ],
     description: 'The Rolex GMT-Master II Black Two-Tone Oyster is a masterful blend of functionality and elegance. Housed in a 40mm case of Oystersteel and 18k yellow gold, the black dial offers timeless versatility, complemented by a 24-hour rotatable bezel. The Oyster bracelet ensures durability and comfort, making this watch ideal for globetrotters seeking a sophisticated companion.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ const gmtMasterWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/GMT-Master%20II/gmtmaster-blackbluebezel-oyster/back.webp",
     ],
     description: 'The Rolex GMT-Master II Batman Oyster combines rugged durability with distinctive style. Encased in a 40mm Oystersteel case, the black dial is accentuated by the iconic blue and black Cerachrom bezel. The Oyster bracelet offers robust comfort, making this timepiece a perfect choice for those who navigate multiple time zones with confidence and flair.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -78,7 +78,7 @@ const gmtMasterWatches = [
       
     ],
     description: 'The Rolex GMT-Master II Pepsi Oyster is a vibrant icon of horological excellence. Its 40mm Oystersteel case houses a black dial, complemented by the iconic red and blue Cerachrom bezel, evoking its "Pepsi" moniker. The Oyster bracelet provides robust comfort, making this timepiece a bold yet practical choice for global adventurers.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -110,7 +110,7 @@ const gmtMasterWatches = [
       
     ],
     description: 'The Rolex GMT-Master II Green Black Oyster combines rugged reliability with a bold aesthetic. Housed in a 40mm Oystersteel case, the black dial is accentuated by a vibrant green and black Cerachrom bezel. The Oyster bracelet ensures durability and comfort, making this timepiece a versatile choice for adventurers crossing time zones.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,
@@ -142,7 +142,7 @@ const gmtMasterWatches = [
       
     ],
     description: 'The Rolex GMT-Master II Pepsi Jubilee is a timeless icon with a vibrant edge. Encased in a 40mm Oystersteel case, the black dial is complemented by the iconic red and blue Cerachrom bezel, earning its "Pepsi" nickname. The Jubilee bracelet offers elegant comfort, making this timepiece a favourite for globetrotters with a flair for style.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 10,
@@ -173,7 +173,7 @@ const gmtMasterWatches = [
 
     ],
     description: 'The Rolex GMT-Master II Root Beer Rose Gold is the epitome of opulence and functionality. Crafted in a 40mm 18k rose gold case, the black dial is enhanced by a rich brown and black Cerachrom bezel, embodying the "Root Beer" aesthetic. The Oyster bracelet in rose gold offers luxurious comfort, making this watch a bold statement for discerning travellers.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 12,
@@ -205,7 +205,7 @@ const gmtMasterWatches = [
 
     ],
     description: 'The Rolex GMT-Master II Zombie Gold Jubilee exudes prestige and bold design. Encased in a 40mm 18k yellow gold case, the black dial is complemented by a striking green and black Cerachrom bezel, known as the "Zombie" configuration. The Jubilee bracelet in gold ensures luxurious comfort, making this watch a perfect choice for those who command attention across time zones.',
-    isNew: true,
+    isNew: false,
   }
 ];
 

@@ -29,6 +29,7 @@ const ProductDet: React.FC = () => {
     });
     const [includeBox, setIncludeBox] = useState(true);
     const [includePremiumBox, setIncludePremiumBox] = useState(false);
+    const [includeLuxuryBox, setIncludeLuxuryBox] = useState(false);
     const { addItem } = useCart();
     
     const pricing = () => {
@@ -94,22 +95,60 @@ const ProductDet: React.FC = () => {
         }
     }
 
-
-    const handleBoxSelection = (type: 'standard' | 'premium') => {
+    const handleBoxSelection = (type: 'standard' | 'premium' | 'luxury') => {
         if (type === 'standard') {
             setIncludeBox(true);
             setIncludePremiumBox(false);
-        } else {
+            setIncludeLuxuryBox(false);
+        } else if (type === 'premium') {
             setIncludeBox(false);
             setIncludePremiumBox(true);
+            setIncludeLuxuryBox(false);
+        } else {
+            setIncludeBox(false);
+            setIncludePremiumBox(false);
+            setIncludeLuxuryBox(true);
         }
     };
 
+    const getpremium  = ()=>{
+        if (product.category === "Audemars Piguet") {
+            return 29
+        }
+        if (product.category === "Rolex") {
+            return 39
+        }
+        if (product.category === "Patek Philippe") {
+            return 29
+        }
+        if (product.category === "Hublot") {
+            return 39
+        }
+        else return 0
+    }
+
+    const getluxury = ()=>{
+        if (product.category === "Audemars Piguet") {
+            return 79
+        }
+        if (product.category === "Rolex") {
+            return 0
+        }
+        if (product.category === "Patek Philippe") {
+            return 99
+        }
+        if (product.category === "Hublot") {
+            return 0
+        }
+        else return 0
+    }
+
+
     useEffect(() => {
-        if (!includeBox && !includePremiumBox) {
+        if (!includeBox && !includePremiumBox && !includeLuxuryBox) {
             setIncludeBox(true);
         }
-    }, [includeBox, includePremiumBox]);
+    }, [includeBox, includePremiumBox, includeLuxuryBox]);
 
     const handleAddToCart = () => {
         const idwDate = Date.now()
@@ -140,9 +179,20 @@ const ProductDet: React.FC = () => {
                 _id: product.id,
                 id: idwDate + 1,
                 name: `Premium ${product.category} Box with Certificate`,
-                price: 39,
+                price: getpremium(),
                 image: pricing()?.img,
                 quality: 'Premium',
+            });
+        }
+
+        if (includeLuxuryBox) {
+            addItem({
+                _id: product.id,
+                id: idwDate + 1,
+                name: `Luxury ${product.category} Box with Certificate`,
+                price: getluxury(),
+                image: pricing()?.img,
+                quality: 'Luxury',
             });
         }
     };
@@ -295,8 +345,6 @@ const ProductDet: React.FC = () => {
             return products?.category
         }
     }
-    // console.log(showurl);
-
 
     return (
         <div className="bg-black text-white min-h-screen">
@@ -304,7 +352,7 @@ const ProductDet: React.FC = () => {
             <main className="pt-20">
                 <div className="bg-gradient-to-b from-black to-zinc-900 py-12">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        <div className="flex items-center gap-2 text-sm text-gray-400 mb-8">
+                        {products.category !== "watches" ? <div className="flex items-center gap-2 text-sm text-gray-400 mb-8">
                             <Link to="/" className="hover:text-gold-500">Home</Link>
                             <ChevronRight className="h-4 w-4" />
                             <Link to={!showurl ? "/womens-collection" : "/collections"} className="hover:text-gold-500">{!showurl ? "Women's Collections" : "Collections"}</Link>
@@ -315,6 +363,13 @@ const ProductDet: React.FC = () => {
                             {showurl && products?.category !== "apy" && <ChevronRight className="h-4 w-4" />}
                             <span className="text-gold-500">{product?.name}</span>
                         </div>
+                        :
+                         <div className="flex items-center gap-2 text-sm text-gray-400 mb-8">
+                         <Link to="/" className="hover:text-gold-500">Home</Link>
+                         <ChevronRight className="h-4 w-4" />
+                         <span className="text-gold-500">{product?.name}</span>
+                     </div>
+                        }
 
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                             <div className="space-y-4">
@@ -442,7 +497,7 @@ const ProductDet: React.FC = () => {
                                             </div>
                                         </button>
 
-                                        <button
+                                        {getpremium() > 0 && <button
                                             onClick={() => handleBoxSelection('premium')}
                                             className={`w-full p-4 rounded-lg border transition-all ${includePremiumBox
                                                 ? 'border-gold-500 bg-gold-500/10'
@@ -457,9 +512,28 @@ const ProductDet: React.FC = () => {
                                                         <p className="text-sm text-gray-400">Premium box with authentication certificate</p>
                                                     </div>
                                                 </div>
-                                                <span className="text-gold-500">£39</span>
+                                                <span className="text-gold-500">£{getpremium()}</span>
                                             </div>
-                                        </button>
+                                        </button>}
+
+                                        {getluxury() > 0 && <button
+                                            onClick={() => handleBoxSelection('luxury')}
+                                            className={`w-full p-4 rounded-lg border transition-all ${includeLuxuryBox
+                                                ? 'border-gold-500 bg-gold-500/10'
+                                                : 'border-zinc-700 hover:border-gold-500/50'
+                                                }`}
+                                        >
+                                            <div className="flex justify-between items-center">
+                                                <div className="flex items-center gap-3">
+                                                    <Box className="h-5 w-5 text-gold-500" />
+                                                    <div className="text-left">
+                                                        <span className="font-medium text-white">Luxury Box & Certificate</span>
+                                                        <p className="text-sm text-gray-400">Luxury box with authentication certificate</p>
+                                                    </div>
+                                                </div>
+                                                <span className="text-gold-500">£{getluxury()}</span>
+                                            </div>
+                                        </button>}
                                     </div>
                                 </div>
 

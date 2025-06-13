@@ -20,7 +20,7 @@ const deepseaWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/SeaDweller%20Deepsea/deepsea-bluedial-bluebezel-goldoyster/clasp"
     ],
     description :"The Rolex Deepsea Blue Dial Gold is a pinnacle of luxury and extreme durability. Housed in a 44mm 18k yellow gold case, the vibrant blue dial transitions beautifully, complemented by a robust bezel designed for deep-sea exploration. The Oyster bracelet in gold ensures luxurious comfort, making this timepiece a bold statement for those who conquer the depths in style.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ const deepseaWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/SeaDweller%20Deepsea/seadweller-blackdial-2tonesilvergold-oyster/back"
     ],
     description :"The Rolex Sea-Dweller Black Dial Two-Tone blends rugged performance with refined elegance. Housed in a 43mm Oystersteel and 18k yellow gold case, the sleek black dial is paired with a robust bezel, perfect for deep-sea diving. The Oyster bracelet in two-tone offers exceptional comfort, making this timepiece a versatile choice for adventurers and connoisseurs alike.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,

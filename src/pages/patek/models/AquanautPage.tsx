@@ -20,7 +20,7 @@ const aquanautWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Aquanaut/patek-aquanaut-blackdial-silver-blackrubber/clasp.webp",
     ],
     description: `The Patek Philippe Aquanaut Black Dial Silver Black Rubber is a bold fusion of sporty functionality and modern elegance. Housed in a 42mm stainless steel case, the sleek black dial with its distinctive "Tropical" composite strap pattern is complemented by a robust bezel. The black rubber strap ensures innovative comfort and durability, making this timepiece ideal for adventurous spirits with refined taste.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const aquanautWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Aquanaut/patek-aquanaut-browndial-rose-brownrubber/open%20clasp.png"
     ],
     description: `The Patek Philippe Aquanaut Brown Dial Rose Gold Brown Rubber exudes warmth and luxurious modernity. Housed in a 42mm 18k rose gold case, the rich brown dial with its signature embossed pattern harmonizes with a rose gold bezel, creating a cohesive and opulent aesthetic. The brown rubber strap ensures stylish comfort, making this timepiece a prestigious choice for dynamic lifestyles.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,

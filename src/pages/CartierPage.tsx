@@ -14,7 +14,7 @@ const cartierWatches = [
     price: 199,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Cartier/cartier-santos-goldbezel-silver.png',
     category: 'Cartier',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const cartierWatches = [
     price: 225,
     image: 'https://www.watchfinder.co.uk/images/high-res/Cartier/Ballon%20Bleu/WSBB0025/169911/2.jpg',
     category: 'Cartier',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const cartierWatches = [
     price: 245,
     image: 'https://www.watchfinder.co.uk/images/high-res/Cartier/Drive/WSNM0009/169925/2.jpg',
     category: 'Cartier',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const cartierWatches = [
     price: 255,
     image: 'https://www.watchfinder.co.uk/images/high-res/Cartier/Pasha/WSPA0009/169939/2.jpg',
     category: 'Cartier',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,

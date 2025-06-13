@@ -16,7 +16,7 @@ const watches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Day-Date/daydate-browndial-roman-rosegold-fluted-40/clasp.webp",
     ],
     description: "The Rolex Day-Date 40 in 18k rose gold with a brown Roman numeral dial is the epitome of luxury and sophistication. This iconic timepiece features a fluted bezel that enhances its distinctive Rolex profile, while the President bracelet provides exceptional comfort and elegance. The warm tones of the rose gold case and bracelet perfectly complement the rich brown dial, creating a harmonious and luxurious aesthetic. The Day-Date was the first wristwatch to display the date and day of the week spelled out in full in a window on the dial, and continues to be the watch par excellence of influential people.",
-    isNew: true,
+    isNew: false,
     cate: true,
     pricing: {
       "AAA": 179,
@@ -37,7 +37,7 @@ const watches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-greydial-diamond-silverjubilee-41/clasp.jpg"
     ],
     description: "The Rolex Datejust 41 is the epitome of classic style and functionality. This model features a stunning grey dial with diamond hour markers housed in a 41mm case, perfectly balanced for both elegance and presence on the wrist. The signature Jubilee bracelet provides exceptional comfort and sophistication, while the fluted bezel adds a distinctive touch of luxury.",
-    isNew: true,
+    isNew: false,
     cate: true,
     pricing: {
       "AAA": 179,
@@ -58,7 +58,7 @@ const watches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-tiffanydial-silver/back.jpg"
     ],
     description:"The Patek Philippe Nautilus Tiffany Blue Dial Silver is a rare and captivating icon of exclusivity. Encased in a 40mm stainless steel case, the stunning Tiffany blue dial with its embossed texture radiates serene sophistication, complemented by a polished stainless steel bezel. The stainless steel bracelet provides exceptional comfort, making this watch a coveted masterpiece for collectors.",
-    isNew: true,
+    isNew: false,
     cate: true,
     pricing: {
       "AAA": 199,
@@ -80,7 +80,7 @@ const watches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-perpetual-black/back.webp"
     ],
     description: `The Audemars Piguet Royal Oak Perpetual Calendar Black Ceramic is a masterpiece of innovation and avant-garde design. Encased in a 41mm black ceramic case, the intricate black "Grande Tapisserie" dial showcases a perpetual calendar complication, paired with a matching ceramic bezel. The ceramic bracelet offers sleek comfort, making this timepiece a bold statement of cutting-edge luxury and precision.`,
-    isNew: true,
+    isNew: false,
     cate: true,
     pricing: {
       "AAA": 0,

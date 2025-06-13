@@ -21,7 +21,7 @@ const womensPatekWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-blackdial-silverdiamondbezel-blackrubber/clasp.webp"
     ],
     description: `The Patek Philippe Aquanaut Black Dial Diamond Bezel is a bold yet elegant statement of modern luxury. Housed in a 35.6mm stainless steel case, the sleek black dial with its "Tropical" embossed pattern is complemented by a sparkling diamond-set bezel. The black rubber strap ensures sporty comfort, making this timepiece ideal for those who embrace dynamic style and sophistication.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const womensPatekWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-browndial-rosediamondbezel-brownrubber/clasp.png"
     ],
     description: `The Patek Philippe Aquanaut Brown Dial Rose Gold Diamond Bezel exudes warmth and opulent sophistication. Housed in a 35.6mm 18k rose gold case, the rich brown dial with its "Tropical" embossed pattern is paired with a sparkling diamond-set bezel, creating a luxurious aesthetic. The brown rubber strap ensures stylish comfort, perfect for those with refined taste.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ const womensPatekWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-mop-rosediamondbezel-pinkbeigerubber/clasp.png"
     ],
     description: `The Patek Philippe Aquanaut Mother of Pearl Rose Gold Diamond Bezel is a breathtaking vision of feminine luxury. Housed in a 35.6mm 18k rose gold case, the iridescent mother of pearl dial is enhanced by a sparkling diamond-set bezel, exuding ethereal elegance. The rose gold-toned rubber strap ensures refined comfort, making this watch a coveted masterpiece.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -106,7 +106,7 @@ const womensPatekWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Aquanaut/patek-aquanaut-whitedial-silverdiamondbezel-whiterubber/clasp.webp"
     ],
     description: `The Patek Philippe Aquanaut White Dial Diamond Bezel exudes crisp elegance and sporty sophistication. Housed in a 35.6mm stainless steel case, the clean white dial with its embossed texture is complemented by a sparkling diamond-set bezel. The white rubber strap ensures contemporary comfort, making this watch a versatile icon for dynamic lifestyles.`,
-    isNew: true,
+    isNew: false,
   },
 
   // Nautilus Collection
@@ -136,7 +136,7 @@ const womensPatekWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-bluedial-silver/clasp.webp",
     ],
     description: `The Patek Philippe Nautilus Blue Dial radiates vibrant sophistication and timeless charm. Encased in a 40mm stainless steel case, the iconic blue dial with its horizontal embossed pattern is complemented by a sleek bezel, creating a dynamic aesthetic. The stainless steel bracelet offers seamless comfort, making this watch a perfect companion for refined style.`,
-    isNew: true,
+    isNew: false,
   },
   // {
   //   id: 10,
@@ -162,7 +162,7 @@ const womensPatekWatches = [
   //     "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-champagnedial-gold/clasp.webp",
   //   ],
   //   description :`The Patek Philippe Nautilus Champagne Dial Gold exudes warmth and luxurious elegance. Housed in a 40mm 18k yellow gold case, the rich champagne dial with its embossed texture harmonizes with the iconic octagonal bezel, creating a sophisticated aesthetic. The gold bracelet ensures supreme comfort, making this timepiece a prestigious choice for those who value opulence.`,
-  //   isNew: true,
+  //   isNew: false,
   // },
   {
     id: 12,
@@ -190,7 +190,7 @@ const womensPatekWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-greydial-silver/clasp.png",
     ],
     description: `The Patek Philippe Nautilus Grey Dial exudes understated sophistication and modern elegance. Encased in a 40mm stainless steel case, the sleek grey dial with its horizontal embossed pattern is paired with a polished bezel, offering a versatile and timeless look. The stainless steel bracelet ensures lasting comfort, making this watch ideal for any occasion.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 14,
@@ -219,7 +219,7 @@ const womensPatekWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Women/Patek/Nautilus/patek-nautilus-whitedial-rose/clasp",
     ],
     description: `The Patek Philippe Nautilus White Dial Rose Gold combines elegant simplicity with luxurious warmth. Encased in a 40mm 18k rose gold case, the crisp white dial with its horizontal embossed pattern is paired with a rounded octagonal bezel, exuding refined sophistication. The rose gold bracelet ensures exceptional comfort, perfect for those who value timeless luxury.`,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 16,

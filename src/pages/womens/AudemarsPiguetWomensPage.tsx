@@ -22,7 +22,7 @@ const womensAPWatches = [
     ],
     description :`The Audemars Piguet Royal Oak 33mm Blue Dial Diamond Bezel Rose Gold is a dazzling fusion of elegance and opulence. Housed in a 33mm 18k rose gold case, the vibrant blue "Grande Tapisserie" dial exudes sophistication, complemented by a sparkling diamond-set bezel. The rose gold bracelet ensures exceptional comfort, making this timepiece a luxurious choice for refined feminine style.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ const womensAPWatches = [
     ],
     description :`The Audemars Piguet Royal Oak 33mm White Dial Two-Tone Gold exudes crisp elegance and sophisticated charm. Housed in a 33mm case of stainless steel and 18k yellow gold, the pristine white "Grande Tapisserie" dial is paired with a classic octagonal bezel, offering a timeless look. The two-tone bracelet ensures lasting comfort, making this watch a versatile icon for any occasion.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -82,7 +82,7 @@ const womensAPWatches = [
     ],
     description :`The Audemars Piguet Royal Oak 33mm Dark Brown Dial Rose Gold is a warm embodiment of luxury and elegance. Housed in a 33mm 18k rose gold case, the rich dark brown "Grande Tapisserie" dial harmonizes with the iconic octagonal bezel, creating a sophisticated aesthetic. The rose gold bracelet offers supreme comfort, making this watch a perfect choice for those who value understated opulence.
 `,
-    isNew: true,
+    isNew: false,
   }
 ];
 

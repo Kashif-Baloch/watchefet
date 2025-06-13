@@ -23,7 +23,7 @@ const hublotWatches = [
     ],
     description :`The Hublot Spirit of Big Bang Gold radiates opulence and avant-garde design. Encased in a 42mm 18k yellow gold tonneau-shaped case, the luxurious gold dial harmonizes with a matching gold bezel, creating a cohesive and extravagant aesthetic. The black rubber strap adds a modern contrast and supreme comfort, making this watch a prestigious choice.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ const hublotWatches = [
     ],
     description :`The Hublot Classic Fusion Chronograph Grey Dial combines refined style with technical precision. Encased in a 42mm titanium case, the sophisticated grey sunray dial showcases a chronograph complication, paired with a polished bezel. The grey leather strap ensures comfort and durability, making this watch a timeless choice for those who value subtlety and performance.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -72,7 +72,7 @@ const hublotWatches = [
     category: 'Hublot',
     imagesList : [],
     description: "",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -92,7 +92,7 @@ const hublotWatches = [
     category: 'Hublot',
     imagesList : [],
     description: "",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,

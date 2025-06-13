@@ -21,7 +21,7 @@ const nautilusWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-bluedial-silver/back.jpg"
     ],
     description: "The Patek Philippe Nautilus Blue Dial Silver is the epitome of refined elegance and sporty sophistication. Housed in a 40mm stainless steel case, the iconic blue dial with its horizontal embossed pattern exudes timeless charm, complemented by a rounded octagonal bezel. The stainless steel bracelet ensures exceptional comfort and durability, making this timepiece a versatile masterpiece for discerning individuals.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ const nautilusWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-greendial-silver/back.jpg"
     ],
     description: "The Patek Philippe Nautilus Green Dial Silver combines bold modernity with timeless refinement. Housed in a 40mm stainless steel case, the vibrant green dial with its horizontal embossed pattern is paired with a sleek stainless steel bezel, offering a fresh and dynamic look. The stainless steel bracelet ensures lasting comfort, making this timepiece ideal for those who embrace individuality and style.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -79,7 +79,7 @@ const nautilusWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Nautilus/patek-nautilus-whitedial-silver/back.jpg"
     ],
     description: "The Patek Philippe Nautilus White Dial Silver exudes crisp elegance and understated luxury. Housed in a 40mm stainless steel case, the pristine white dial with its horizontal embossed pattern is paired with a sleek stainless steel bezel, creating a clean and timeless aesthetic. The stainless steel bracelet ensures durability and comfort, making this timepiece a refined choice for any occasion.",
-    isNew: true,
+    isNew: false,
   }
 ];
 

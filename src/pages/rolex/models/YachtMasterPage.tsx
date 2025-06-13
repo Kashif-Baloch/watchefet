@@ -20,7 +20,7 @@ const yachtMasterWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-blackbezel-goldbody-rubber-42/back%20open%20clasp.webp"
     ],
     description :"The Rolex Yacht-Master 42 Black Gold is a bold fusion of nautical prowess and opulent luxury. Housed in a 42mm 18k yellow gold case, the sleek black dial exudes timeless sophistication, paired with a bidirectional rotatable bezel for a sporty yet elegant aesthetic. The Oyster bracelet in gold ensures supreme comfort, making this timepiece a luxurious choice for maritime adventurers.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ const yachtMasterWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-blackbezel-silverbody-rubber/clasp.webp"
     ],
     description :"The Rolex Yacht-Master 42 Black Silver combines rugged functionality with timeless style. Housed in a 42mm Oystersteel case, the bold black dial is complemented by a sleek silver bidirectional bezel, offering a versatile aesthetic. The Oyster bracelet ensures durability and comfort, making this timepiece ideal for those who navigate life with confidence and elegance.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -76,7 +76,7 @@ const yachtMasterWatches = [
 "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-blackdial-rosebezel-2tonesilverrose-oyster-40/back.webp"
     ],
     description :"The Rolex Yacht-Master 40 Black Two-Tone Rose blends luxurious warmth with maritime functionality. Housed in a 40mm case of Oystersteel and 18k rose gold, the sleek black dial is enhanced by a bidirectional Cerachrom bezel, creating a refined aesthetic. The two-tone Oyster bracelet ensures comfort and elegance, ideal for those who sail through life with sophistication.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -104,7 +104,7 @@ const yachtMasterWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-chocdial-rosebezel-2tonesilverrose-oyster-40/back.webp"
     ],
     description :"The Rolex Yacht-Master 40 Chocolate Two-Tone Rose exudes warmth and luxury. Housed in a 40mm case of Oystersteel and 18k rose gold, the rich chocolate dial complements the bidirectional Cerachrom bezel, creating a harmonious aesthetic. The two-tone Oyster bracelet offers exceptional comfort, making this watch a sophisticated choice for those with discerning taste.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,
@@ -132,7 +132,7 @@ const yachtMasterWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Yacht-Master/yachtmaster-silverdial-silverbezel-silveroyster40/back.webp"
     ],
     description :"The Rolex Yacht-Master 40 Silver is a timeless icon of nautical elegance. Housed in a 40mm Oystersteel case, the sleek silver dial is complemented by a matching bidirectional bezel, creating a clean and sophisticated aesthetic. The Oyster bracelet offers durability and comfort, making this watch a perfect companion for those who value style and precision.",
-    isNew: true,
+    isNew: false,
   }
 ];
 

@@ -23,7 +23,7 @@ const classicFusionWatches = [
     ],
     description: `The Hublot Classic Fusion Blue Dial Titanium exudes understated luxury and modern design. Encased in a 42mm titanium case, the striking blue sunray dial is paired with a polished titanium bezel, creating a clean and elegant aesthetic. The blue rubber strap ensures lightweight comfort, making this watch a versatile companion for the discerning individual.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ const classicFusionWatches = [
     imagesList: [],
     description: `The Hublot Classic Fusion Chronograph Black Magic is a bold expression of contemporary sophistication. Housed in a 42mm black ceramic case, the sleek black dial with chronograph functionality is complemented by a matching ceramic bezel, exuding a stealthy allure. The black rubber strap provides robust comfort, making this timepiece ideal for those who embrace modern elegance.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -84,7 +84,7 @@ const classicFusionWatches = [
     ],
     description: `The Hublot Classic Fusion Green Dial Titanium is a vibrant yet refined masterpiece. Housed in a 42mm titanium case, the bold green sunray dial is complemented by a sleek titanium bezel, offering a fresh and modern aesthetic. The green leather strap provides lightweight comfort, making this timepiece ideal for those who embrace individuality and elegance.
 `,
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,

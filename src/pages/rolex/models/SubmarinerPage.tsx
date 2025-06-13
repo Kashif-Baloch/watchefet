@@ -20,7 +20,7 @@ const submarinerWatches = [
       'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-2tonesilvergold/clasp.webp',
     ],
     description: 'The Rolex Submariner Black Dial Two-Tone is a perfect blend of rugged functionality and refined elegance. Housed in a 41mm case, the sleek black dial exudes timeless sophistication, complemented by a two-tone Oystersteel and 18k yellow gold construction. The Oyster bracelet ensures exceptional comfort and durability, while the unidirectional rotatable bezel adds a sporty yet luxurious touch, ideal for both diving and formal occasions.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const submarinerWatches = [
 
     ],
     description: 'The Rolex Submariner Black Dial Green Bezel is a striking icon of adventure and style. Encased in a 41mm Oystersteel case, the deep black dial contrasts vividly with the distinctive green Cerachrom bezel, evoking a sense of bold exploration. The Oyster bracelet ensures enduring comfort and durability, making this watch a standout choice for those who embrace both function and flair.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -78,7 +78,7 @@ const submarinerWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-blackbezel-silver/back.webp"
     ],
     description: 'The Rolex Submariner Black Dial is the epitome of timeless design and rugged reliability. Housed in a 41mm Oystersteel case, the sleek black dial offers a clean, versatile look, enhanced by a matching black Cerachrom bezel. The Oyster bracelet ensures comfort and resilience, making this iconic timepiece a perfect companion for adventurers and connoisseurs of classic style alike.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -92,7 +92,7 @@ const submarinerWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-bluedial-bluebezel-gold/clasp.webp"
     ],
     description: 'The Rolex Submariner Blue Dial Blue Bezel Gold is a pinnacle of luxury and performance. Crafted in a 41mm 18k yellow gold case, the vibrant blue dial harmonizes with a matching blue Cerachrom bezel, exuding opulence and precision. The Oyster bracelet in gold offers unmatched comfort and elegance, making this watch a bold statement for those who demand the finest in craftsmanship.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 7,
@@ -107,7 +107,7 @@ const submarinerWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Submariner/submariner-blackdial-blackbezel-gold/clasp.webp"
     ],
     description: 'The Rolex Submariner Black Dial Black Bezel Gold radiates prestige and durability. Encased in a 41mm 18k yellow gold case, the sleek black dial is paired with a matching black Cerachrom bezel, creating a sophisticated yet robust aesthetic. The Oyster bracelet in gold ensures luxurious comfort, making this timepiece a timeless choice for those who value elegance and adventure.',
-    isNew: true,
+    isNew: false,
   }
 ];
 

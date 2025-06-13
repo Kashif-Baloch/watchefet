@@ -20,7 +20,7 @@ const explorerWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Explorer%20II/explorer-blackdial-silveroyster/back.jpg",
     ],
     description :"The Rolex Explorer II Black Dial is a rugged yet refined companion for adventurers. Housed in a 42mm Oystersteel case, the bold black dial is paired with a 24-hour bezel, perfect for navigating extreme environments. The Oyster bracelet ensures durability and comfort, making this timepiece a reliable choice for explorers who value precision and style.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,

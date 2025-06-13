@@ -20,7 +20,7 @@ const daytonaWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-blackdial-blackgoldbezel-rubber/back.jpg",
     ],
     description: 'The Rolex Daytona Black Dial Black Gold Bezel is a striking embodiment of performance and luxury. Housed in a 40mm case, the sleek black dial is paired with a luxurious black and gold Cerachrom bezel, exuding bold sophistication. The Oyster bracelet ensures exceptional comfort and durability, making this timepiece a timeless choice for those who value precision and elegance.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ const daytonaWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-bluedial-silverbezel-silveroyster/backopenclasp.webp"
     ],
     description: 'The Rolex Daytona Blue Dial Silver Bezel radiates vibrant elegance and precision. Its 40mm Oystersteel case frames a stunning blue dial, paired with a polished silver bezel for a sleek, modern look. The Oyster bracelet ensures durability and comfort, making this timepiece an ideal blend of performance and sophistication for any occasion.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -76,7 +76,7 @@ const daytonaWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-goldblackdial-blackbezel-rubber/back.jpg"
     ],
     description: 'The Rolex Daytona Black Dial Gold Black Bezel combines bold contrast with luxurious design. Housed in a 40mm 18k yellow gold case, the deep black dial is accentuated by a striking black Cerachrom bezel, creating a commanding presence. The Oyster bracelet in gold ensures lasting comfort, making this watch a standout for performance and prestige.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -104,7 +104,7 @@ const daytonaWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-golddial-goldbezel-2tonesilvergold-oyster/backopenclasp.webp"
     ],
     description: 'The Rolex Daytona Gold Dial Two-Tone is a masterful blend of luxury and versatility. Housed in a 40mm Oystersteel and 18k yellow gold case, the warm gold dial is complemented by a matching bezel, creating a harmonious aesthetic. The two-tone Oyster bracelet ensures comfort and durability, making this chronograph a timeless icon for discerning individuals.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,
@@ -132,7 +132,7 @@ const daytonaWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-whitedial-blackbezel-oyster/backopenclasp.webp"
     ],
     description: 'The Rolex Daytona White Dial Black Bezel combines crisp elegance with sporty functionality. Housed in a 40mm Oystersteel case, the pristine white dial contrasts boldly with a black Cerachrom bezel, creating a striking aesthetic. The Oyster bracelet ensures durability and comfort, making this chronograph a versatile choice for any setting.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 10,
@@ -160,7 +160,7 @@ const daytonaWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-whitedial-goldbezel-goldoyster/back%20open%20clasp.png"
     ],
     description: 'The Rolex Daytona White Dial Gold exudes luxury and precision. Housed in a 40mm 18k yellow gold case, the crisp white dial contrasts elegantly with the radiant gold bezel, creating a refined aesthetic. The Oyster bracelet in gold ensures supreme comfort, making this chronograph a prestigious choice for those who demand the finest.',
-    isNew: true,
+    isNew: false,
   },
   {
     id: 12,
@@ -188,7 +188,7 @@ const daytonaWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Daytona/daytona-whitedial-silveroyster/backopenclasp.webp"
     ],
     description: 'The Rolex Daytona White Dial Silver is a timeless blend of elegance and performance. Housed in a 40mm Oystersteel case, the pristine white dial is complemented by a polished silver bezel, creating a clean, sophisticated look. The Oyster bracelet ensures lasting comfort, making this chronograph a versatile icon for any occasion.',
-    isNew: true,
+    isNew: false,
   }
 ];
 

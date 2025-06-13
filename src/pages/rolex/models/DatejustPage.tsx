@@ -21,7 +21,7 @@ const datejustWatches = [
       'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-bluedial-diamond-silverjubilee-fluted-41/main',
     ],
     description: "The Rolex Datejust 41 is the epitome of classic style and functionality. This model features a stunning blue dial housed in a 41mm case, perfectly balanced for both elegance and presence on the wrist. The signature Jubilee bracelet provides exceptional comfort and sophistication, while the fluted bezel adds a distinctive touch of luxury.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-greydial-diamond-silverjubilee-41/clasp.jpg"
     ],
     description: "The Rolex Datejust 41 is the epitome of classic style and functionality. This model features a stunning grey dial with diamond hour markers housed in a 41mm case, perfectly balanced for both elegance and presence on the wrist. The signature Jubilee bracelet provides exceptional comfort and sophistication, while the fluted bezel adds a distinctive touch of luxury.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-whitedial-roman-silverjubilee-fluted-41/clasp.jpg"
     ],
     description: "The Rolex Datejust 41 with White Roman Dial is a testament to timeless elegance. This model features a pristine white dial with Roman numerals in polished finish, creating a sophisticated and classic appearance. The 41mm case is perfectly proportioned, while the signature Jubilee bracelet provides exceptional comfort. The fluted bezel adds a distinctive touch of luxury to this iconic timepiece.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 6,
@@ -105,7 +105,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-golddial-diamond-2tonesilvergoldjubilee-fluted-41/clasp.webp"
     ],
     description: "The Rolex Datejust 41 Two-Tone with Gold Diamond Dial exemplifies luxury and sophistication. This model features a stunning gold dial with diamond hour markers, housed in a 41mm case combining stainless steel and 18k gold. The signature Jubilee bracelet provides exceptional comfort, while the fluted bezel adds a distinctive touch of elegance. The combination of precious metals and diamonds creates a timepiece that's both luxurious and versatile.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 8,
@@ -134,7 +134,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-wimbledon-2tonesilvergold-jubilee-fluted-41/clasp.webp",
     ],
     description: "The Rolex Datejust 41 Two-Tone with Gold Champagne Dial represents timeless elegance. This model features a stunning champagne-colored dial that perfectly complements the two-tone case and bracelet combination of stainless steel and 18k gold. The signature Jubilee bracelet provides exceptional comfort, while the fluted bezel adds a classic touch of luxury. The warm tones of the dial create a sophisticated and versatile timepiece suitable for any occasion.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 10,
@@ -149,7 +149,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-browndial-champagne-2tonesilverrose-jubilee-fluted/side.webp"
     ],
     description: "The Rolex Datejust 41 Two-Tone with Brown Champagne dial exemplifies refined elegance. This model features a stunning brown champagne dial that creates a warm, sophisticated appearance, perfectly complemented by the two-tone combination of stainless steel and 18k rose gold. The signature Jubilee bracelet provides exceptional comfort, while the fluted bezel adds a classic touch of luxury. The harmonious blend of colors and materials makes this timepiece a versatile choice for both formal and casual occasions.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 11,
@@ -164,7 +164,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-browndial-diamond-2tonesilverrose-jubilee-fluted/side.webp"
     ],
     description: "The Rolex Datejust 41 Two-Tone with Brown Diamond dial represents the pinnacle of luxury and sophistication. This model features a stunning brown dial adorned with diamond hour markers, creating an exquisite blend of elegance and opulence. The two-tone case and bracelet combination of stainless steel and 18k rose gold adds a warm, luxurious touch. The signature Jubilee bracelet provides exceptional comfort, while the fluted bezel completes the classic Datejust aesthetic. The combination of diamonds and precious metals makes this timepiece a true statement of refined taste and success.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 12,
@@ -180,7 +180,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-whitedial-champagne-silverjubilee-fluted/back"
     ],
     description: "The Rolex Datejust 41 with White Champagne dial embodies timeless elegance. This model features a stunning white champagne dial that creates a subtle, sophisticated appearance. The 41mm case in 904L steel provides perfect proportions, while the signature Jubilee bracelet ensures exceptional comfort. The fluted bezel adds a classic touch of luxury that has become synonymous with the Datejust collection. The combination of the champagne dial with the steel case and bracelet creates a versatile timepiece suitable for any occasion.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 13,
@@ -194,7 +194,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/datejust-mop-diamond-silverjubilee-fluted-41/clasp.jpg",
     ],
     description: "The Rolex Datejust 41 with Mother of Pearl Diamond dial represents the epitome of luxury and sophistication. This exquisite timepiece features a stunning mother of pearl dial adorned with diamond hour markers, creating a mesmerizing play of light and iridescence. The 41mm case in 904L steel provides perfect proportions, while the signature Jubilee bracelet ensures exceptional comfort. The fluted bezel adds a classic touch of luxury that has become synonymous with the Datejust collection. The combination of the natural mother of pearl, diamonds, and steel creates a timepiece that is both elegant and distinctive.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 14,
@@ -209,7 +209,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Smooth%20Bezel/datejust-bluedial-champagne-smooth-silverjubilee/back"
     ],
     description: "The Rolex Datejust 41 with Blue Dial and Smooth Bezel offers a modern interpretation of the classic Datejust design. This model features a stunning blue dial that creates a vibrant, contemporary appearance, complemented by the clean lines of the smooth bezel. The 41mm case provides perfect proportions, while the signature Jubilee bracelet ensures exceptional comfort. The smooth bezel gives this timepiece a more understated, sporty character compared to its fluted bezel counterparts, making it a versatile choice for both casual and formal occasions.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 15,
@@ -224,7 +224,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Smooth%20Bezel/datejust-greendial-champagne-smooth-silverjubilee/clasp.jpg"
     ],
     description: "The Rolex Datejust 41 with Green Dial and Smooth Bezel offers a fresh and modern interpretation of the classic Datejust design. This model features a stunning green dial that creates a vibrant, nature-inspired appearance, complemented by the clean lines of the smooth bezel. The 41mm case provides perfect proportions, while the signature Jubilee bracelet ensures exceptional comfort. The smooth bezel gives this timepiece a more contemporary, sporty character compared to its fluted bezel counterparts, making it a perfect choice for both casual and formal occasions.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 16,
@@ -238,7 +238,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-golddial-diamond-2tonesilvergoldoyster-fluted/back",
     ],
     description: "The Rolex Datejust 41 Two-Tone with Gold Diamond Dial and Oyster bracelet represents the perfect blend of luxury and durability. This model features a stunning gold dial adorned with diamond hour markers, creating an exquisite display of opulence. The two-tone case and bracelet combination of stainless steel and 18k gold adds a sophisticated touch, while the robust Oyster bracelet provides exceptional durability and comfort. The fluted bezel completes the classic Datejust aesthetic, making this timepiece a perfect choice for those who appreciate both luxury and practicality.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 17,
@@ -252,7 +252,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-greydial-diamond-silveroyster-fluted/clasp.webp"
     ],
     description: "The Rolex Datejust 41 with Grey Diamond Dial and Oyster bracelet combines elegance with robustness. This model features a sophisticated grey dial adorned with diamond hour markers, creating a perfect balance of luxury and understatement. The 41mm case in 904L steel provides excellent durability, while the sturdy Oyster bracelet offers exceptional comfort and a more sporty aesthetic compared to the Jubilee bracelet. The fluted bezel adds a classic touch of luxury that has become synonymous with the Datejust collection. This timepiece is perfect for those who appreciate refined luxury with a more robust, everyday wearable design.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 18,
@@ -266,7 +266,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-mop-diamond-silveroyster-fluted/clasp.webp"
     ],
     description: "The Rolex Datejust 41 with Mother of Pearl Diamond Dial and Oyster bracelet combines exquisite luxury with robust sportiness. This exceptional timepiece features a stunning mother of pearl dial adorned with diamond hour markers, creating a mesmerizing play of light and iridescence. The 41mm case in 904L steel provides perfect proportions, while the sturdy Oyster bracelet offers a more sporty and versatile aesthetic compared to the Jubilee bracelet. The fluted bezel adds a classic touch of luxury that has become synonymous with the Datejust collection. The combination of the natural mother of pearl, diamonds, and the robust Oyster bracelet creates a timepiece that is both elegant and suitable for everyday wear.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 19,
@@ -281,7 +281,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-wimbledon-2tonesilvergold-oyster-fluted-41/clasp.webp"
     ],
     description: "The Rolex Datejust 41 Two-Tone with Wimbledon dial and Oyster bracelet combines sporty elegance with luxurious sophistication. This model features the iconic Wimbledon dial with its distinctive slate grey face and Roman numerals in 18 ct white gold with a green finish. The two-tone case and bracelet combination of stainless steel and 18k gold creates a perfect balance of durability and luxury. The robust Oyster bracelet provides exceptional durability and comfort, while the fluted bezel adds a classic touch that has become synonymous with the Datejust collection. This timepiece is perfect for those who appreciate both luxury and practicality.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 20,
@@ -296,7 +296,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-golddial-champagne-2tonesilvergold-oyster-fluted-40/clasp.webp"
     ],
     description: "The Rolex Datejust 41 Two-Tone with Gold Champagne Dial and Oyster bracelet represents timeless elegance combined with robust durability. This model features a stunning champagne-colored dial that perfectly complements the two-tone case and bracelet combination of stainless steel and 18k gold. The sturdy Oyster bracelet offers exceptional comfort and a more sporty aesthetic compared to the Jubilee bracelet. The fluted bezel adds a classic touch of luxury that has become synonymous with the Datejust collection. The warm tones of the dial create a sophisticated and versatile timepiece suitable for any occasion, while the robust construction ensures it's perfect for everyday wear.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 21,
@@ -311,7 +311,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-bluedial-champagne-silveroyster-fluted-40/clasp.webp"
     ],
     description: "The Rolex Datejust 41 with Blue Dial and Oyster bracelet combines elegance with robustness. This model features a stunning blue dial that creates a vibrant, eye-catching appearance, perfectly complemented by the clean lines of the fluted bezel. The 41mm case provides excellent presence on the wrist, while the sturdy Oyster bracelet offers exceptional comfort and a more sporty aesthetic compared to the Jubilee bracelet. The fluted bezel adds a classic touch of luxury that has become synonymous with the Datejust collection. This timepiece is perfect for those who appreciate refined luxury with a more robust, everyday wearable design.",
-    isNew: true,
+    isNew: false,
   },
   {
     id: 22,
@@ -325,7 +325,7 @@ const datejustWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Datejust/Oyster/datejust-greendial-champagne-silveroyster-domed-40/clasp.webp",
     ],
     description: "The Rolex Datejust 41 with Green Dial and Oyster bracelet offers a fresh and contemporary take on the classic Datejust design. This model features a stunning green dial that creates a vibrant, nature-inspired appearance, perfectly complemented by the clean lines of the domed bezel. The 41mm case provides excellent presence on the wrist, while the sturdy Oyster bracelet offers exceptional comfort and a more sporty aesthetic compared to the Jubilee bracelet. The domed bezel gives this timepiece a more understated, versatile character compared to its fluted bezel counterparts, making it perfect for both casual and formal occasions. The combination of the green dial with the steel case and bracelet creates a distinctive and eye-catching timepiece.",
-    isNew: true,
+    isNew: false,
   }
 ];
 

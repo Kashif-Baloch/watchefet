@@ -20,7 +20,7 @@ const apWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-blackchronodial-plainsilver/clasp.jpg"
     ],
     description: "The Audemars Piguet Royal Oak Black Dial Silver Chronograph is a striking blend of sporty precision and timeless elegance. Housed in a 41mm stainless steel case, the bold black dial with its iconic Grande Tapisserie pattern is complemented by a sleek silver bezel with exposed screws, exuding modern sophistication. The integrated stainless steel bracelet ensures exceptional comfort, making this chronograph a versatile masterpiece for any occasion.",
-    isNew: true,
+    isNew: false,
     pricing: {
       "AAA": 179,
       "AAAAA": 0,
@@ -59,7 +59,7 @@ const apWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-flyingtourbillon-greydial-rose/clasp.webp"
     ],
     description: `The Audemars Piguet Royal Oak Flying Tourbillon Grey Dial Rose Gold is the pinnacle of horological artistry and luxury. Housed in a 41mm 18k rose gold case, the elegant grey dial showcases a mesmerizing flying tourbillon, paired with the iconic octagonal bezel. The rose gold bracelet ensures supreme comfort, making this timepiece a statement of refined craftsmanship for the discerning collector.`,
-    isNew: true,
+    isNew: false,
     pricing: {
       "AAA": 199,
       "AAAAA": 0,
@@ -99,7 +99,7 @@ const apWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-greendial-plainsilver/back.webp"
     ],
     description: `The Audemars Piguet Royal Oak Green Dial Silver is a bold expression of modern elegance. Housed in a 41mm stainless steel case, the vibrant green "Grande Tapisserie" dial pairs beautifully with a silver octagonal bezel, offering a fresh and dynamic look. The stainless steel bracelet ensures lasting comfort, making this timepiece ideal for those who embrace individuality and style.`,
-    isNew: true,
+    isNew: false,
     pricing: {
       "AAA": 179,
       "AAAAA": 249,
@@ -140,7 +140,7 @@ const apWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-offshore-greydial-blackbezel-rosebody-rubber/open%20clasp.jpg"
     ],
     description: `The Audemars Piguet Royal Oak Offshore Grey Dial Black Bezel Rose Gold is a bold fusion of rugged power and luxurious design. Housed in a 44mm 18k rose gold case, the sophisticated grey "Méga Tapisserie" dial contrasts with a black ceramic bezel, exuding strength and elegance. The rose gold bracelet ensures robust comfort, making this timepiece a commanding choice for those who live boldly.`,
-    isNew: true,
+    isNew: false,
     pricing: {
       "AAA": 199,
       "AAAAA": 0,
@@ -180,7 +180,7 @@ const apWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-plainsilver-whitedial/clasp.jpg"
     ],
     description: `The Audemars Piguet Royal Oak White Dial Silver exudes crisp elegance and modern sophistication. Housed in a 41mm stainless steel case, the pristine white "Grande Tapisserie" dial is complemented by a silver bezel, offering a clean and timeless look. The stainless steel bracelet ensures durability and comfort, making this timepiece a refined choice for any occasion.`,
-    isNew: true,
+    isNew: false,
     pricing: {
       "AAA": 199,
       "AAAAA": 249,
@@ -221,7 +221,7 @@ const apWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-skeleton-silver/clasp.webp",
     ],
     description: `The Audemars Piguet Royal Oak Skeleton Silver is a stunning display of technical prowess and sleek design. Housed in a 41mm stainless steel case, the skeletonized dial unveils the intricate movement, complemented by a silver octagonal bezel. The stainless steel bracelet ensures exceptional comfort, making this watch a captivating choice for those who appreciate craftsmanship and style.`,
-    isNew: true,
+    isNew: false,
     pricing: {
       "AAA": 199,
       "AAAAA": 0,
@@ -261,7 +261,7 @@ const apWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/audemars-piguet-offshore-diver-whitedial-42/back%20open.webp",
     ],
     description: `The Audemars Piguet Royal Oak Offshore Diver White Dial is a bold companion for underwater adventures and beyond. Housed in a 42mm stainless steel case, the clean white "Méga Tapisserie" dial is paired with a robust bezel, designed for diving precision. The rubber strap ensures modern comfort and durability, making this timepiece ideal for adventurous spirits with a taste for elegance.`,
-    isNew: true,
+    isNew: false,
     pricing: {
       "AAA": 199,
       "AAAAA": 0,
@@ -273,7 +273,7 @@ const apWatches = [
     id: 14,
     reviews: 11,
     name: 'Royal Oak Perpetual Calendar Black Ceramic',
-    price: 549,
+    price: 649,
     image: 'https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-perpetual-black/ap-perpetual-black.png',
     category: 'Audemars Piguet',
     imagesList: [
@@ -282,11 +282,11 @@ const apWatches = [
       "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/ap-perpetual-black/back.webp"
     ],
     description: `The Audemars Piguet Royal Oak Perpetual Calendar Black Ceramic is a masterpiece of innovation and avant-garde design. Encased in a 41mm black ceramic case, the intricate black "Grande Tapisserie" dial showcases a perpetual calendar complication, paired with a matching ceramic bezel. The ceramic bracelet offers sleek comfort, making this timepiece a bold statement of cutting-edge luxury and precision.`,
-    isNew: true,
+    isNew: false,
     pricing: {
       "AAA": 0,
       "AAAAA": 0,
-      "Super Clone": 549,
+      "Super Clone": 649,
       img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/Box%20&%20Certificate.jpg`
     }
   }
