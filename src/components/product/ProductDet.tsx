@@ -31,7 +31,7 @@ const ProductDet: React.FC = () => {
     const [includePremiumBox, setIncludePremiumBox] = useState(false);
     const [includeLuxuryBox, setIncludeLuxuryBox] = useState(false);
     const { addItem } = useCart();
-    
+
     const pricing = () => {
         if (!product?.cate) {
             if (products.category === 'w-rolex') {
@@ -111,23 +111,23 @@ const ProductDet: React.FC = () => {
         }
     };
 
-    const getpremium  = ()=>{
+    const getpremium = () => {
         if (product.category === "Audemars Piguet") {
-            return 29
+            return 39
         }
         if (product.category === "Rolex") {
             return 39
         }
         if (product.category === "Patek Philippe") {
-            return 29
+            return 39
         }
         if (product.category === "Hublot") {
-            return 39
+            return 49
         }
         else return 0
     }
 
-    const getluxury = ()=>{
+    const getluxury = () => {
         if (product.category === "Audemars Piguet") {
             return 79
         }
@@ -295,7 +295,7 @@ const ProductDet: React.FC = () => {
         }
     }
 
-    const getname = () =>{
+    const getname = () => {
         if (products?.category == 'datejust') {
             return 'Datejust'
         }
@@ -363,12 +363,12 @@ const ProductDet: React.FC = () => {
                             {showurl && products?.category !== "apy" && <ChevronRight className="h-4 w-4" />}
                             <span className="text-gold-500">{product?.name}</span>
                         </div>
-                        :
-                         <div className="flex items-center gap-2 text-sm text-gray-400 mb-8">
-                         <Link to="/" className="hover:text-gold-500">Home</Link>
-                         <ChevronRight className="h-4 w-4" />
-                         <span className="text-gold-500">{product?.name}</span>
-                     </div>
+                            :
+                            <div className="flex items-center gap-2 text-sm text-gray-400 mb-8">
+                                <Link to="/" className="hover:text-gold-500">Home</Link>
+                                <ChevronRight className="h-4 w-4" />
+                                <span className="text-gold-500">{product?.name}</span>
+                            </div>
                         }
 
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
