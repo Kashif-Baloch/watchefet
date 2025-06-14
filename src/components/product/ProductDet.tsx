@@ -36,17 +36,17 @@ const ProductDet: React.FC = () => {
         if (!product?.cate) {
             if (products.category === 'w-rolex') {
                 return {
-                    "AAA": 0, "AAAAA": 299, "Super Clone": 489, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Box%20&%20Papers.jpg`
+                    "AAA": 0, "AAAAA": 299, "Super Clone": 489, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Box.jpg`
                 };
             }
             else if (products.category === 'w-ap') {
                 return {
-                    "AAA": 199, "AAAAA": 0, "Super Clone": 549, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Box%20&%20Papers.jpg`
+                    "AAA": 199, "AAAAA": 0, "Super Clone": 549, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/Box%20&%20Certificate.jpg`
                 };
             }
             else if (products.category === 'w-patek') {
                 return {
-                    "AAA": 199, "AAAAA": 0, "Super Clone": 549, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Box%20&%20Papers.jpg`
+                    "AAA": 199, "AAAAA": 0, "Super Clone": 549, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Box%20&%20Certificate.jpg`
                 };
             }
             else if (products.category === 'w-hublot') {
@@ -560,7 +560,7 @@ const ProductDet: React.FC = () => {
                                     fullWidth
                                     onClick={handleAddToCart}
                                 >
-                                    Add to Cart - £{selectedQuality.price + (includePremiumBox ? 39 : 0)}
+                                    Add to Cart - £{selectedQuality.price + (includePremiumBox ? getpremium() : 0) + (includeLuxuryBox ? getluxury() : 0)}
                                 </Button>
                             </div>
                         </div>
