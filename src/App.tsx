@@ -78,7 +78,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/product/:id/:reviews" element={<ProductDet />} />
-          <Route path="/cartproduct/:id" element={<CarDet />} />
+          <Route path="/cartproduct/:id/:name" element={<CarDet />} />
           <Route path="/rolex" element={<RolexModelsPage />} />
           <Route path="/rolex/all-models" element={<AllRolexModelsPage />} />
           <Route path="/rolex/datejust" element={<DatejustPage />} />

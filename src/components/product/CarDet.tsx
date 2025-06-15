@@ -14,14 +14,15 @@ interface QualityOption {
 
 
 const ProductDet: React.FC = () => {
-    const { id } = useParams()
-    const { products } = useCart()
+    const { id, name } = useParams()
+    const [productList, _setProductList] = useState(JSON.parse(localStorage.getItem(id as any) as any));
 
-    const [productList, _setProductList] = useState(JSON.parse(localStorage.getItem('productList') as any));
+    const product = productList.find((product: Object | any) => product?.name === name);
+    const procate = product?.categoryname;
 
-    const product = productList.find((product: Object | any) => product?.id === Number(id));
 
     const [mainImage, setMainImage] = useState(product?.image);
+
     const [selectedQuality, setSelectedQuality] = useState<QualityOption>({
         name: 'AAA Grade',
         price: product.price,
@@ -31,58 +32,58 @@ const ProductDet: React.FC = () => {
     const [includePremiumBox, setIncludePremiumBox] = useState(false);
     const [includeLuxuryBox, setIncludeLuxuryBox] = useState(false);
     const { addItem } = useCart();
-    
+
     const pricing = () => {
         if (!product?.cate) {
-            if (products.category === 'w-rolex') {
+            if (procate === 'w-rolex') {
                 return {
-                    "AAA": 0, "AAAAA": 299, "Super Clone": 489, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Box%20&%20Papers.jpg`
+                    "AAA": 0, "AAAAA": 299, "Super Clone": 489, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Box.jpg`
                 };
             }
-            else if (products.category === 'w-ap') {
+            else if (procate === 'w-ap') {
                 return {
-                    "AAA": 199, "AAAAA": 0, "Super Clone": 549, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Box%20&%20Papers.jpg`
+                    "AAA": 199, "AAAAA": 0, "Super Clone": 549, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/AP/Box%20&%20Certificate.jpg`
                 };
             }
-            else if (products.category === 'w-patek') {
+            else if (procate === 'w-patek') {
                 return {
-                    "AAA": 199, "AAAAA": 0, "Super Clone": 549, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Box%20&%20Papers.jpg`
+                    "AAA": 199, "AAAAA": 0, "Super Clone": 549, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Box%20&%20Certificate.jpg`
                 };
             }
-            else if (products.category === 'w-hublot') {
+            else if (procate === 'w-hublot') {
                 return {
                     "AAA": 199, "AAAAA": 0, "Super Clone": 0, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Box%20&%20Papers.jpg`
                 };
             }
-            else if (products.category === 'daydate' || products.category === 'datejust' || products.category === 'submariner' || products.category === 'gmtmaster' || products.category === 'daytona' || products.category === 'explorer' || products.category === 'deepsea' || products.category === 'yachtmaster' || products.category === 'skydweller' || products.category === 'rolex') {
+            else if (procate === 'daydate' || procate === 'datejust' || procate === 'submariner' || procate === 'gmtmaster' || procate === 'daytona' || procate === 'explorer' || procate === 'deepsea' || procate === 'yachtmaster' || procate === 'skydweller' || procate === 'rolex') {
                 return { "AAA": 179, "AAAAA": 299, "Super Clone": 559, img: "https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Rolex/Box.jpg" };
             }
-            else if (products.category === 'aquanaut' || products.category === 'patek') {
+            else if (procate === 'aquanaut' || procate === 'patek') {
                 return {
                     "AAA": 199, "AAAAA": 0, "Super Clone": 599, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Box%20&%20Certificate.jpg`
                 };
             }
-            else if (products.category === 'nautilus') {
+            else if (procate === 'nautilus') {
                 return {
                     "AAA": 199, "AAAAA": 299, "Super Clone": 599, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Patek/Box%20&%20Certificate.jpg`
                 };
             }
-            else if (products.category === 'bigbang') {
+            else if (procate === 'bigbang') {
                 return {
                     "AAA": 199, "AAAAA": 0, "Super Clone": 679, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Box%20&%20Papers.jpg`
                 };
             }
-            else if (products.category === 'classicfusion') {
+            else if (procate === 'classicfusion') {
                 return {
                     "AAA": 199, "AAAAA": 0, "Super Clone": 549, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Box%20&%20Papers.jpg`
                 };
             }
-            else if (products.category === 'spiritofbigbang') {
+            else if (procate === 'spiritofbigbang') {
                 return {
                     "AAA": 199, "AAAAA": 0, "Super Clone": 579, img: `https://pgkfybgojqakmfwyneqb.supabase.co/storage/v1/object/public/product-images/Hublot/Box%20&%20Papers.jpg`
                 };
             }
-            else if (products.category === "apy") {
+            else if (procate === "apy") {
                 return product?.pricing
             }
             else {
@@ -111,23 +112,23 @@ const ProductDet: React.FC = () => {
         }
     };
 
-    const getpremium  = ()=>{
+    const getpremium = () => {
         if (product.category === "Audemars Piguet") {
-            return 29
+            return 39
         }
         if (product.category === "Rolex") {
             return 39
         }
         if (product.category === "Patek Philippe") {
-            return 29
+            return 39
         }
         if (product.category === "Hublot") {
-            return 39
+            return 49
         }
         else return 0
     }
 
-    const getluxury = ()=>{
+    const getluxury = () => {
         if (product.category === "Audemars Piguet") {
             return 79
         }
@@ -154,9 +155,13 @@ const ProductDet: React.FC = () => {
         const idwDate = Date.now()
         const carListItems = JSON.parse(localStorage.getItem(product?.category as any) as any)
         // checking if the same id product already exist in the localstorage then nevert add
-        const isProductExist = carListItems?.find((item: any) => item.id === product.id)
+
+        const isProductExist = carListItems?.find((item: any) => {
+            return item.name === product.name
+        })
         if (!isProductExist) {
-            carListItems ? localStorage.setItem(product?.category as any, JSON.stringify([...carListItems, product])) : localStorage.setItem(product?.category as any, JSON.stringify([product]))
+            // also adding the categoryname in the product as a value of the product object as it not exist in that object so adding it in the product object in localstorage
+            carListItems ? localStorage.setItem(product?.category as any, JSON.stringify([...carListItems, {...product, categoryname : procate}])) : localStorage.setItem(product?.category as any, JSON.stringify([{...product, categoryname : procate}]))
         }
 
 
@@ -168,6 +173,7 @@ const ProductDet: React.FC = () => {
         addItem({
             _id: product.id,
             id: idwDate,
+            _name: product.name,
             name: `${product.name} - ${selectedQuality.name}`,
             price: selectedQuality.price,
             image: mainImage,
@@ -178,6 +184,7 @@ const ProductDet: React.FC = () => {
             addItem({
                 _id: product.id,
                 id: idwDate + 1,
+                _name: product.name,
                 name: `Premium ${product.category} Box with Certificate`,
                 price: getpremium(),
                 image: pricing()?.img,
@@ -189,6 +196,7 @@ const ProductDet: React.FC = () => {
             addItem({
                 _id: product.id,
                 id: idwDate + 1,
+                _name: product.name,
                 name: `Luxury ${product.category} Box with Certificate`,
                 price: getluxury(),
                 image: pricing()?.img,
@@ -207,16 +215,16 @@ const ProductDet: React.FC = () => {
     const productImages = [product?.image, ...product?.imagesList];
 
     const backurl = () => {
-        if (product?.category == 'Audemars Piguet' && products?.category == 'w-ap') {
+        if (product?.category == 'Audemars Piguet' && procate == 'w-ap') {
             return '/audemars-piguet/womens'
         }
-        else if (product?.category == 'Rolex' && products?.category == 'w-rolex') {
+        else if (product?.category == 'Rolex' && procate == 'w-rolex') {
             return '/rolex/womens'
         }
-        else if (product?.category == 'Patek Philippe' && products?.category == 'w-patek') {
+        else if (product?.category == 'Patek Philippe' && procate == 'w-patek') {
             return '/patek-philippe/womens'
         }
-        else if (product?.category == 'Hublot' && products?.category == 'w-hublot') {
+        else if (product?.category == 'Hublot' && procate == 'w-hublot') {
             return '/hublot/womens'
         }
         else if (product?.category === 'Rolex') {
@@ -236,58 +244,58 @@ const ProductDet: React.FC = () => {
         }
     }
 
-    const showurl = products?.category == 'w-ap' || products?.category == 'w-rolex' || products?.category == 'w-patek' || products?.category == 'w-hublot' ? false : true;
+    const showurl = procate == 'w-ap' || procate == 'w-rolex' || procate == 'w-patek' || procate == 'w-hublot' ? false : true;
 
     const backbaseurl = () => {
-        // if (products?.category == 'w-ap') {
+        // if (procate == 'w-ap') {
         //     return '/audemars-piguet/womens'
         // }
-        // else if (products?.category == 'w-rolex') {
+        // else if (procate == 'w-rolex') {
         //     return '/rolex/womens'
         // }
-        // else if (products?.category == 'w-patek') {
+        // else if (procate == 'w-patek') {
         //     return '/patek-philippe/womens'
         // }
-        // else if (products?.category == 'w-hublot') {
+        // else if (procate == 'w-hublot') {
         //     return '/hublot/womens'
         // }
-        if (products?.category == 'datejust' || products?.category == 'submariner' || products?.category == 'daytona') {
-            return `/rolex/${products?.category}`
+        if (procate == 'datejust' || procate == 'submariner' || procate == 'daytona') {
+            return `/rolex/${procate}`
         }
-        else if (products?.category == 'daydate') {
+        else if (procate == 'daydate') {
             return '/rolex/day-date'
         }
-        else if (products?.category == 'gmtmaster') {
+        else if (procate == 'gmtmaster') {
             return '/rolex/gmt-master-ii'
         }
-        else if (products?.category == 'explorer') {
+        else if (procate == 'explorer') {
             return '/rolex/explorer-ii'
         }
-        else if (products?.category == 'deepsea') {
+        else if (procate == 'deepsea') {
             return '/rolex/deepsea'
         }
-        else if (products?.category == 'yachtmaster') {
+        else if (procate == 'yachtmaster') {
             return '/rolex/yacht-master'
         }
-        else if (products?.category == 'skydweller') {
+        else if (procate == 'skydweller') {
             return '/rolex/sky-dweller'
         }
-        else if (products?.category == 'apy') {
+        else if (procate == 'apy') {
             return '/audemars-piguet'
         }
-        else if (products?.category == 'nautilus') {
+        else if (procate == 'nautilus') {
             return '/patek-philippe/nautilus'
         }
-        else if (products?.category == 'aquanaut') {
+        else if (procate == 'aquanaut') {
             return '/patek-philippe/aquanaut'
         }
-        else if (products?.category == 'bigbang') {
+        else if (procate == 'bigbang') {
             return '/hublot/big-bang'
         }
-        else if (products?.category == 'classicfusion') {
+        else if (procate == 'classicfusion') {
             return '/hublot/classic-fusion'
         }
-        else if (products?.category == 'spiritofbigbang') {
+        else if (procate == 'spiritofbigbang') {
             return '/hublot/spirit-of-big-bang'
         }
         else {
@@ -295,54 +303,54 @@ const ProductDet: React.FC = () => {
         }
     }
 
-    const getname = () =>{
-        if (products?.category == 'datejust') {
+    const getname = () => {
+        if (procate == 'datejust') {
             return 'Datejust'
         }
-        else if (products?.category == 'submariner') {
+        else if (procate == 'submariner') {
             return 'Submariner'
         }
-        else if (products?.category == 'daytona') {
+        else if (procate == 'daytona') {
             return 'Daytona'
         }
-        else if (products?.category == 'daydate') {
+        else if (procate == 'daydate') {
             return 'Day-Date'
         }
-        else if (products?.category == 'gmtmaster') {
+        else if (procate == 'gmtmaster') {
             return 'GMT-Master II'
         }
-        else if (products?.category == 'explorer') {
+        else if (procate == 'explorer') {
             return 'Explorer II'
         }
-        else if (products?.category == 'deepsea') {
+        else if (procate == 'deepsea') {
             return 'Sea-Dweller & Deepsea'
         }
-        else if (products?.category == 'yachtmaster') {
+        else if (procate == 'yachtmaster') {
             return 'Yacht-Master'
         }
-        else if (products?.category == 'skydweller') {
+        else if (procate == 'skydweller') {
             return 'Sky-Dweller'
         }
-        else if (products?.category == 'apy') {
+        else if (procate == 'apy') {
             return 'Audemars Piguet'
         }
-        else if (products?.category == 'nautilus') {
+        else if (procate == 'nautilus') {
             return 'Nautilus'
         }
-        else if (products?.category == 'aquanaut') {
+        else if (procate == 'aquanaut') {
             return 'Aquanaut'
         }
-        else if (products?.category == 'bigbang') {
+        else if (procate == 'bigbang') {
             return 'Big Bang'
         }
-        else if (products?.category == 'classicfusion') {
+        else if (procate == 'classicfusion') {
             return 'Classic Fusion'
         }
-        else if (products?.category == 'spiritofbigbang') {
+        else if (procate == 'spiritofbigbang') {
             return 'Spirit Of Big Bang'
         }
         else {
-            return products?.category
+            return procate
         }
     }
 
@@ -352,24 +360,12 @@ const ProductDet: React.FC = () => {
             <main className="pt-20">
                 <div className="bg-gradient-to-b from-black to-zinc-900 py-12">
                     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                        {products.category !== "watches" ? <div className="flex items-center gap-2 text-sm text-gray-400 mb-8">
-                            <Link to="/" className="hover:text-gold-500">Home</Link>
-                            <ChevronRight className="h-4 w-4" />
-                            <Link to={!showurl ? "/womens-collection" : "/collections"} className="hover:text-gold-500">{!showurl ? "Women's Collections" : "Collections"}</Link>
-                            <ChevronRight className="h-4 w-4" />
-                            <Link to={backurl()} className="hover:text-gold-500">{product.category}</Link>
-                            <ChevronRight className="h-4 w-4" />
-                            {showurl && products?.category !== "apy" && <Link to={backbaseurl()} className="hover:text-gold-500 capitalize">{getname()}</Link>}
-                            {showurl && products?.category !== "apy" && <ChevronRight className="h-4 w-4" />}
-                            <span className="text-gold-500">{product?.name}</span>
-                        </div>
-                        :
-                         <div className="flex items-center gap-2 text-sm text-gray-400 mb-8">
-                         <Link to="/" className="hover:text-gold-500">Home</Link>
-                         <ChevronRight className="h-4 w-4" />
-                         <span className="text-gold-500">{product?.name}</span>
-                     </div>
-                        }
+                        
+                            <div className="flex items-center gap-2 text-sm text-gray-400 mb-8">
+                                <Link to="/cart" className="hover:text-gold-500">Cart</Link>
+                                <ChevronRight className="h-4 w-4" />
+                                <span className="text-gold-500">{product?.name}</span>
+                            </div>
 
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                             <div className="space-y-4">
@@ -560,7 +556,7 @@ const ProductDet: React.FC = () => {
                                     fullWidth
                                     onClick={handleAddToCart}
                                 >
-                                    Add to Cart - £{selectedQuality.price + (includePremiumBox ? 39 : 0)}
+                                    Add to Cart - £{selectedQuality.price + (includePremiumBox ? getpremium() : 0) + (includeLuxuryBox ? getluxury() : 0)}
                                 </Button>
                             </div>
                         </div>
