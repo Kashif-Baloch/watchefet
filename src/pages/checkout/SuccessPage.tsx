@@ -27,11 +27,11 @@ const SuccessPage: React.FC = () => {
               <div className="mb-8 flex justify-center">
                 <CheckCircle className="h-16 w-16 text-green-500" />
               </div>
-              
+
               <h1 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
                 Payment Successful!
               </h1>
-              
+
               <p className="text-gray-400 mb-8">
                 Thank you for your purchase. We'll send you an email with your order details shortly.
               </p>

@@ -16,11 +16,11 @@ const CancelPage: React.FC = () => {
               <div className="mb-8 flex justify-center">
                 <XCircle className="h-16 w-16 text-red-500" />
               </div>
-              
+
               <h1 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
                 Payment Cancelled
               </h1>
-              
+
               <p className="text-gray-400 mb-8">
                 Your payment was cancelled. If you have any questions, please don't hesitate to contact us.
               </p>
@@ -31,7 +31,7 @@ const CancelPage: React.FC = () => {
                     Return to Cart
                   </Button>
                 </Link>
-                
+
                 <Link to="/contact">
                   <Button variant="outline" fullWidth>
                     Contact Support
